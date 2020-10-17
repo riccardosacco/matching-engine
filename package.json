@@ -1,0 +1,23 @@
+{
+  "name": "matching-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "invoke.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riccardosacco/matching-engine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riccardosacco/matching-engine/issues"
+  },
+  "homepage": "https://github.com/riccardosacco/matching-engine#readme",
+  "dependencies": {
+    "aws-sdk": "^2.772.0",
+    "axios": "^0.20.0"
+  }
+}
