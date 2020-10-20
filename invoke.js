@@ -1,4 +1,5 @@
 const AWS = require("aws-sdk");
+const fs = require("fs");
 
 const lambda = new AWS.Lambda({
   region: "eu-central-1",
@@ -34,6 +35,18 @@ const generateLambda = (query) => {
   requests.push(lambda.invoke(params).promise());
 };
 
-queryArr.forEach((query) => {});
+queryArr.forEach((query) => {
+  generateLambda(query);
+});
 
-Promise.all(requests).then((responses) => console.log(responses));
+Promise.all(requests).then((responses) => {
+  const output = [];
+
+  responses.forEach((response) => {
+    output.push(JSON.parse(JSON.parse(response.Payload).body));
+  });
+
+  fs.writeFile("responses_invoke.json", JSON.stringify(output), (err) => {
+    if (err) console.log(err);
+  });
+});

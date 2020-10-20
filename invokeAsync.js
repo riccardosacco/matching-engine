@@ -33,8 +33,6 @@ axios.all(requests).then((output) => {
 
   output.forEach((result) => responses.push(result.data));
 
-  console.log(responses);
-
   fs.writeFile("responses.json", JSON.stringify(responses), (err) => {
     if (err) console.log(err);
   });
