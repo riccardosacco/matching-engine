@@ -1,0 +1,184 @@
+{
+  "query": {
+    "nested": {
+      "path": "providerData",
+      "score_mode": "max",
+      "query": {
+        "bool": {
+          "should": [
+            {
+              "dis_max": {
+                "queries": [
+                  {
+                    "script_score": {
+                      "query": {
+                        "match": {
+                          "providerData.title.keyword": {
+                            "query": "Spider-man"
+                          }
+                        }
+                      },
+                      "script": { "source": "_score*50" }
+                    }
+                  },
+                  {
+                    "script_score": {
+                      "query": {
+                        "span_near": {
+                          "clauses": [
+                            {
+                              "span_multi": {
+                                "match": {
+                                  "fuzzy": {
+                                    "providerData.title": "Spider-man"
+                                  }
+                                }
+                              }
+                            }
+                          ],
+                          "slop": 0,
+                          "in_order": true
+                        }
+                      },
+                      "script": {
+                        "source": "20*((_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+2)"
+                      }
+                    }
+                  },
+                  {
+                    "script_score": {
+                      "query": {
+                        "simple_query_string": {
+                          "query": "Spider-man~1 ",
+                          "fields": ["providerData.title"],
+                          "default_operator": "OR"
+                        }
+                      },
+                      "script": {
+                        "source": "15*((_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+2)"
+                      }
+                    }
+                  },
+                  {
+                    "script_score": {
+                      "query": {
+                        "simple_query_string": {
+                          "query": "Spider-man~ ",
+                          "fields": ["providerData.title"],
+                          "default_operator": "OR"
+                        }
+                      },
+                      "script": {
+                        "source": "10*((_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+2)"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "dis_max": {
+                "queries": [
+                  {
+                    "script_score": {
+                      "query": {
+                        "range": {
+                          "providerData.production_year": {
+                            "lte": 2004,
+                            "gte": 2000
+                          }
+                        }
+                      },
+                      "script": {
+                        "source": "decayNumericLinear(params.origin, params.scale, params.offset, params.decay, doc['providerData.production_year'].value)*25",
+                        "params": {
+                          "origin": 2002,
+                          "scale": 1,
+                          "decay": 0.6,
+                          "offset": 0
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "script_score": {
+                      "query": {
+                        "simple_query_string": {
+                          "query": "2002~1",
+                          "fields": ["providerData.production_year.text"]
+                        }
+                      },
+                      "script": { "source": "15*(_score*1)/(((1-_score)*1)+1)" }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "dis_max": {
+                "queries": [
+                  {
+                    "script_score": {
+                      "query": {
+                        "simple_query_string": {
+                          "query": "S* Raimi~ ",
+                          "fields": ["providerData.director"],
+                          "default_operator": "AND"
+                        }
+                      },
+                      "script": {
+                        "source": "25*((_score/doc['providerData.director.length'].value)*doc['providerData.director.length'].value)/(((1-(_score/doc['providerData.director.length'].value))*doc['providerData.director.length'].value)+2)"
+                      }
+                    }
+                  },
+                  {
+                    "script_score": {
+                      "query": {
+                        "simple_query_string": {
+                          "query": "Sam~ R* ",
+                          "fields": ["providerData.director"],
+                          "default_operator": "AND"
+                        }
+                      },
+                      "script": {
+                        "source": "25*((_score/doc['providerData.director.length'].value)*doc['providerData.director.length'].value)/(((1-(_score/doc['providerData.director.length'].value))*doc['providerData.director.length'].value)+2)"
+                      }
+                    }
+                  },
+                  {
+                    "script_score": {
+                      "query": {
+                        "simple_query_string": {
+                          "query": "Sam~1 Raimi~1 ",
+                          "fields": ["providerData.director"],
+                          "default_operator": "OR"
+                        }
+                      },
+                      "script": {
+                        "source": "20*((_score/doc['providerData.director.length'].value))/(((1-(_score/doc['providerData.director.length'].value))*doc['providerData.director.length'].value)+2)"
+                      }
+                    }
+                  },
+                  {
+                    "script_score": {
+                      "query": {
+                        "simple_query_string": {
+                          "query": "Sam~ Raimi~ ",
+                          "fields": ["providerData.director"],
+                          "default_operator": "OR"
+                        }
+                      },
+                      "script": {
+                        "source": "10*((_score/doc['providerData.director.length'].value)*doc['providerData.director.length'].value)/(((1-(_score/doc['providerData.director.length'].value))*doc['providerData.director.length'].value)+2)"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
