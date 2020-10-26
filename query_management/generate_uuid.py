@@ -1,11 +1,11 @@
-import uuid
+import package.uuid as uuid
 
 
 def v4():
     """
     Generate UUIDv4
-    Typical usage:
-        >>> import generate_uuid
+    Usage:
+        >>> from query_management import generate_uuid
         >>> generate_uuid.v4()
     - Params: None
     - Return: UUID

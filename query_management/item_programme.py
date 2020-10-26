@@ -6,9 +6,8 @@ def generate_query(metadata):
     Generate ElasticSearch query in JSON format
 
     Usage:
-        >>> from query_management import content_programme
-
-        >>> content_programme.generate_query(metadata)
+        >>> from query_management import item_programme
+        >>> item_programme.generate_query(metadata)
 
     Params:
         - metadata: {
@@ -16,8 +15,11 @@ def generate_query(metadata):
             query_director: string,
             query_year: string
         }
+
+    Return: Query Object (in JSON format)
     """
 
+    # query_providerID = metadata["query_providerID"]
     query_title = metadata["query_title"]
     query_director = metadata["query_director"]
     query_year = metadata["query_year"]
@@ -27,15 +29,40 @@ def generate_query(metadata):
     query_director = query_director.replace(".", "")
     splitDirector = query_director.split(" ")
 
-    output = {
+    # json_provider_query = {
+    #     "query": {
+    #         "nested": {
+    #             "path": "providerData",
+    #             "query": {
+    #                 "script_score": {
+    #                     "query": {
+    #                         "match": {
+    #                             "providerData.providerID": query_providerID
+    #                         }
+    #                     },
+    #                     "script": {
+    #                         "source": "1000"
+    #                     }
+    #                 }
+    #             }
+    #         }
+    #     }
+    # }
+
+    json_metadata_query = {
         "query": {
             "nested": {
                 "path": "providerData",
                 "score_mode": "max",
-                "query": {"bool": {"should": []}},
+                "query": {
+                    "bool": {
+                        "should": []
+                    }
+                },
             },
         },
     }
+
     dismax_title = {"dis_max": {"queries": []}}
     dismax_director = {"dis_max": {"queries": []}}
     dismax_year = {"dis_max": {"queries": []}}
@@ -216,9 +243,12 @@ def generate_query(metadata):
     dismax_year["dis_max"]["queries"].append(year_range2)
     dismax_year["dis_max"]["queries"].append(year_fuzzy1)
 
-    output["query"]["nested"]["query"]["bool"]["should"].append(dismax_title)
-    output["query"]["nested"]["query"]["bool"]["should"].append(dismax_year)
-    output["query"]["nested"]["query"]["bool"]["should"].append(
+    json_metadata_query["query"]["nested"]["query"]["bool"]["should"].append(
+        dismax_title)
+    json_metadata_query["query"]["nested"]["query"]["bool"]["should"].append(
+        dismax_year)
+    json_metadata_query["query"]["nested"]["query"]["bool"]["should"].append(
         dismax_director)
 
-    return output
+    # return "\n" + json.dumps(json_provider_query) + "\n\n" + json.dumps(json_metadata_query) + "\n"
+    return json_metadata_query
