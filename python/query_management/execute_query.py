@@ -1,5 +1,5 @@
 import json
-import package.requests as requests
+from package import requests
 
 
 class ElasticSearch:
