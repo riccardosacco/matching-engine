@@ -1,4 +1,4 @@
-import package.uuid as uuid
+import uuid
 
 
 def v4():

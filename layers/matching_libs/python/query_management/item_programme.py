@@ -80,7 +80,7 @@ def generate_query(metadata):
             "query": {"span_near": {"clauses": [], "slop": 0, "in_order": True}},
             "script": {
                 "source":
-                "20*((_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+" +
+                "40*((_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+" +
                 str(len(cleanSplitTitle)) +
                 ")",
             },
