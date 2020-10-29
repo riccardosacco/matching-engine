@@ -24,8 +24,7 @@ def generate_query(metadata):
     query_director = metadata["query_director"]
     query_year = metadata["query_year"]
 
-    splitTitle = query_title.split(" ")
-    cleanSplitTitle = query_title.split("-")
+    splitTitle = query_title.replace('-', '').split(" ")
     query_director = query_director.replace(".", "")
     splitDirector = query_director.split(" ")
 
@@ -81,7 +80,7 @@ def generate_query(metadata):
             "script": {
                 "source":
                 "40*((_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+" +
-                str(len(cleanSplitTitle)) +
+                str(len(splitTitle)) +
                 ")",
             },
         },
@@ -108,7 +107,7 @@ def generate_query(metadata):
             "script": {
                 "source":
                 "15*((_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+" +
-                str(len(cleanSplitTitle)) +
+                str(len(splitTitle)) +
                 ")",
             },
         },
@@ -125,7 +124,7 @@ def generate_query(metadata):
             "script": {
                 "source":
                 "10*((_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+" +
-                str(len(cleanSplitTitle)) +
+                str(len(splitTitle)) +
                 ")",
             },
         },
