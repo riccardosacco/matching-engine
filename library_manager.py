@@ -9,7 +9,7 @@ query = item_programme.generate_query({
 
 
 db = ElasticSearch(
-    "https://search-matching-engine-nhygzot7nqafdvrzb3niwryuay.eu-central-1.es.amazonaws.com/nested_test/_search")
+    "https://search-matching-engine-nhygzot7nqafdvrzb3niwryuay.eu-central-1.es.amazonaws.com/item_index/_search")
 
 
 print(db.query(query))
