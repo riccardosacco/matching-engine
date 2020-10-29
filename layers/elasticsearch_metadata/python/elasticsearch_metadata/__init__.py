@@ -13,7 +13,7 @@ class ElasticSearch:
             # Instantiate DB class with ElasticSearch URL & index
             >>> db = ElasticSearch(ELASTIC_URL, INDEX)
 
-          Params: 
+        Params: 
             - ELASTIC_URL: Elastic Search URL string
             - index: Elastic data index
         """
@@ -36,6 +36,20 @@ class ElasticSearch:
         return result["_seq_no"]
 
     def add_metadata(self, doc_id, provider_content_id, provider_name, metadata):
+        updateQuery = {
+            "script": {
+                "source": "ctx._source.providerData.add(params.movie)",
+                "params": {
+                    "movie": {
+                        "providerID": "D+_01",
+                        "uuid": "70755525-7d02-4e0e-a50a-3efd278d391c",
+                        "title": "Pippo",
+                        "director": "Joe Johnston",
+                        "production_year": "2001"
+                    }
+                }
+            }
+        }
         return
 
     def update_metadata(self, doc_id, provider_content_id, provider_name, metadata):
@@ -44,8 +58,8 @@ class ElasticSearch:
     def delete_metadata(self, doc_id, provider_content_id, provider_name, metadata):
         return
 
-    def move_metadata_to_existing(source_doc_id, dest_doc_id, provider_content_id, provider_name, metadata):
+    def move_metadata_to_existing(self, source_doc_id, dest_doc_id, provider_content_id, provider_name, metadata):
         return
 
-    def move_metadata_to_new(source_doc_id, dest_UUID, provider_content_id, provider_name, metadata):
+    def move_metadata_to_new(self, source_doc_id, dest_UUID, provider_content_id, provider_name, metadata):
         return
