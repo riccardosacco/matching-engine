@@ -32,34 +32,37 @@ class ElasticSearch:
         Returns:
             number: Sequence ID of new object
         """
-        result = self.query(newDocument, params="_doc/_create")
-        return result["_seq_no"]
+        result = self.query(newDocument, params="_doc")
+        return result
 
-    def add_metadata(self, doc_id, provider_content_id, provider_name, metadata):
-        updateQuery = {
+    def add_metadata(self, doc_id, metadata):
+        """Add metadata to existing document
+
+        Args:
+            doc_id (string): Document id on ElasticSearch
+            metadata (object): Metadata object
+
+        Returns:
+            object: Response from ElasticSearch
+        """
+        addMetadataQuery = {
             "script": {
-                "source": "ctx._source.providerData.add(params.movie)",
-                "params": {
-                    "movie": {
-                        "providerID": "D+_01",
-                        "uuid": "70755525-7d02-4e0e-a50a-3efd278d391c",
-                        "title": "Pippo",
-                        "director": "Joe Johnston",
-                        "production_year": "2001"
-                    }
-                }
+                "source": "ctx._source.providerData.add(params)",
+                "params": metadata
             }
         }
+
+        result = self.query(addMetadataQuery, params="_update/%s" % (doc_id))
+        return result
+
+    def update_metadata(self, doc_id, metadata):
         return
 
-    def update_metadata(self, doc_id, provider_content_id, provider_name, metadata):
+    def delete_metadata(self, doc_id, metadata):
         return
 
-    def delete_metadata(self, doc_id, provider_content_id, provider_name, metadata):
+    def move_metadata_to_existing(self, source_doc_id, dest_doc_id, metadata):
         return
 
-    def move_metadata_to_existing(self, source_doc_id, dest_doc_id, provider_content_id, provider_name, metadata):
-        return
-
-    def move_metadata_to_new(self, source_doc_id, dest_UUID, provider_content_id, provider_name, metadata):
+    def move_metadata_to_new(self, source_doc_id, dest_UUID, metadata):
         return

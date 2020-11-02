@@ -5,15 +5,19 @@ db = ElasticSearch(
 
 newDocument = {
     "masterUUID": "ba4796ad-ce31-4529-9960-b7b20b0a4012",
-    "providerData": [
-        {
-            "providerID": "DATATV_01",
-            "UUID": "ba4796ad-ce31-4529-9960-b7b20b0a4012",
-            "title": "Il favoloso mondo di Amèlie",
-            "director": "Jean-Pierre Jeunet",
-            "production_year": 2001
-        }
-    ]
+    "providerData": []
 }
 
-print(db.create_document(newDocument))
+metadata = {
+    "providerID": "DATATV_02",
+    "UUID": "ba4796ad-ce31-4529-9960-b7b20b0a4012",
+    "title": "Il favoloso mondo di Amèlie",
+    "director": "Jean-Pierre",
+    "production_year": 2001
+}
+
+insertResult = db.create_document(newDocument)
+
+addResult = db.add_metadata(insertResult["_id"], metadata)
+
+print(addResult)
