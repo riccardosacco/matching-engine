@@ -74,12 +74,30 @@ def generate_query(metadata):
         },
     }
 
+    title_exactMatchWithSynonym = {
+        "script_score": {
+            "query": {
+                "simple_query_string": {
+                    "query": "\"" + query_title + "\"",
+                    "fields": ["providerData.title"],
+                    "default_operator": "AND",
+                },
+            },
+            "script": {
+                "source":
+                "double real_score = _score > doc['providerData.title.length'].value ? doc['providerData.title.length'].value : _score;50*((real_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(real_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+" +
+                str(len(splitTitle)) +
+                ")",
+            },
+        },
+    }
+
     title_matchPhrase = {
         "script_score": {
             "query": {"span_near": {"clauses": [], "slop": 0, "in_order": True}},
             "script": {
                 "source":
-                "40*((_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+" +
+                "double real_score = _score > doc['providerData.title.length'].value ? doc['providerData.title.length'].value : _score;40*((real_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(real_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+" +
                 str(len(splitTitle)) +
                 ")",
             },
@@ -106,7 +124,7 @@ def generate_query(metadata):
             },
             "script": {
                 "source":
-                "15*((_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+" +
+                "double real_score = _score > doc['providerData.title.length'].value ? doc['providerData.title.length'].value : _score;15*((real_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(real_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+" +
                 str(len(splitTitle)) +
                 ")",
             },
@@ -123,7 +141,7 @@ def generate_query(metadata):
             },
             "script": {
                 "source":
-                "10*((_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+" +
+                "double real_score = _score > doc['providerData.title.length'].value ? doc['providerData.title.length'].value : _score;10*((real_score/doc['providerData.title.length'].value)*doc['providerData.title.length'].value)/(((1-(real_score/doc['providerData.title.length'].value))*doc['providerData.title.length'].value)+" +
                 str(len(splitTitle)) +
                 ")",
             },
@@ -131,6 +149,7 @@ def generate_query(metadata):
     }
 
     dismax_title["dis_max"]["queries"].append(title_exactMatch)
+    dismax_title["dis_max"]["queries"].append(title_exactMatchWithSynonym)
     dismax_title["dis_max"]["queries"].append(title_matchPhrase)
     dismax_title["dis_max"]["queries"].append(title_ORFuzzy1)
     dismax_title["dis_max"]["queries"].append(title_ORFuzzy)
@@ -182,7 +201,7 @@ def generate_query(metadata):
             },
             "script": {
                 "source":
-                "20*((_score/doc['providerData.director.length'].value))/(((1-(_score/doc['providerData.director.length'].value))*doc['providerData.director.length'].value)+" +
+                "20*((_score/doc['providerData.director.length'].value)*doc['providerData.director.length'].value)/(((1-(_score/doc['providerData.director.length'].value))*doc['providerData.director.length'].value)+" +
                 str(len(splitDirector)) +
                 ")",
             },
