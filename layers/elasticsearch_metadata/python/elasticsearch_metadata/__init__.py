@@ -56,10 +56,44 @@ class ElasticSearch:
         return result
 
     def update_metadata(self, doc_id, metadata):
-        return
+        """Update metadata to existing document
+
+        Args:
+            doc_id (string): Document id on ElasticSearch
+            metadata (object): Metadata object
+
+        Returns:
+            object: Response from ElasticSearch
+        """
+        updateMetadataQuery = {
+            "script": {
+                "source": """
+                    def targets = ctx._source.providerData.findAll(data -> data.providerID == params.providerID);
+                    for(data in targets) { 
+                        if(params.containsKey("title")){data.title = params.title}
+                        if(params.containsKey("director")){data.title = params.director}
+                        if(params.containsKey("production_year")){data.production_year = params.production_year}
+                        if(params.containsKey("UUID")){data.UUID = params.UUID}
+                    }""",
+                "params": metadata
+            }
+        }
+
+        result = self.query(updateMetadataQuery,
+                            params="_update/%s" % (doc_id))
+
+        return result
 
     def delete_metadata(self, doc_id, metadata):
-        return
+        deleteMetadataQuery = {
+            "script": {
+                "source": "ctx._source.providerData.removeIf(data -> data.providerID == params.providerID)",
+                "params": metadata
+            }
+        }
+        result = self.query(deleteMetadataQuery,
+                            params="_update/%s" % (doc_id))
+        return result
 
     def move_metadata_to_existing(self, source_doc_id, dest_doc_id, metadata):
         return

@@ -20,4 +20,12 @@ insertResult = db.create_document(newDocument)
 
 addResult = db.add_metadata(insertResult["_id"], metadata)
 
+metadataUpdate = {
+    "providerID": "DATATV_02",
+    "title": "Il fantasmagorico mondo di Amelie",
+    "production_year": 2004
+}
+
+updateResult = db.update_metadata(insertResult["_id"], metadataUpdate)
+
 print(addResult)
