@@ -19,9 +19,35 @@ class ElasticSearch:
         """
         self._url = url + "/" + index
 
-    def query(self, query, params=""):
-        res = requests.post(self._url + "/" + params, json=query)
+    def query(self, query={}, params="", method="post"):
+        """Query ElasticSearch
+
+        Args:
+            query (object, optional): Query object. Defaults to {}.
+            params (string, optional): URL params. Defaults to "".
+            method (string, optional): HTTP Method ("get" | "post"). Defaults to "post".
+
+        Returns:
+            object: Response from ElasticSearch
+        """
+        if(method == "post"):
+            res = requests.post(self._url + "/" + params, json=query)
+        elif(method == "get"):
+            res = requests.get(self._url + "/" + params)
         return json.loads(res.text)
+
+    def get_document(self, doc_id):
+        """Get document by id
+
+        Args:
+            doc_id (string): Document ID
+
+        Returns:
+            object: ElasticSearch _source object
+        """
+        result = self.query(params="_doc/%s" % (doc_id), method="get")
+
+        return result["_source"]
 
     def create_document(self, newDocument):
         """Create new document on ElasticSearch
@@ -85,6 +111,15 @@ class ElasticSearch:
         return result
 
     def delete_metadata(self, doc_id, metadata):
+        """Delete metadata from object
+
+        Args:
+            doc_id (string): Document ID on ElasticSearch
+            metadata (object): Metadata object
+
+        Returns:
+            object: Response from ElasticSearch
+        """
         deleteMetadataQuery = {
             "script": {
                 "source": "ctx._source.providerData.removeIf(data -> data.providerID == params.providerID)",

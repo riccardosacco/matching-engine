@@ -8,6 +8,8 @@ newDocument = {
     "providerData": []
 }
 
+insertResult = db.create_document(newDocument)
+
 metadata = {
     "providerID": "DATATV_02",
     "UUID": "ba4796ad-ce31-4529-9960-b7b20b0a4012",
@@ -15,8 +17,6 @@ metadata = {
     "director": "Jean-Pierre",
     "production_year": 2001
 }
-
-insertResult = db.create_document(newDocument)
 
 addResult = db.add_metadata(insertResult["_id"], metadata)
 
@@ -28,4 +28,6 @@ metadataUpdate = {
 
 updateResult = db.update_metadata(insertResult["_id"], metadataUpdate)
 
-print(addResult)
+getResult = db.get_document(insertResult["_id"])
+
+print(getResult)
