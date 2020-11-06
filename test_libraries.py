@@ -3,10 +3,10 @@ from elasticsearch_metadata import ElasticSearch
 db = ElasticSearch(
     "https://search-matching-engine-uv2ckzsmrpytmltjko7x5jf4ra.eu-west-1.es.amazonaws.com", index="item_index")
 
-# newDocument = {
-#     "masterUUID": "ba4796ad-ce31-4529-9960-b7b20b0a4012",
-#     "providerData": []
-# }
+newDocument = {
+    "masterUUID": "ba4796ad-ce31-4529-9960-b7b20b0a4012",
+    "providerData": []
+}
 
 # insertResult = db.create_document(newDocument)
 
