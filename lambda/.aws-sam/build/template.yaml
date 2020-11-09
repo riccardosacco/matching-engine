@@ -1,0 +1,57 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'programme_match_req
+
+  Sample SAM Template for programme_match_req
+
+  '
+Globals:
+  Function:
+    Timeout: 3
+Resources:
+  PrMatchFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: programmeMatchFunction
+      Role: arn:aws:iam::544116674215:role/matchingEngineIamLambdaExecutionRole
+      CodeUri: PrMatchFunction
+      Handler: programme_match_req.p_match_req
+      Runtime: python3.8
+      Layers:
+      - arn:aws:lambda:eu-west-1:544116674215:layer:query_management:4
+      - arn:aws:lambda:eu-west-1:544116674215:layer:elasticsearch_metadata:3
+      Events:
+        PMatch:
+          Type: Api
+          Properties:
+            Path: /pmatch
+            Method: get
+      Policies:
+      - Statement:
+        - Effect: Allow
+          Action:
+          - lambda:GetLayerVersion
+          Resource:
+          - arn:aws:lambda:*:503986983991:layer:*:*
+  CreateUpdateFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: createUpdateFunction
+      Role: arn:aws:iam::544116674215:role/matchingEngineIamLambdaExecutionRole
+      CodeUri: CreateUpdateFunction
+      Handler: create_update.create_update_item
+      Runtime: python3.8
+      Layers:
+      - arn:aws:lambda:eu-west-1:544116674215:layer:elasticsearch_metadata:3
+      Policies:
+      - Statement:
+        - Effect: Allow
+          Action:
+          - lambda:GetLayerVersion
+          Resource:
+          - arn:aws:lambda:*:544116674215:layer:*:*
+Outputs:
+  PMatchApi:
+    Description: API Gateway endpoint URL for Prod stage for Match function
+    Value:
+      Fn::Sub: https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/pmatch/
