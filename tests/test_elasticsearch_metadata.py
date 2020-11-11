@@ -20,7 +20,7 @@ document = {
 def test_create_document():
     newResult = db.create_document(document)
 
-    doc_id = newResult["_id"]
+    doc_id = newResult
 
     inserted = db.get_document(doc_id)
 

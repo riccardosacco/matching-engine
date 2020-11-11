@@ -37,6 +37,8 @@ class ElasticSearch:
                 self._url + "/" + params, json=query).text)
         elif(method == "get"):
             res = json.loads(requests.get(self._url + "/" + params).text)
+        elif(method == "delete"):
+            res = json.loads(requests.delete(self._url + "/" + params).text)
         return res
 
     def get_document(self, doc_id):
@@ -52,16 +54,20 @@ class ElasticSearch:
 
         return result["_source"]
 
-    def create_document(self, newDocument):
+    def create_document(self, newDocument) -> dict:
         """Create new document on ElasticSearch
 
         Args:
             newDocument (document): New document object
 
-        Returns:
-            number: Sequence ID of new object
+        Returns: Document ID of new object
         """
         result = self.query(newDocument, params="_doc")
+        return result["_id"]
+
+    def delete_document(self, doc_id) -> bool:
+        result = self.query(method="delete", params="_doc/%s" % (doc_id))
+
         return result
 
     def add_metadata(self, doc_id, metadata):
@@ -171,44 +177,43 @@ class ElasticSearch:
         else:
             return False
 
-    def move_metadata_to_existing(self, source_doc_id, dest_doc_id, metadata_match):
+    def move_metadata_to_existing(self, source_doc_id, dest_doc_id, metadata) -> bool:
         """Move metadata to existing document
 
         Args:
             source_doc_id (string): Source document ID
             dest_doc_id (string): Destination document ID
-            metadata_match (object): Metadata match Object (with providerID)
+            metadata (object): Metadata Object
         """
-        # Get metadata from source object
-        source_metadata = self.get_metadata(source_doc_id, metadata_match)
 
-        # Update destination document if found
-        if source_metadata:
-            # Delete metadata from source object
-            self.delete_metadata(source_doc_id, metadata_match)
+        try:
+            # Delete metadata from ES document
+            self.delete_metadata(source_doc_id, metadata["providerID"])
 
-            # Add metadata to dest document
-            return self.add_metadata(dest_doc_id, source_metadata)
-        else:
+            # Add metadata to destination ES document
+            self.add_metadata(dest_doc_id, metadata)
+
+            return True
+        except:
             return False
-
-    def move_metadata_to_new(self, source_doc_id, dest_UUID, metadata_match):
+        
+    def move_metadata_to_new(self, source_doc_id, dest_UUID, metadata):
         """Move metadata to existing document
 
         Args:
             source_doc_id (string): Source document ID
             dest_UUID (string): Destination Master UUID
-            metadata_match (object): Metadata match Object (with providerID)
+            metadata (object): Metadata Object
         """
-        # Get metadata from source object
-        source_metadata = self.get_metadata(source_doc_id, metadata_match)
 
-        if source_metadata:
-            newDocument = {
-                "masterUUID": dest_UUID,
-                "providerData": [source_metadata]
-            }
+        # Create new document with metadata
+        newDocument = {
+            "masterUUID": dest_UUID,
+            "providerData": [metadata]
+        }
 
-            return self.create_document(newDocument)
-        else:
-            return False
+        # Delete metadata from source_doc_id
+        self.delete_metadata(source_doc_id, metadata["providerID"])
+
+        # Create document and return document ID
+        return self.create_document(newDocument)
