@@ -1,0 +1,26 @@
+{
+  "masterUUID": "86612eae-8dd9-4951-bff8-7845af3eda33",
+  "providerData": [
+    {
+      "UUID": "1a7fbdcb-9b25-435d-928f-310214c355d3",
+      "providerInfo": {
+        "providerName": "DataTV",
+        "providerID": "DATATV_S20"
+      },
+      "titles": [
+        {
+          "type": "SCHED",
+          "title": "Games of Thrones"
+        },
+        {
+          "type": "ENRICH",
+          "title": "Il Trono di Spade"
+        },
+        {
+          "type": "ENRICH",
+          "title": "Games of Thrones"
+        }
+      ]
+    }
+  ]
+}
