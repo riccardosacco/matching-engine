@@ -1,5 +1,5 @@
 {
-  "python.pythonPath": "/Users/riccardosacco/Downloads/Repositories/matching-engine/venv/bin/python3",
+  "python.pythonPath": "venv/bin/python",
   "python.testing.pytestEnabled": true,
   "python.testing.unittestEnabled": false,
   "python.testing.nosetestsEnabled": false,
