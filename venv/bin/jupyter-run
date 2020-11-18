@@ -1,4 +1,4 @@
-#!/Users/riccardosacco/Downloads/Repositories/matching-engine/venv/bin/python
+#!/Users/riccardosacco/Downloads/Repositories/matching-engine/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
