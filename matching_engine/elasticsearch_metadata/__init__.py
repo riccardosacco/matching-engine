@@ -52,7 +52,10 @@ class ElasticSearch:
         """
         result = self.query(params="_doc/%s" % (doc_id), method="get")
 
-        return result["_source"]
+        if "_source" in result:
+            return result["_source"]
+        else:
+            return False
 
     def create_document(self, masterUUID, metadata):
         """Create new document on ElasticSearch
@@ -107,6 +110,53 @@ class ElasticSearch:
         Returns:
             object: Response from ElasticSearch
         """
+
+        # Get metadata
+        oldMetadata = self.get_metadata(doc_id, metadata)
+        
+        if oldMetadata == False:
+            return False
+        
+        try:
+            # Iterate over metadata
+            for key, value in metadata.items():
+
+                # If metadata value is list don't override
+                if type(value) is list:
+                    for item in value:
+                        # If type is equal to SCHED add if not exists and keep the others
+                        if item.get("type") == "SCHED":
+                            for keyObj, valueObj in item:
+                                pass
+
+                        # If type is equal to ENRICH replace all ENRICH with the new item
+                        elif item.get("type") == "ENRICH":
+                            pass
+                        
+                        # If no type is specified add if not exists
+                        else:
+                            pass
+
+
+                # If metadata value is dictionary
+                elif type(value) is dict:
+                    for keyObj, valueObj in value.items():
+                        oldMetadata[key][keyObj] = valueObj
+
+                # If metadata value is string
+                elif type(value) is str:
+                    oldMetadata[key] = value
+
+                # If metadata value is boolean
+                elif type(value) is bool:
+                    oldMetadata[key] = value
+
+        except:
+            return False
+        
+        print(oldMetadata)
+
+
         updateMetadataQuery = {
             "script": {
                 "source": """
@@ -118,7 +168,7 @@ class ElasticSearch:
                             }
                         }
                     }""",
-                "params": metadata
+                "params": oldMetadata
             }
         }
 
@@ -183,6 +233,68 @@ class ElasticSearch:
             return source_metadata_object[0]
         else:
             return False
+
+    def get_document_by_UUID(self, masterUUID):
+        """Get document by UUID
+
+        Args:
+            masterUUID (string): Master UUID
+
+        Returns:
+            object: ES object
+        """
+
+        # Create query by masterUUID
+        queryUUID = {
+            "query": {
+                "match": {
+                    "masterUUID": masterUUID
+                }
+            }
+        }
+
+        # Query ES
+        result = self.query(queryUUID, params="_search")
+
+        # If document is found
+        if(len(result["hits"]["hits"]) != 0):
+            document = result["hits"]["hits"][0]["_source"]
+        else:
+            document = False
+
+        return document
+
+    def add_metadata_by_UUID(self, masterUUID, metadata):
+        queryUUID = {
+            "query": {
+                "match": {
+                    "masterUUID": masterUUID
+                }
+            },
+            "script": {
+                "source": "ctx._source.providerData.add(params)",
+                "params": metadata
+            }
+        }
+
+        return self.query(queryUUID, params="_update_by_query")
+
+    def delete_metadata_by_UUID(self, masterUUID, UUID):
+        removeQueryUUID = {
+            "query": {
+                "match": {
+                    "masterUUID": masterUUID
+                }
+            },
+            "script": {
+                "source": "ctx._source.providerData.removeIf(data -> data.UUID == params.UUID)",
+                    "params": {
+                        "UUID": UUID
+                    }
+            }
+        }
+
+        return self.query(removeQueryUUID, params="_update_by_query")
 
     def move_metadata_to_existing(self, source_doc_id, dest_doc_id, metadata) -> bool:
         """Move metadata to existing document
