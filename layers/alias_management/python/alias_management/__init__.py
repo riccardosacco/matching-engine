@@ -1,71 +1,107 @@
-import boto3
+from elasticsearch_metadata import ElasticSearch
 
-class AliasManagement:
-  def __init__(self, bucket_name: str = "alias-management"):
-    self.s3_client = boto3.resource(
-      service_name='s3',
-      region_name='eu-west-1'
-    )
-    self.bucket_name = bucket_name
+class AliasManagement(ElasticSearch):
+  def __init__(self, url, index):
+    super().__init__(url, index)
 
-  def _create_file(self, filename: str, content: str) -> bool:
-    """Create file
+  def get_document_by_UUID(self, masterUUID):
+    """Get document by UUID
 
     Args:
-        filename (str): File name without extension
-        content (str): Content as string
+        masterUUID (string): Master UUID
 
     Returns:
-        boolean: True or False
+        object: ES object
     """
 
-    try:
-      self.s3_client.Object(self.bucket_name, '%s.txt'%(filename)).put(Body=content)
-      return True
-    except:
-      return False
+    # Create query by masterUUID
+    queryUUID = {
+      "query": {
+        "match": {
+          "masterUUID": masterUUID
+        }
+      }
+    }
 
-  def _get_file(self, filename: str):
-    """Get file
+    # Query ES
+    result = self.query(queryUUID, params="_search")
 
-    Args:
-        filename (str): File name without extension
-
-    Returns:
-        string: File content or False
-    """
-    try:
-      obj = self.s3_client.Object(self.bucket_name, '%s.txt'%(filename))
-      body = obj.get()['Body'].read().decode('ascii')
-      return body
-    except:
-      return False
-
-    
-  def create_alias(self, masterUUID: str, aliasUUID: str) -> bool:
-    """Create alias
-
-    Args:
-        masterUUID (str): Master UUID
-        aliasUUID (str): Alias UUID
-
-    Returns:
-        bool: True or False
-    """
-    file_content = self._get_file(masterUUID)
-
-    # 1. Check if masterUUID file exists
-    if(file_content):
-      # If true
-      alias_array = file_content.split("\n")
-
-      # Check if alias is already in file_content
-      if(aliasUUID not in alias_array):
-        file_content += "\n%s" % (aliasUUID)
-        return self._create_file(masterUUID, file_content)
-      else:
-        # Alias already in file_content
-        return False
+    # If document is found
+    if(len(result["hits"]["hits"]) != 0):
+      document = result["hits"]["hits"][0]["_source"]
     else:
-      # If false create file with aliasUUID
-      return self._create_file(masterUUID, aliasUUID)
+      document = False
+
+    return document
+
+  def add_metadata_by_UUID(self, masterUUID, metadata):
+    queryUUID = {
+      "query": {
+        "match": {
+          "masterUUID": masterUUID
+        }
+      },
+      "script": {
+        "source": "ctx._source.providerData.add(params)",
+        "params": metadata
+      }
+    }
+
+    return self.query(queryUUID, params="_update_by_query")
+
+  def delete_metadata_by_UUID(self, masterUUID, UUID):
+    removeQueryUUID = {
+      "query": {
+        "match": {
+          "masterUUID": masterUUID
+        }
+      },
+      "script": {
+        "source": "ctx._source.providerData.removeIf(data -> data.UUID == params.UUID)",
+        "params": {
+          "UUID": UUID
+        }
+      }
+    }
+
+    return self.query(removeQueryUUID, params="_update_by_query")
+
+  def create_alias(self, masterUUID, aliasUUID):
+    # Search aliasUUID and get metadata array
+    document = self.get_document_by_UUID(aliasUUID)
+
+    if document:
+      metadata_array = document["providerData"]
+
+      # For each metadata
+      for metadata in metadata_array:
+      # Add metadata to masterUUID
+        self.add_metadata_by_UUID(masterUUID, metadata)
+
+      # Remove metadata from aliasUUID
+        self.delete_metadata_by_UUID(aliasUUID, metadata["UUID"])
+      return True
+    else:
+      return False
+
+  def unalias(self, masterUUID, aliasUUID):
+    # Search masterUUID
+    document = self.get_document_by_UUID(masterUUID)
+
+    if document:
+      metadata_array = document["providerData"]
+
+    # Find aliasUUID in metadata array
+      metadata_array = [metadata for metadata in metadata_array if metadata["UUID"] == aliasUUID]
+
+    # For each metadata
+      for metadata in metadata_array:
+        # Add metadata to aliasUUID
+        self.add_metadata_by_UUID(aliasUUID, metadata)
+
+        # Remove metadata from masterUUID
+        self.delete_metadata_by_UUID(masterUUID, metadata["UUID"])
+
+      return True
+    else:
+      return False
