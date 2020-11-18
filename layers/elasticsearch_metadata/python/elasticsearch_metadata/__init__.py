@@ -54,14 +54,21 @@ class ElasticSearch:
 
         return result["_source"]
 
-    def create_document(self, newDocument) -> dict:
+    def create_document(self, masterUUID, metadata):
         """Create new document on ElasticSearch
 
         Args:
-            newDocument (document): New document object
+            masterUUID (string): MasterUUID
+            metadata (object): Metadata object
 
         Returns: Document ID of new object
         """
+
+        newDocument = {
+            "masterUUID": masterUUID,
+            "providerData": [metadata]
+        }
+
         result = self.query(newDocument, params="_doc")
         return result["_id"]
 
@@ -103,7 +110,7 @@ class ElasticSearch:
         updateMetadataQuery = {
             "script": {
                 "source": """
-                    def targets = ctx._source.providerData.findAll(data -> data.providerID == params.providerID);
+                    def targets = ctx._source.providerData.findAll(data -> data.providerInfo.providerID == params.providerInfo.providerID);
                     for(data in targets) {
                         for(metadata in data.entrySet()){
                             if(params.containsKey(metadata.getKey())){
@@ -132,7 +139,7 @@ class ElasticSearch:
         """
         deleteMetadataQuery = {
             "script": {
-                "source": "ctx._source.providerData.removeIf(data -> data.providerID == params.providerID)",
+                "source": "ctx._source.providerData.removeIf(data -> data.providerInfo.providerID == params.providerInfo.providerID)",
                 "params": metadata
             }
         }
@@ -150,7 +157,7 @@ class ElasticSearch:
         Returns:
             bool: True if object has the same providerID
         """
-        if metadata_source["providerID"] == metadata_match["providerID"]:
+        if metadata_source["providerInfo"]["providerID"] == metadata_match["providerInfo"]["providerID"]:
             return True
         else:
             return False
@@ -188,7 +195,7 @@ class ElasticSearch:
 
         try:
             # Delete metadata from ES document
-            self.delete_metadata(source_doc_id, metadata["providerID"])
+            self.delete_metadata(source_doc_id, metadata["providerInfo"]["providerID"])
 
             # Add metadata to destination ES document
             self.add_metadata(dest_doc_id, metadata)
@@ -206,14 +213,8 @@ class ElasticSearch:
             metadata (object): Metadata Object
         """
 
-        # Create new document with metadata
-        newDocument = {
-            "masterUUID": dest_UUID,
-            "providerData": [metadata]
-        }
-
         # Delete metadata from source_doc_id
-        self.delete_metadata(source_doc_id, metadata["providerID"])
+        self.delete_metadata(source_doc_id, metadata["providerInfo"]["providerID"])
 
         # Create document and return document ID
-        return self.create_document(newDocument)
+        return self.create_document(dest_UUID, metadata)
