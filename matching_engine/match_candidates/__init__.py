@@ -1,6 +1,6 @@
 import boto3
 
-class AliasManagement:
+class MatchCandidates:
   def __init__(self, bucket_name: str = "alias-management"):
     self.s3_client = boto3.resource(
       service_name='s3',

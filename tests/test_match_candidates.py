@@ -1,4 +1,4 @@
-from match_candidates import MatchCandidates
+from matching_engine.match_candidates import MatchCandidates
 
 alias = MatchCandidates()
 

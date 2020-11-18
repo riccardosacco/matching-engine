@@ -1,5 +1,5 @@
 import json
-from alias_management import AliasManagement
+from matching_engine.alias_management import AliasManagement
 
 alias = AliasManagement(
     "https://search-matching-engine-uv2ckzsmrpytmltjko7x5jf4ra.eu-west-1.es.amazonaws.com", index="item_index")
