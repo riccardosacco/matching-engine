@@ -126,16 +126,35 @@ class ElasticSearch:
                     for item in value:
                         # If type is equal to SCHED add if not exists and keep the others
                         if item.get("type") == "SCHED":
-                            for keyObj, valueObj in item:
-                                pass
+                            # Iterate on object
+                            for keyObj, valueObj in item.items(): 
+                                if keyObj != "type":
+                                    # Check if same element with value is found
+                                    found = list(filter(lambda obj: obj[keyObj] == valueObj, oldMetadata[key]))
+                                    if len(found) == 0:
+                                        # Append to array if not found
+                                        oldMetadata[key].append(item)
+
 
                         # If type is equal to ENRICH replace all ENRICH with the new item
                         elif item.get("type") == "ENRICH":
-                            pass
+                            # Filter out all objects with type ENRICH
+                            others = list(filter(lambda obj: obj.get("type") != "ENRICH", oldMetadata[key]))
+
+                            # Append new item
+                            others.append(item)
+                            oldMetadata[key] = others
                         
                         # If no type is specified add if not exists
                         else:
-                            pass
+                            # Iterate on object
+                            for keyObj, valueObj in item.items(): 
+                                
+                                # Check if same element with value is found
+                                found = list(filter(lambda obj: obj[keyObj] == valueObj, oldMetadata[key]))
+                                if len(found) == 0:
+                                    # Append to array if not found
+                                    oldMetadata[key].append(item)
 
 
                 # If metadata value is dictionary
@@ -151,31 +170,28 @@ class ElasticSearch:
                 elif type(value) is bool:
                     oldMetadata[key] = value
 
+            updateMetadataQuery = {
+                "script": {
+                    "source": """
+                        def targets = ctx._source.providerData.findAll(data -> data.providerInfo.providerID == params.providerInfo.providerID);
+                        for(data in targets) {
+                            for(metadata in data.entrySet()){
+                                if(params.containsKey(metadata.getKey())){
+                                    data[metadata.getKey()] = params[metadata.getKey()]
+                                }
+                            }
+                        }""",
+                    "params": oldMetadata
+                }
+            }
+
+            result = self.query(updateMetadataQuery, params="_update/%s" % (doc_id))
         except:
             return False
         
         print(oldMetadata)
 
-
-        updateMetadataQuery = {
-            "script": {
-                "source": """
-                    def targets = ctx._source.providerData.findAll(data -> data.providerInfo.providerID == params.providerInfo.providerID);
-                    for(data in targets) {
-                        for(metadata in data.entrySet()){
-                            if(params.containsKey(metadata.getKey())){
-                                data[metadata.getKey()] = params[metadata.getKey()]
-                            }
-                        }
-                    }""",
-                "params": oldMetadata
-            }
-        }
-
-        result = self.query(updateMetadataQuery,
-                            params="_update/%s" % (doc_id))
-
-        return result
+        return True
 
     def delete_metadata(self, doc_id, metadata):
         """Delete metadata from object
