@@ -57,18 +57,17 @@ class ElasticSearch:
         else:
             return False
 
-    def create_document(self, masterUUID, metadata):
+    def create_document(self, metadata):
         """Create new document on ElasticSearch
 
         Args:
-            masterUUID (string): MasterUUID
             metadata (object): Metadata object
 
         Returns: Document ID of new object
         """
 
         newDocument = {
-            "masterUUID": masterUUID,
+            "masterUUID": metadata["UUID"],
             "providerData": [metadata]
         }
 
