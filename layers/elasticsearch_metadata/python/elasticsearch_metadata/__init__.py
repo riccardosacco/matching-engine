@@ -52,20 +52,22 @@ class ElasticSearch:
         """
         result = self.query(params="_doc/%s" % (doc_id), method="get")
 
-        return result["_source"]
+        if "_source" in result:
+            return result["_source"]
+        else:
+            return False
 
-    def create_document(self, masterUUID, metadata):
+    def create_document(self, metadata):
         """Create new document on ElasticSearch
 
         Args:
-            masterUUID (string): MasterUUID
             metadata (object): Metadata object
 
         Returns: Document ID of new object
         """
 
         newDocument = {
-            "masterUUID": masterUUID,
+            "masterUUID": metadata["UUID"],
             "providerData": [metadata]
         }
 
@@ -107,25 +109,88 @@ class ElasticSearch:
         Returns:
             object: Response from ElasticSearch
         """
-        updateMetadataQuery = {
-            "script": {
-                "source": """
-                    def targets = ctx._source.providerData.findAll(data -> data.providerInfo.providerID == params.providerInfo.providerID);
-                    for(data in targets) {
-                        for(metadata in data.entrySet()){
-                            if(params.containsKey(metadata.getKey())){
-                                data[metadata.getKey()] = params[metadata.getKey()]
+
+        # Get metadata
+        oldMetadata = self.get_metadata(doc_id, metadata)
+        
+        if oldMetadata == False:
+            return False
+        
+        try:
+            # Iterate over metadata
+            for key, value in metadata.items():
+
+                # If metadata value is list don't override
+                if type(value) is list:
+                    for item in value:
+                        # If type is equal to SCHED add if not exists and keep the others
+                        if item.get("type") == "SCHED":
+                            # Iterate on object
+                            for keyObj, valueObj in item.items(): 
+                                if keyObj != "type":
+                                    # Check if same element with value is found
+                                    found = list(filter(lambda obj: obj[keyObj] == valueObj, oldMetadata[key]))
+                                    if len(found) == 0:
+                                        # Append to array if not found
+                                        oldMetadata[key].append(item)
+
+
+                        # If type is equal to ENRICH replace all ENRICH with the new item
+                        elif item.get("type") == "ENRICH":
+                            # Filter out all objects with type ENRICH
+                            others = list(filter(lambda obj: obj.get("type") != "ENRICH", oldMetadata[key]))
+
+                            # Append new item
+                            others.append(item)
+                            oldMetadata[key] = others
+                        
+                        # If no type is specified add if not exists
+                        else:
+                            # Iterate on object
+                            for keyObj, valueObj in item.items(): 
+                                
+                                # Check if same element with value is found
+                                found = list(filter(lambda obj: obj[keyObj] == valueObj, oldMetadata[key]))
+                                if len(found) == 0:
+                                    # Append to array if not found
+                                    oldMetadata[key].append(item)
+
+
+                # If metadata value is dictionary
+                elif type(value) is dict:
+                    for keyObj, valueObj in value.items():
+                        oldMetadata[key][keyObj] = valueObj
+
+                # If metadata value is string
+                elif type(value) is str:
+                    oldMetadata[key] = value
+
+                # If metadata value is boolean
+                elif type(value) is bool:
+                    oldMetadata[key] = value
+
+            updateMetadataQuery = {
+                "script": {
+                    "source": """
+                        def targets = ctx._source.providerData.findAll(data -> data.providerInfo.providerID == params.providerInfo.providerID);
+                        for(data in targets) {
+                            for(metadata in data.entrySet()){
+                                if(params.containsKey(metadata.getKey())){
+                                    data[metadata.getKey()] = params[metadata.getKey()]
+                                }
                             }
-                        }
-                    }""",
-                "params": metadata
+                        }""",
+                    "params": oldMetadata
+                }
             }
-        }
 
-        result = self.query(updateMetadataQuery,
-                            params="_update/%s" % (doc_id))
+            result = self.query(updateMetadataQuery, params="_update/%s" % (doc_id))
+        except:
+            return False
+        
+        print(oldMetadata)
 
-        return result
+        return True
 
     def delete_metadata(self, doc_id, metadata):
         """Delete metadata from object
@@ -183,6 +248,68 @@ class ElasticSearch:
             return source_metadata_object[0]
         else:
             return False
+
+    def get_document_by_UUID(self, masterUUID):
+        """Get document by UUID
+
+        Args:
+            masterUUID (string): Master UUID
+
+        Returns:
+            object: ES object
+        """
+
+        # Create query by masterUUID
+        queryUUID = {
+            "query": {
+                "match": {
+                    "masterUUID": masterUUID
+                }
+            }
+        }
+
+        # Query ES
+        result = self.query(queryUUID, params="_search")
+
+        # If document is found
+        if(len(result["hits"]["hits"]) != 0):
+            document = result["hits"]["hits"][0]["_source"]
+        else:
+            document = False
+
+        return document
+
+    def add_metadata_by_UUID(self, masterUUID, metadata):
+        queryUUID = {
+            "query": {
+                "match": {
+                    "masterUUID": masterUUID
+                }
+            },
+            "script": {
+                "source": "ctx._source.providerData.add(params)",
+                "params": metadata
+            }
+        }
+
+        return self.query(queryUUID, params="_update_by_query")
+
+    def delete_metadata_by_UUID(self, masterUUID, UUID):
+        removeQueryUUID = {
+            "query": {
+                "match": {
+                    "masterUUID": masterUUID
+                }
+            },
+            "script": {
+                "source": "ctx._source.providerData.removeIf(data -> data.UUID == params.UUID)",
+                    "params": {
+                        "UUID": UUID
+                    }
+            }
+        }
+
+        return self.query(removeQueryUUID, params="_update_by_query")
 
     def move_metadata_to_existing(self, source_doc_id, dest_doc_id, metadata) -> bool:
         """Move metadata to existing document
