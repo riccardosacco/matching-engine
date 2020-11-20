@@ -36,5 +36,5 @@ class ElasticSearch:
 
         Return: Query result Object
         """
-        res = requests.post(self._ELASTIC_URL, {}, query)
+        res = requests.post(self._ELASTIC_URL, query, headers={"Content-Type":"application/x-ndjson"})
         return json.loads(res.text)

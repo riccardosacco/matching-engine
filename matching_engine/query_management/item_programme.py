@@ -75,6 +75,6 @@ def generate_query(metadata):
         json_metadata_query["query"]["bool"]["should"].append(nested_year)
 
     if query_titles or query_directors or query_year:
-        json_output_query += "{}\n" + json.dumps(json_metadata_query)
+        json_output_query += "{}\n" + json.dumps(json_metadata_query) + "\n"
 
     return json_output_query

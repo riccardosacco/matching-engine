@@ -124,7 +124,7 @@ class ElasticSearch:
                 if type(value) is list:
                     for item in value:
                         # If type is equal to SCHED add if not exists and keep the others
-                        if item.get("type") == "SCHED":
+                        if str(item.get("type")).lower() == "sched":
                             # Iterate on object
                             for keyObj, valueObj in item.items(): 
                                 if keyObj != "type":
@@ -136,9 +136,9 @@ class ElasticSearch:
 
 
                         # If type is equal to ENRICH replace all ENRICH with the new item
-                        elif item.get("type") == "ENRICH":
+                        elif str(item.get("type")).lower() == "enrich":
                             # Filter out all objects with type ENRICH
-                            others = list(filter(lambda obj: obj.get("type") != "ENRICH", oldMetadata[key]))
+                            others = list(filter(lambda obj: str(obj.get("type")) != "enrich", oldMetadata[key]))
 
                             # Append new item
                             others.append(item)
