@@ -5,7 +5,7 @@ from query_management.query_fields.title import generate_title
 from query_management.query_fields.director import generate_director
 from query_management.query_fields.year import generate_year
 
-def generate_query(metadata):
+def generate_query(metadata, min_threshold = 70):
     """
     Generate ElasticSearch query in JSON format
     Usage:
@@ -36,6 +36,7 @@ def generate_query(metadata):
     }
 
     json_metadata_query = {
+        "min_score": min_threshold,
         "query": {
             "bool": {
                 "should": []
