@@ -1,0 +1,74 @@
+{
+  "configurations": [
+    {
+      "type": "aws-sam",
+      "request": "direct-invoke",
+      "name": "lambda:StockTradingStateMachine",
+      "invokeTarget": {
+        "target": "template",
+        "templatePath": "lambda/lambda/template.yaml",
+        "logicalId": "StockTradingStateMachine"
+      },
+      "lambda": {
+        "payload": {},
+        "environmentVariables": {}
+      }
+    },
+    {
+      "type": "aws-sam",
+      "request": "direct-invoke",
+      "name": "lambda:StockCheckerFunction (python3.8)",
+      "invokeTarget": {
+        "target": "template",
+        "templatePath": "lambda/lambda/template.yaml",
+        "logicalId": "StockCheckerFunction"
+      },
+      "lambda": {
+        "payload": {},
+        "environmentVariables": {}
+      }
+    },
+    {
+      "type": "aws-sam",
+      "request": "direct-invoke",
+      "name": "lambda:StockSellerFunction (python3.8)",
+      "invokeTarget": {
+        "target": "template",
+        "templatePath": "lambda/lambda/template.yaml",
+        "logicalId": "StockSellerFunction"
+      },
+      "lambda": {
+        "payload": {},
+        "environmentVariables": {}
+      }
+    },
+    {
+      "type": "aws-sam",
+      "request": "direct-invoke",
+      "name": "lambda:StockBuyerFunction (python3.8)",
+      "invokeTarget": {
+        "target": "template",
+        "templatePath": "lambda/lambda/template.yaml",
+        "logicalId": "StockBuyerFunction"
+      },
+      "lambda": {
+        "payload": {},
+        "environmentVariables": {}
+      }
+    },
+    {
+      "type": "aws-sam",
+      "request": "direct-invoke",
+      "name": "lambda:TransactionTable",
+      "invokeTarget": {
+        "target": "template",
+        "templatePath": "lambda/lambda/template.yaml",
+        "logicalId": "TransactionTable"
+      },
+      "lambda": {
+        "payload": {},
+        "environmentVariables": {}
+      }
+    }
+  ]
+}
