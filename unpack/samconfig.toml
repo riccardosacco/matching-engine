@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "unpack-thread"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-up7s12lwacpf"
+s3_prefix = "unpack-thread"
+region = "eu-west-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
