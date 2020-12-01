@@ -3,7 +3,7 @@ import json
 from query_management.query_fields.providerID import generate_providerID
 from query_management.query_fields.title import generate_title
 
-def generate_query(metadata):
+def generate_query(metadata, min_threshold = 70):
     """
     Generate ElasticSearch query in JSON format
     Usage:
@@ -30,6 +30,7 @@ def generate_query(metadata):
     }
 
     json_metadata_query = {
+        "min_score": min_threshold,
         "query": {
             "bool": {
                 "should": []

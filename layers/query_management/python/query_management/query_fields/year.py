@@ -1,6 +1,6 @@
-def generate_year(query_year):
-    score_year_range = "25"
-    score_year_fuzzy1 = "15"
+def generate_year(query_year, max_score):
+    score_year_range = str(max_score)
+    score_year_fuzzy1 = str(max_score * 0.6)
     nested_year = {"nested": {"path": "providerData.productionYears", "score_mode": "max", "query": {"dis_max": {"queries": []}}}}  
 
     year_range2 = {

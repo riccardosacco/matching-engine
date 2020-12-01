@@ -4,77 +4,72 @@ from query_management.query_fields.providerID import generate_providerID
 from query_management.query_fields.title import generate_title
 from query_management.query_fields.director import generate_director
 from query_management.query_fields.year import generate_year
+from query_management.query_fields.genre import generate_genre
 
-def generate_query(metadata):
+def generate_query(matchitems, min_threshold = 70):
     """
     Generate ElasticSearch query in JSON format
     Usage:
         >>> from query_management import item_programme
-        >>> item_programme.generate_query(metadata)
+        >>> item_programme.generate_query(matchitems)
     Params:
-        - metadata: {
+        - matchitems: [{
             query_providerID: string,
             query_titles: array[string],
             query_directors: array[string],
             query_year: string
-        }
+            filter_genre: integer
+        }]
     Return: Query Object (in JSON format)
     """
-
-    query_providerID = metadata.get("query_providerID")
-    query_titles = metadata.get("query_titles")
-    query_directors = metadata.get("query_directors")
-    query_year = metadata.get("query_year")
-
-    json_provider_query = {
-        "query": {
-            "nested": {
-                "path": "providerData",
-                "query": {}
-            }
-        }
-    }
-
-    json_metadata_query = {
-        "query": {
-            "bool": {
-                "should": []
-            }
-        },
-    }
-
     json_output_query = ""
 
-    if query_providerID:
-        provider_query = generate_providerID(query_providerID)
-        json_provider_query["query"]["nested"]["query"] = provider_query
-        json_output_query += "{}\n" + json.dumps(json_provider_query) + "\n"
+    for metadata in matchitems:
+        query_providerID = metadata.get("query_providerID")
+        query_titles = metadata.get("query_titles")
+        query_directors = metadata.get("query_directors")
+        query_year = metadata.get("query_year")
+        filter_genre = metadata.get("genre")
 
-    if query_titles:
-        scores = {
-            "title_exactMatchFuzzy": "50",
-            "title_matchPhrase":"45",
-            "title_stopWords":"35",
-            "title_ORFuzzy": "20"
+        json_metadata_query = {
+            "min_score": min_threshold,
+        #   "_source": ["masterUUID","providerData.UUID","providerData.providerInfo"],
+            "query": {
+                "bool": {
+                    "should": [],
+                    "filter": []
+                }
+            },
         }
 
-        nested_title = generate_title(query_titles, scores)
-        json_metadata_query["query"]["bool"]["should"].append(nested_title)
+        if query_providerID:
+            max_score = 1000
+            nested_providerID = generate_providerID(query_providerID,max_score)
+            json_metadata_query["query"]["bool"]["should"].append(nested_providerID)
 
-    if query_directors:
-        scores = {
-            "director_InitialsFuzzy": "20",
-            "director_ORFuzzy": "25"
-        }
+        if query_titles:
+            max_score = 50
 
-        nested_director = generate_director(query_directors, scores)
-        json_metadata_query["query"]["bool"]["should"].append(nested_director)
+            nested_title = generate_title(query_titles, max_score)
+            json_metadata_query["query"]["bool"]["should"].append(nested_title)
 
-    if query_year:
-        nested_year = generate_year(query_year)
-        json_metadata_query["query"]["bool"]["should"].append(nested_year)
+        if query_directors:
+            max_score = 25
 
-    if query_titles or query_directors or query_year:
-        json_output_query += "{}\n" + json.dumps(json_metadata_query)
+            nested_director = generate_director(query_directors, max_score)
+            json_metadata_query["query"]["bool"]["should"].append(nested_director)
 
+        if query_year:
+            max_score = 25
+
+            nested_year = generate_year(query_year, max_score)
+            json_metadata_query["query"]["bool"]["should"].append(nested_year)
+
+        if filter_genre:
+            nested_genre = generate_genre(filter_genre)
+            json_metadata_query["query"]["bool"]["filter"].append(nested_genre)
+
+        if query_titles or query_directors or query_year:
+            json_output_query += "{}\n" + json.dumps(json_metadata_query) + "\n"
+    
     return json_output_query

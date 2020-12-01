@@ -2,14 +2,15 @@ import re
 
 from query_management.build_string_score import build_string_score
 
-def generate_director(query_directors, scores):
-    score_director_InitialsFuzzy = scores.get("director_InitialsFuzzy")
-    score_director_ORFuzzy = scores.get("director_ORFuzzy")
-    
+def generate_director(query_directors, max_score):
+    score_director_ORFuzzy = str(max_score)
+    score_director_InitialsFuzzy = str(max_score * 0.8)
+    score_director_Initials = str(max_score * 0.6)
+
     nested_director = {"nested": {"path": "providerData.directors", "score_mode": "max", "query": {"dis_max": {"queries": []}}}}
 
     for director in query_directors:
-        single_director = director.replace(".", "").lstrip().rstrip()
+        single_director = director.lstrip().rstrip()
         clearDirector = single_director.replace('-', '')
         splitDirector = re.sub(r"([a-z])([A-Z])", r"\1 \2", clearDirector).split(" ")
         directorFuzzyString = ""
@@ -58,7 +59,22 @@ def generate_director(query_directors, scores):
             },
         }
 
-    nested_director["nested"]["query"]["dis_max"]["queries"].append(director_ORFuzzy)
+        director_Initials = {
+            "script_score": {
+                "query": {
+                    "simple_query_string" : {
+                        "query": single_director.replace('.', '*'),
+                        "fields": ["providerData.directors.director"],
+                        "default_operator": "and"
+                    },
+                },
+                "script": {
+                    "source": score_director_Initials + build_string_score("directors.director",str(len(splitDirector))),
+                },
+            },
+        }
 
+        nested_director["nested"]["query"]["dis_max"]["queries"].append(director_ORFuzzy)
+        nested_director["nested"]["query"]["dis_max"]["queries"].append(director_Initials)
 
     return nested_director

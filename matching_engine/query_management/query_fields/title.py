@@ -2,11 +2,11 @@ import re
 
 from query_management.build_string_score import build_string_score
 
-def generate_title(query_titles, scores):
-    score_title_exactMatchFuzzy = scores.get("title_exactMatchFuzzy")
-    score_title_matchPhrase = scores.get("title_matchPhrase")
-    score_title_stopWords = scores.get("title_stopWords")
-    score_title_ORFuzzy = scores.get("title_ORFuzzy")
+def generate_title(query_titles, max_score):
+    score_title_exactMatchFuzzy = str(max_score)
+    score_title_matchPhrase = str(max_score * 0.9)
+    score_title_stopWords = str(max_score * 0.7)
+    score_title_ORFuzzy = str(max_score * 0.4)
 
     nested_title = {"nested": {"path": "providerData.titles", "score_mode": "max", "query": {"dis_max": {"queries": []}}}}
 

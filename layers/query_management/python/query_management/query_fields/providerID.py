@@ -1,13 +1,2 @@
-def generate_providerID(query_providerID):
-    return {
-        "script_score": {
-            "query": {
-                "match": {
-                    "providerData.providerInfo.providerID": query_providerID
-                }
-            },
-            "script": {
-                "source": "1000"
-            }
-        }
-    }
+def generate_providerID(query_providerID, max_score):
+    return {"nested": {"path": "providerData", "query": {"script_score": {"query": {"match": {"providerData.providerInfo.providerID": query_providerID}},"script": {"source": str(max_score)}}}}}
