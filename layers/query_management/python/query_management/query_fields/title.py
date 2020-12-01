@@ -6,7 +6,7 @@ def generate_title(query_titles, max_score):
     score_title_exactMatchFuzzy = str(max_score)
     score_title_matchPhrase = str(max_score * 0.9)
     score_title_stopWords = str(max_score * 0.7)
-    score_title_ORFuzzy = str(max_score * 0.4)
+    score_title_ANDFuzzy = str(max_score * 0.4)
 
     nested_title = {"nested": {"path": "providerData.titles", "score_mode": "max", "query": {"dis_max": {"queries": []}}}}
 
@@ -39,18 +39,11 @@ def generate_title(query_titles, max_score):
             },
         }
     
-        title_ORFuzzy = {
+        title_ANDFuzzy = {
             "script_score": {
-                "query": {
-                    "match": {
-                        "providerData.titles.title": {
-                            "query": query_title,
-                            "fuzziness": "auto"
-                        }
-                    },
-                },
+                "query": {"match": { "providerData.titles.title": { "query": query_title, "fuzziness": "auto", "operator":"AND"}}},
                 "script": {
-                    "source": score_title_ORFuzzy + build_string_score("titles.title",str(len(splitTitle))),
+                    "source": score_title_ANDFuzzy + build_string_score("titles.title",str(len(splitTitle))),
                 },
             },
         }
@@ -58,7 +51,7 @@ def generate_title(query_titles, max_score):
         nested_title["nested"]["query"]["dis_max"]["queries"].append(title_exactMatchFuzzy)
         nested_title["nested"]["query"]["dis_max"]["queries"].append(title_matchPhrase)
         nested_title["nested"]["query"]["dis_max"]["queries"].append(title_stopWords)
-        nested_title["nested"]["query"]["dis_max"]["queries"].append(title_ORFuzzy)
+        nested_title["nested"]["query"]["dis_max"]["queries"].append(title_ANDFuzzy)
 
 
     return nested_title
