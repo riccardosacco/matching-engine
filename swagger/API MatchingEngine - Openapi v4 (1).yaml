@@ -1,0 +1,431 @@
+openapi: 3.0.0
+info:
+  title: SKY Matching Engine Interfaces
+  description: >-
+    API exposed by Sky Italia Matching Engine
+  version: 1.0.0
+servers:
+  - url: Amazon Web Services
+paths:
+  /itemMatch:
+    post:
+      tags:
+        - Matching
+      summary: Matching of item entities
+      requestBody:
+        required: true
+        content: 
+          application/json:
+            schema:
+              type: object
+              required:  # List the required properties here
+                - domain
+                - entityType
+                - items
+              properties:
+                domain:
+                  type: string
+                  description: Define the domain of the item
+                  enum:
+                   - sky
+                   - mediaset
+                entityType:
+                  type: string
+                  enum:
+                   - item
+                items: 
+                  type: array
+                  items:
+                    anyOf:
+                    - $ref: '#/components/schemas/Programme'
+                    - $ref: '#/components/schemas/Episode'
+                  minItems: 1
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  anyOf:
+                  - $ref: '#/components/schemas/ItemResponse'
+                  - $ref: '#/components/schemas/EpisodeResponse'
+  /seriesMatch:
+    post:
+      tags:
+        - Matching
+      summary: Matching of a series entity
+      requestBody:
+        required: true
+        content: 
+          application/json:
+            schema:
+              type: object
+              required:  # List the required properties here
+                - domain
+                - entityType
+              properties:
+                domain:
+                  type: string
+                  description: Define the domain of the item
+                  enum:
+                   - sky
+                   - mediaset
+                entityType:
+                  type: string
+                  enum:
+                   - series
+                series: 
+                  $ref: '#/components/schemas/Series'
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/SeriesResponse'
+  /getMatchCandidates:
+    get:
+      tags:
+        - Match Candidates
+      summary: List of match candidates related to a UUID
+      parameters:
+        - name: uuid
+          in: query
+          required: true
+          description: uuid 
+          schema: 
+            type: string
+            format: uuid
+      responses:
+        200:
+          description: List of uuid candidates to be alias to the requested one
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  uuid: 
+                    type: string
+                    format: uuid
+                  matchCandidates:
+                    type: array
+                    items:
+                      type: string
+                      format: uuid
+  /confirmMatchCandidates:
+    post:
+      tags:
+        - Match Candidates
+      summary: Creation of the alias relationship between provided uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:  # List the required properties here
+                - masterUUID
+                - aliasUUIDs
+              properties:
+                masterUUID:
+                  type: string
+                  format: uuid
+                aliasUUIDs:
+                  type: array
+                  items:
+                    type: string
+                    format: uuid
+      responses:
+        200:
+          description: Alias relationship successfully created
+  /discardMatchCandidates:
+    post:
+      tags:
+        - Match Candidates
+      summary: Discard all the matched candidates related to the provided uuid
+      parameters:
+        - name: uuid
+          in: query
+          required: true
+          description: uuid 
+          schema: 
+            type: string
+            format: uuid
+      responses: 
+        200:
+          description: MatchCandidates successfully discarded
+  /aliasing:
+    post:
+      tags: 
+       - Alias
+      summary: Creation of the alias relationship between UUIDs
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:  # List the required properties here
+                - masterUUID
+                - aliasUUIDs
+              properties:
+                masterUUID:
+                  type: string
+                  format: uuid
+                aliasUUIDs:
+                  type: array
+                  items:
+                    type: string
+                    format: uuid
+      responses:
+        200:
+          description: Alias relationship successfully created
+  /unaliasing:
+    post:
+      tags: 
+       - Alias
+      summary: Delete of the alias relationship between two UUIDs
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:  # List the required properties here
+                - masterUUID
+                - aliasUUID
+              properties:
+                masterUUID:
+                  type: string
+                  format: uuid
+                aliasUUID:
+                  type: string
+                  format: uuid
+      responses:
+        200:
+          description: Alias relationship successfully deleted
+  /splitting:
+    post:
+      tags: 
+       - Split
+      summary: Move provider metadata to a different UUID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:  # List the required properties here
+                - providerID
+                - sourceUUID
+              properties:
+                providerID:
+                  type: string
+                sourceUUID:
+                  type: string
+                  format: uuid
+                destUUID:
+                  type: string
+                  format: uuid
+      responses:
+        200:
+          description: Metadata successully moved to the destination UUID
+components:
+  schemas:
+    Programme: 
+      allOf:
+      - type: object
+        properties:
+          entitySubtype:
+            type: string
+            enum:
+            - programme
+      - $ref: '#/components/schemas/Item'
+    ItemResponse:
+      type: object
+      properties:
+        requestId:
+          type: string
+        uuid:
+          type: string
+          format: uuid
+        newUUIDFlag:
+          type: boolean
+        matchCandidatesFlag:
+          type: boolean
+        appliedAction:
+          type: array
+          items:
+            properties:
+              type:
+                type: string
+                enum:
+                - autoAliasedWith
+                - autoSplittedFrom
+                - autoUnaliasedFrom
+              uuid:
+                type: string
+                format: uuid
+    Episode: 
+      allOf:
+      - type: object
+        properties:
+          entitySubtype:
+            type: string
+            enum:
+            - episode
+      - $ref: '#/components/schemas/Item'
+      - $ref: '#/components/schemas/EpisodeData'
+    EpisodeResponse:
+      allOf:
+      - $ref: '#/components/schemas/ItemResponse'
+      - type: object
+        properties:
+          parentGroupData:
+            type: object
+            properties:
+              entityType: 
+                type: string
+                enum:
+                 - series
+              UUID:
+                type: string
+                format: uuid
+              newUUIDFlag:
+                type: boolean
+              masterUUID:
+                type: string
+                format: uuid
+    Item:
+      properties:
+        requestId:
+          type: string
+        enrichedUUID:
+          type: string
+          format: uuid
+        requestContext:
+          type: string
+          enum:
+           - SCHED
+           - ENRICH
+        providerData:
+          $ref: '#/components/schemas/ProviderData'
+        title: 
+          type: string
+        directors: 
+          type: string
+        productionYear:
+          type: integer
+        genre:
+          type: integer
+          minimum: 0
+          maximum: 7
+        alternativeTitles:
+          type: array
+          items:
+            type: object
+            properties:
+              type: 
+                type: string
+                enum: 
+                 - AKA
+                 - Original
+                 - EPGTitle
+              value:
+                type: string
+    EpisodeData:
+      properties:
+        episodeNumber:
+          type: integer
+        seasonNumber:
+          type: integer
+        parentGroupData:
+          allOf:
+          - type: object
+            properties:
+              entityType:
+                type: string
+                enum: 
+                 - series
+          - $ref: '#/components/schemas/SeriesItem'
+    SeriesItem:
+      properties:
+        providerData:
+          $ref: '#/components/schemas/ProviderData'
+        title:
+          type: string
+    Series:
+      properties:
+        requestId:
+          type: string
+        enrichedUUID:
+          type: string
+          format: uuid
+        requestContext:
+          type: string
+          enum:
+           - SCHED
+           - ENRICH
+        providerData:
+          $ref: '#/components/schemas/ProviderData'
+        title:
+          type: string
+        genre:
+          type: integer
+          minimum: 0
+          maximum: 7
+        alternativeTitles:
+          type: array
+          items:
+            type: object
+            properties:
+              type: 
+                type: string
+                enum: 
+                 - AKA
+                 - Original
+                 - EPGTitle
+              value:
+                type: string
+    SeriesResponse:
+      type: object
+      properties:
+        requestId:
+          type: string
+        uuid:
+          type: string
+          format: uuid
+        newUUIDFlag:
+          type: boolean
+        masterSeries:
+          type: object
+          properties:
+            linkedSeriesUUID:
+              type: string
+              format: uuid
+            newLinkedSeriesUUIDFlag:
+              type: boolean
+            appliedAction:
+              type: array
+              items:
+                properties:
+                  type:
+                    type: string
+                    enum:
+                      - autoAliasedWith
+                      - autoUnaliasedFrom
+                  uuid:
+                    type: string
+                    format: uuid
+    ProviderData:
+      type: object
+      properties:
+        providerName:
+          type: string
+        providerId:
+          type: string
