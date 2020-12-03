@@ -8,7 +8,8 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.800.0",
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "promise.allsettled": "^1.0.2"
   },
   "scripts": {
     "test": "mocha tests/unit/"

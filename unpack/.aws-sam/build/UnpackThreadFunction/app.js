@@ -1,4 +1,5 @@
 const LambdaClient = require("aws-sdk/clients/lambda");
+const allSettled = require("promise.allsettled");
 
 const REGION = "eu-west-1";
 
@@ -20,7 +21,10 @@ const runThread = async (reqItem) => {
         if (data) {
           const payload = JSON.parse(data.Payload);
 
-          resolve(JSON.parse(payload.body));
+          const body = JSON.parse(payload.body);
+
+          console.log(body);
+          resolve(body);
         }
       }
     );
@@ -43,7 +47,7 @@ exports.lambdaHandler = async (event, context) => {
   }
   const threaded_start = +new Date();
 
-  const unpack_results = await Promise.all(unpack_promises);
+  const unpack_results = await allSettled(unpack_promises);
 
   console.log("Overall thread pool time:", +new Date() - threaded_start);
 
