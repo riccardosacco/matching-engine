@@ -11,70 +11,45 @@ def generate_director(query_directors, max_score):
 
     for director in query_directors:
         single_director = director.lstrip().rstrip()
-        clearDirector = single_director.replace('-', '')
-        splitDirector = re.sub(r"([a-z])([A-Z])", r"\1 \2", clearDirector).split(" ")
-        directorFuzzyString = ""
-        for directorName in splitDirector:
-            initials = directorName[0]
-            initialsDiractorFuzzyString = ""
-
-            for directorName2 in splitDirector:
-                if (directorName2 != directorName):
-                    initialsDiractorFuzzyString += directorName2 + " "
-                else:
-                    initialsDiractorFuzzyString += initials + ". "
-
-            director_InitialsFuzzy = {
-                "script_score": {
-                    "query": {
-                        "match": {
-                            "providerData.directors.director": {
-                                "query": initialsDiractorFuzzyString,
-                                "fuzziness": "auto",
-                                "operator": "AND"
-                            }
-                        },
-                    },
-                    "script": {
-                        "source": score_director_InitialsFuzzy +
-                        build_string_score("directors.director",str(len(splitDirector))),
-                    },
-                },
-            }
-            nested_director["nested"]["query"]["dis_max"]["queries"].append(director_InitialsFuzzy)
-
+        clearDirector = re.sub(r"([a-z])([A-Z])", r"\1 \2", single_director.replace('-', ''))
+        splitDirector = clearDirector.split(" ")
         director_ORFuzzy = {
-            "script_score": {
-                "query": {
-                    "match": {
-                        "providerData.directors.director": {
-                            "query": director,
-                            "fuzziness": "auto"
-                        }
-                    },
-                },
+            "script_score": { "query": { "match": { "providerData.directors.director": { "query": clearDirector, "fuzziness": "auto"}}},
                 "script": {
                     "source": score_director_ORFuzzy + build_string_score("directors.director",str(len(splitDirector))),
                 },
             },
         }
+        nested_director["nested"]["query"]["dis_max"]["queries"].append(director_ORFuzzy)
 
-        director_Initials = {
-            "script_score": {
-                "query": {
-                    "simple_query_string" : {
-                        "query": single_director.replace('.', '*'),
-                        "fields": ["providerData.directors.director"],
-                        "default_operator": "and"
+        if "." not in clearDirector:
+            for directorName in splitDirector:
+                initials = directorName[0]
+                initialsDiractorFuzzyString = ""
+
+                for directorName2 in splitDirector:
+                    if (directorName2 != directorName):
+                        initialsDiractorFuzzyString += directorName2 + " "
+                    else:
+                        initialsDiractorFuzzyString += initials + ". "
+
+                director_InitialsFuzzy = {
+                    "script_score": { "query": { "match": { "providerData.directors.director": { "query": initialsDiractorFuzzyString.rstrip(), "fuzziness": "auto", "operator": "AND"}}},
+                        "script": {
+                            "source": score_director_InitialsFuzzy + build_string_score("directors.director",str(len(splitDirector))),
+                        },
+                    },
+                }
+                nested_director["nested"]["query"]["dis_max"]["queries"].append(director_InitialsFuzzy)
+
+        if "." in clearDirector:
+            director_Initials = {
+                "script_score": { "query": { "simple_query_string" : { "query": clearDirector.replace('.', '*'), "fields": ["providerData.directors.director"], "default_operator": "AND"}},
+                    "script": {
+                        "source": score_director_Initials + build_string_score("directors.director",str(len(splitDirector))),
                     },
                 },
-                "script": {
-                    "source": score_director_Initials + build_string_score("directors.director",str(len(splitDirector))),
-                },
-            },
-        }
-
-        nested_director["nested"]["query"]["dis_max"]["queries"].append(director_ORFuzzy)
-        nested_director["nested"]["query"]["dis_max"]["queries"].append(director_Initials)
+            }
+            nested_director["nested"]["query"]["dis_max"]["queries"].append(director_Initials)
 
     return nested_director

@@ -58,6 +58,6 @@ def generate_query(metadata, min_threshold = 70):
 
 
     if query_titles:
-        json_output_query += "{}\n" + json.dumps(json_metadata_query) + "\n"
+        json_output_query += "{}\n" + json.dumps(json_metadata_query)
 
     return json_output_query
