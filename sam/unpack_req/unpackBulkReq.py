@@ -5,21 +5,21 @@ def execute(event, context):
     body = json.loads(event['body'])
     items = body["items"]
     n_items = len(items)
+    print(items)    
+    print(n_items)
     l_req = []
-    unpack_res = "["
+    unpack_res = [] 
     for x in range(n_items):
-        req = items[x-1]
+        req = items[x]
         l_req.append(req)    
     l_res = unpack(l_req=l_req)
     for y in range(len(l_res)):
-        el = json.dumps(l_res[y-1])
-        sep = "" if y==len(l_res)-1 else ","
-        unpack_res = unpack_res + json.loads(el) + sep
-    unpack_res = unpack_res + "]"
-    print(unpack_res)
-    print("\nFINE")
+        ll_res = json.loads(l_res[y])
+        for z in range(len(ll_res)):
+            unpack_res.append(ll_res[z])
+    print("\nFINEE")
     return {
         'statusCode': 200,
-        'body': unpack_res,
+        'body': json.dumps(unpack_res),
         'headers' : {'Content-type': 'application/json'}
     }
