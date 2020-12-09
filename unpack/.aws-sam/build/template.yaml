@@ -7,7 +7,7 @@ Description: 'unpack
   '
 Globals:
   Function:
-    Timeout: 10
+    Timeout: 30
 Resources:
   UnpackThreadFunction:
     Type: AWS::Serverless::Function
@@ -18,7 +18,10 @@ Resources:
       CodeUri: UnpackThreadFunction
       Handler: app.lambdaHandler
       Runtime: nodejs12.x
-      Timeout: 10
+      Timeout: 30
+      Environment:
+        Variables:
+          CHUNK_SIZE: 10
       Events:
         UnpackThreadAPI:
           Type: Api

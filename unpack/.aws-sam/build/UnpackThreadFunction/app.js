@@ -23,25 +23,37 @@ const runThread = async (reqItem) => {
 
           const body = JSON.parse(payload.body);
 
-          console.log(body);
           resolve(body);
+
+          console.log(`Single thread time: - ${+new Date() - start}`);
         }
       }
     );
-
-    console.log(
-      `Single thread time: ${reqItem["title"]} - ${+new Date() - start}`
-    );
   });
+};
+
+const chunkArray = (array, chunk_size) => {
+  var results = [];
+
+  while (array.length) {
+    results.push(array.splice(0, chunk_size));
+  }
+
+  return results;
 };
 
 exports.lambdaHandler = async (event, context) => {
   const unpack_promises = [];
 
+  const chunk_size = process.env.CHUNK_SIZE || 5;
+
   const reqBody = JSON.parse(event.body);
 
   if (Array.isArray(reqBody)) {
-    reqBody.forEach((item) => {
+    // Chunk array into n subarrays
+    const pmatchArray = chunkArray(reqBody, chunk_size);
+
+    pmatchArray.forEach((item) => {
       unpack_promises.push(runThread(item));
     });
   }
@@ -51,12 +63,20 @@ exports.lambdaHandler = async (event, context) => {
 
   console.log("Overall thread pool time:", +new Date() - threaded_start);
 
+  const results = [];
+
+  unpack_results.forEach((resultArray) => {
+    resultArray.value.forEach((result) => {
+      results.push(result);
+    });
+  });
+
   const response = {
     statusCode: 200,
     headers: {
       "Content-type": "application/json",
     },
-    body: JSON.stringify(unpack_results),
+    body: JSON.stringify(results),
   };
 
   return response;
