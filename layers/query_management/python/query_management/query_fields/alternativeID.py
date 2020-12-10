@@ -1,0 +1,2 @@
+def generate_alternativeID(query_alternativeIDs, max_score):
+    return {"nested": {"path": "providerData", "query": {"script_score": {"query": {"terms": {"providerData.providerInfo.providerID": query_alternativeIDs}},"script": {"source": str(max_score)}}}}}
