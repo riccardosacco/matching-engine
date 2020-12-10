@@ -1,6 +1,6 @@
 import json
 import requests
-
+import time
 
 class ElasticSearch:
     def __init__(self, url, index):
@@ -18,6 +18,9 @@ class ElasticSearch:
             - index: Elastic data index
         """
         self._url = url + "/" + index
+
+    def get_timestamp(self):
+        return str(int(round(time.time() * 1000)))
 
     def query(self, query={}, params="", method="post"):
         """Query ElasticSearch
@@ -68,7 +71,8 @@ class ElasticSearch:
 
         newDocument = {
             "masterUUID": metadata["UUID"],
-            "providerData": [metadata]
+            "providerData": [metadata],
+            "lastUpdate": self.get_timestamp()
         }
 
         result = self.query(newDocument, params="_doc")
@@ -131,6 +135,9 @@ class ElasticSearch:
                                     # Check if same element with value is found
                                     found = list(filter(lambda obj: obj[keyObj] == valueObj, oldMetadata[key]))
                                     if len(found) == 0:
+                                        # Add lastUpdateDate
+                                        item["lastUpdateDate"] = self.get_timestamp()
+                                        
                                         # Append to array if not found
                                         oldMetadata[key].append(item)
 
@@ -143,6 +150,7 @@ class ElasticSearch:
                             # Append new item
                             others.append(item)
                             oldMetadata[key] = others
+                            oldMetadata["lastUpdate"] = str(int(round(time.time() * 1000)))
                         
                         # If no type is specified add if not exists
                         else:
