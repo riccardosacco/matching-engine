@@ -60,7 +60,7 @@ class ElasticSearch:
         else:
             return False
 
-    def create_document(self, metadata):
+    def create_document(self, metadata, alternatives):
         """Create new document on ElasticSearch
 
         Args:
@@ -68,6 +68,8 @@ class ElasticSearch:
 
         Returns: Document ID of new object
         """
+
+        # Add lastUpdate to type SCHED on document creation
 
         newDocument = {
             "masterUUID": metadata["UUID"],
@@ -103,7 +105,7 @@ class ElasticSearch:
         result = self.query(addMetadataQuery, params="_update/%s" % (doc_id))
         return result
 
-    def update_metadata(self, doc_id, metadata):
+    def update_metadata(self, doc_id, metadata, alternatives):
         """Update metadata to existing document
 
         Args:
@@ -120,6 +122,14 @@ class ElasticSearch:
         if oldMetadata == False:
             return False
         
+        # Loop throw alternatives array
+
+        # Check if providerData contains providerID
+
+        # If not exists add to metadata array object with providerInfo { providerID, providerName } and UUID
+
+        # If exists do nothing
+
         try:
             # Iterate over metadata
             for key, value in metadata.items():
@@ -135,8 +145,8 @@ class ElasticSearch:
                                     # Check if same element with value is found
                                     found = list(filter(lambda obj: obj[keyObj] == valueObj, oldMetadata[key]))
                                     if len(found) == 0:
-                                        # Add lastUpdateDate
-                                        item["lastUpdateDate"] = self.get_timestamp()
+                                        # Add lastUpdate
+                                        item["lastUpdate"] = self.get_timestamp()
                                         
                                         # Append to array if not found
                                         oldMetadata[key].append(item)
@@ -150,7 +160,7 @@ class ElasticSearch:
                             # Append new item
                             others.append(item)
                             oldMetadata[key] = others
-                            oldMetadata["lastUpdate"] = str(int(round(time.time() * 1000)))
+                            oldMetadata["lastUpdate"] = self.get_timestamp()
                         
                         # If no type is specified add if not exists
                         else:
