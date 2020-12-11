@@ -1,0 +1,143 @@
+{
+	"masterUUID" : "1a7fbdcb-9b25-435d-928f-310214c355d3",
+	"lastUpdate": 12345678,
+	"providerData" : [
+		{
+			"providerInfo" : {
+				"providerName" : "DataTV",
+				"providerID" : "DATATV_03"
+			},
+			"UUID" : "1a7fbdcb-9b25-435d-928f-310214c355d3",
+			"genre" : "1",
+			"titles" : [
+				{
+				  "type" : "SCHED",
+				  "lastUpdate": 12345678,
+				  "title" : "Deathpool"
+				}
+			],
+			"directors" : [
+				{
+				  "type" : "SCHED",
+				  "lastUpdate": 12345678,
+				  "director" : "Tim Miller"
+				}
+			],
+			"productionYears" : [
+				{
+				  "type" : "SCHED",
+				  "lastUpdate": 12345678,
+				  "productionYear" : 2016
+				}
+			]
+		},
+		{
+		  "providerInfo" : {
+			"providerName" : "IBMS",
+			"providerID" : "T_123"
+		  }
+		}
+	]
+}
+
+Richiesta di Update
+
+metadata:
+{
+	"providerInfo" : {
+		"providerName" : "DataTV",
+		"providerID" : "DATATV_03"
+	},
+	"UUID" : "1a7fbdcb-9b25-435d-928f-310214c355d3",
+	"genre" : "1",
+	"titles" : [
+		{
+		  "type" : "ENRICH",
+		  "title" : "Deadpool"
+		}
+	],
+	"directors" : [
+		{
+		  "type" : "ENRICH",
+		  "director" : "Tim Miller"
+		}
+	],
+	"productionYears" : [
+		{
+		  "type" : "ENRICH",
+		  "productionYear" : 2016
+		}
+	]
+}
+
+alternative:
+[
+	{
+	  "providerInfo" : {
+		"providerName" : "Mediaset",
+		"providerID" : "MS_03"
+	  }
+	}
+]
+
+Documento creato
+{
+	"masterUUID" : "1a7fbdcb-9b25-435d-928f-310214c355d3",
+	"lastUpdate": 45667890,
+	"providerData" : [
+		{
+			"providerInfo" : {
+				"providerName" : "DataTV",
+				"providerID" : "DATATV_03"
+			},
+			"UUID" : "1a7fbdcb-9b25-435d-928f-310214c355d3",
+			"genre" : "1",
+			"titles" : [
+				{
+				  "type" : "SCHED",
+				  "lastUpdate": 12345678,
+				  "title" : "Deathpool"
+				},
+				{
+				  "type" : "ENRICH",
+				  "title" : "Deadpool"
+				}
+			],
+			"directors" : [
+				{
+				  "type" : "SCHED",
+				  "lastUpdate": 12345678,
+				  "director" : "Tim Miller"
+				},
+				{
+				  "type" : "ENRICH",
+				  "director" : "Tim Miller"
+				}
+			],
+			"productionYears" : [
+				{
+				  "type" : "SCHED",
+				  "lastUpdate": 12345678,
+				  "productionYear" : 2016
+				},
+				{
+				  "type" : "ENRICH",
+				  "productionYear" : 2016
+				}
+			]
+		},
+		{
+		  "providerInfo" : {
+			"providerName" : "IBMS",
+			"providerID" : "T_123"
+		  }
+		},
+		{
+		  "providerInfo" : {
+			"providerName" : "Mediaset",
+			"providerID" : "MS_03"
+		  }
+		}
+	]
+}
+
