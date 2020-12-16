@@ -114,7 +114,7 @@ class ElasticSearch:
         result = self.query(addMetadataQuery, params="_update/%s" % (doc_id))
         return result
 
-    def update_metadata(self, doc_id, metadata, alternatives):
+    def update_metadata(self, doc_id, metadata, alternatives=[]):
         """Update metadata to existing document
 
         Args:
@@ -156,7 +156,8 @@ class ElasticSearch:
                                     if len(found) == 0:
                                         # Add lastUpdate
                                         item["lastUpdate"] = self.get_timestamp()
-                                        
+                                        oldMetadata["lastUpdate"] = self.get_timestamp()
+
                                         # Append to array if not found
                                         oldMetadata[key].append(item)
 
@@ -196,7 +197,6 @@ class ElasticSearch:
                 elif type(value) is bool:
                     oldMetadata[key] = value
 
-            oldMetadata["lastUpdate"] = self.get_timestamp()
             
             updateMetadataQuery = {
                 "script": {
