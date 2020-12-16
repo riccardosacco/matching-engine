@@ -60,7 +60,7 @@ class ElasticSearch:
         else:
             return False
 
-    def create_document(self, metadata):
+    def create_document(self, metadata, alternatives):
         """Create new document on ElasticSearch
 
         Args:
@@ -69,11 +69,22 @@ class ElasticSearch:
         Returns: Document ID of new object
         """
 
+        for key, value in metadata.items():
+            if type(value) is list:
+                for item in value:
+                    if str(item.get("type")).lower() == "sched":
+                        # Add lastUpdate
+                        item["lastUpdate"] = self.get_timestamp()
+
         newDocument = {
             "masterUUID": metadata["UUID"],
             "providerData": [metadata],
             "lastUpdate": self.get_timestamp()
         }
+
+        for alternative in alternatives:
+            alternative["UUID"] = metadata["UUID"]
+            newDocument["providerData"].append(alternative)
 
         result = self.query(newDocument, params="_doc")
         return result["_id"]
@@ -103,7 +114,7 @@ class ElasticSearch:
         result = self.query(addMetadataQuery, params="_update/%s" % (doc_id))
         return result
 
-    def update_metadata(self, doc_id, metadata):
+    def update_metadata(self, doc_id, metadata, alternatives=[]):
         """Update metadata to existing document
 
         Args:
@@ -120,6 +131,14 @@ class ElasticSearch:
         if oldMetadata == False:
             return False
         
+        # Loop throw alternatives array
+        for alternative in alternatives:
+        # Check if providerData contains providerID
+            if self.get_metadata(doc_id, alternative) == False:
+        # If not exists add to metadata array object with providerInfo { providerID, providerName }
+                alternative["UUID"] = metadata["UUID"]
+                self.add_metadata(doc_id, alternative)
+
         try:
             # Iterate over metadata
             for key, value in metadata.items():
@@ -128,29 +147,30 @@ class ElasticSearch:
                 if type(value) is list:
                     for item in value:
                         # If type is equal to SCHED add if not exists and keep the others
-                        if str(item.get("type")).lower() == "sched":
+                        if str(item.get("type")) == "SCHED":
                             # Iterate on object
                             for keyObj, valueObj in item.items(): 
-                                if keyObj != "type":
+                                if keyObj != "type" and keyObj != "lastUpdate":
                                     # Check if same element with value is found
                                     found = list(filter(lambda obj: obj[keyObj] == valueObj, oldMetadata[key]))
                                     if len(found) == 0:
-                                        # Add lastUpdateDate
-                                        item["lastUpdateDate"] = self.get_timestamp()
-                                        
+                                        # Add lastUpdate
+                                        item["lastUpdate"] = self.get_timestamp()
+                                        oldMetadata["lastUpdate"] = self.get_timestamp()
+
                                         # Append to array if not found
                                         oldMetadata[key].append(item)
 
 
                         # If type is equal to ENRICH replace all ENRICH with the new item
-                        elif str(item.get("type")).lower() == "enrich":
+                        elif str(item.get("type")) == "ENRICH":
+                            
                             # Filter out all objects with type ENRICH
-                            others = list(filter(lambda obj: str(obj.get("type")) != "enrich", oldMetadata[key]))
+                            others = list(filter(lambda obj: str(obj.get("type")) != "ENRICH", oldMetadata[key]))
 
                             # Append new item
                             others.append(item)
                             oldMetadata[key] = others
-                            oldMetadata["lastUpdate"] = str(int(round(time.time() * 1000)))
                         
                         # If no type is specified add if not exists
                         else:
@@ -177,6 +197,7 @@ class ElasticSearch:
                 elif type(value) is bool:
                     oldMetadata[key] = value
 
+            
             updateMetadataQuery = {
                 "script": {
                     "source": """
@@ -187,17 +208,18 @@ class ElasticSearch:
                                     data[metadata.getKey()] = params[metadata.getKey()]
                                 }
                             }
-                        }""",
+                        }
+                        ctx._source.lastUpdate = params["lastUpdate"]
+                        """,
                     "params": oldMetadata
                 }
             }
 
             result = self.query(updateMetadataQuery, params="_update/%s" % (doc_id))
+
         except:
             return False
         
-        print(oldMetadata)
-
         return True
 
     def delete_metadata(self, doc_id, metadata):
