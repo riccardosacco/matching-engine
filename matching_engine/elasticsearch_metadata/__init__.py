@@ -130,7 +130,7 @@ class ElasticSearch:
         
         if oldMetadata == False:
             return False
-        
+                
         # Loop throw alternatives array
         for alternative in alternatives:
         # Check if providerData contains providerID
@@ -141,7 +141,7 @@ class ElasticSearch:
 
         try:
             # Iterate over metadata
-            for key, value in metadata.items():
+            for key, value in list(metadata.items()):
 
                 # If metadata value is list don't override
                 if type(value) is list:
@@ -149,7 +149,7 @@ class ElasticSearch:
                         # If type is equal to SCHED add if not exists and keep the others
                         if str(item.get("type")) == "SCHED":
                             # Iterate on object
-                            for keyObj, valueObj in item.items(): 
+                            for keyObj, valueObj in list(item.items()): 
                                 if keyObj != "type" and keyObj != "lastUpdate":
                                     # Check if same element with value is found
                                     found = list(filter(lambda obj: obj[keyObj] == valueObj, oldMetadata[key]))
@@ -175,7 +175,7 @@ class ElasticSearch:
                         # If no type is specified add if not exists
                         else:
                             # Iterate on object
-                            for keyObj, valueObj in item.items(): 
+                            for keyObj, valueObj in list(item.items()): 
                                 
                                 # Check if same element with value is found
                                 found = list(filter(lambda obj: obj[keyObj] == valueObj, oldMetadata[key]))
@@ -217,7 +217,8 @@ class ElasticSearch:
 
             result = self.query(updateMetadataQuery, params="_update/%s" % (doc_id))
 
-        except:
+        except Exception as e:
+            print(e)
             return False
         
         return True
