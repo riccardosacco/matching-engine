@@ -1,0 +1,2 @@
+def generate_seasonNum(query_seasonNum, max_score):
+    return {"nested": {"path": "providerData.episodeData", "query": {"script_score": {"query": {"term": {"providerData.episodeData.seasonNumber": query_seasonNum}},"script": {"source": str(max_score)}}}}}

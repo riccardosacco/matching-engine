@@ -1,0 +1,2 @@
+def generate_seriesID(query_seriesID, max_score):
+    return {"nested": {"path": "providerData.episodeData", "query": {"script_score": {"query": {"term": {"providerData.episodeData.seriesID": query_seriesID}},"script": {"source": str(max_score)}}}}}

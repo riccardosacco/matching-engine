@@ -19,7 +19,7 @@ def generate_query(matchitems, min_threshold = 70):
             query_alternativeIDs: array[string],
             query_titles: array[string],
             query_directors: array[string],
-            query_year: string
+            query_year: string,
             filter_genre: string
         }]
     Return: Query Object (in JSON format)
@@ -33,14 +33,13 @@ def generate_query(matchitems, min_threshold = 70):
         query_directors = metadata.get("query_directors")
         query_year = metadata.get("query_year")
         filter_genre = metadata.get("filter_genre")
-		
-        json_metadata_query = {
+
+        json_query = {
             "min_score": min_threshold,
         #   "_source": ["masterUUID","providerData.UUID","providerData.providerInfo"],
             "query": {
                 "bool": {
-                    "should": [],
-                    "filter": []
+                    "should": []
                 }
             },
         }
@@ -48,36 +47,44 @@ def generate_query(matchitems, min_threshold = 70):
         if query_providerID:
             max_score = 10000
             nested_providerID = generate_providerID(query_providerID,max_score)
-            json_metadata_query["query"]["bool"]["should"].append(nested_providerID)
+            json_query["query"]["bool"]["should"].append(nested_providerID)
 
         if query_alternativeIDs:
             max_score = 1000
             nested_alternativeID = generate_alternativeID(query_alternativeIDs,max_score)
-            json_metadata_query["query"]["bool"]["should"].append(nested_alternativeID)
-
-        if query_titles:
-            max_score = 50
-
-            nested_title = generate_title(query_titles, max_score)
-            json_metadata_query["query"]["bool"]["should"].append(nested_title)
-
-        if query_directors:
-            max_score = 25
-
-            nested_director = generate_director(query_directors, max_score)
-            json_metadata_query["query"]["bool"]["should"].append(nested_director)
-
-        if query_year:
-            max_score = 25
-
-            nested_year = generate_year(query_year, max_score)
-            json_metadata_query["query"]["bool"]["should"].append(nested_year)
-
-        if filter_genre:
-            nested_genre = generate_genre(filter_genre)
-            json_metadata_query["query"]["bool"]["filter"].append(nested_genre)
+            json_query["query"]["bool"]["should"].append(nested_alternativeID)
 
         if query_titles or query_directors or query_year:
-            json_output_query += "{}\n" + json.dumps(json_metadata_query) + "\n"
+            json_metadata_query = {
+                "bool": {
+                    "should": [],
+                    "filter": []
+                }
+            }
+
+            if query_titles:
+                max_score = 50
+       
+                nested_title = generate_title(query_titles, max_score)
+                json_metadata_query["bool"]["should"].append(nested_title)
+       
+            if query_directors:
+                max_score = 25
+       
+                nested_director = generate_director(query_directors, max_score)
+                json_metadata_query["bool"]["should"].append(nested_director)
+       
+            if query_year:
+                max_score = 25
+       
+                nested_year = generate_year(query_year, max_score)
+                json_metadata_query["bool"]["should"].append(nested_year)
+
+            nested_genre = generate_genre(filter_genre)
+            json_metadata_query["bool"]["filter"].append(nested_genre)
+
+            json_query["query"]["bool"]["should"].append(json_metadata_query)
+
+        json_output_query += "{}\n" + json.dumps(json_query) + "\n"
     
     return json_output_query

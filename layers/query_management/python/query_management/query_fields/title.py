@@ -14,6 +14,7 @@ def generate_title(query_titles, max_score):
         clearTitle = query_title.replace('-', '')
         splitTitle = re.sub(r"([a-z])([A-Z])", r"\1 \2", clearTitle).split(" ")
         # TITLE QUERY
+        
         title_exactMatchFuzzy = {
             "script_score": {
                 "query": {"match": {"providerData.titles.title.keyword": {"query": query_title, "fuzziness": "auto"}}},

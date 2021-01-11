@@ -1,0 +1,2 @@
+def generate_episodeNum(query_episodeNum, max_score):
+    return {"nested": {"path": "providerData.episodeData", "query": {"script_score": {"query": {"term": {"providerData.episodeData.episodeNumber": query_episodeNum}},"script": {"source": str(max_score)}}}}}
