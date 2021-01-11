@@ -60,7 +60,7 @@ class ElasticSearch:
         else:
             return False
 
-    def create_document(self, metadata, alternatives):
+    def create_document(self, metadata, alternatives, masterUUIDSeries = None):
         """Create new document on ElasticSearch
 
         Args:
@@ -77,7 +77,7 @@ class ElasticSearch:
                         item["lastUpdate"] = self.get_timestamp()
 
         newDocument = {
-            "masterUUID": metadata["UUID"],
+            "masterUUID": metadata["UUID"] if masterUUIDSeries == None else masterUUIDSeries,
             "providerData": [metadata],
             "lastUpdate": self.get_timestamp()
         }
