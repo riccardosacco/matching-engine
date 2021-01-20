@@ -36,3 +36,6 @@ def generate_year(query_year, max_score):
     nested_year["nested"]["query"]["dis_max"]["queries"].append(year_fuzzy1)
 
     return nested_year
+
+def generate_empty_year(max_score):
+    return {"script_score": {"query": {"bool": {"must_not": [{"nested": {"path": "providerData.productionYears","query": {"bool": {"must": {"exists": {"field": "providerData.productionYears"}}}}}}]}},"script": {"source": str(max_score)}}}

@@ -4,6 +4,7 @@ from query_management.query_fields.providerID import generate_providerID
 from query_management.query_fields.title import generate_title
 from query_management.query_fields.year import generate_year
 from query_management.query_fields.genre import generate_genre
+from query_management.query_fields.emptyField import generate_emptyField
 
 def generate_query(matchitems, min_threshold = 70):
     """
@@ -20,6 +21,11 @@ def generate_query(matchitems, min_threshold = 70):
         }
     Return: Query Object (in JSON format)
     """
+    
+    json_output_query = ""
+    title_max_score = 70
+    year_max_score = 30
+
     for metadata in matchitems:
        query_providerID = metadata.get("query_providerID")
        query_titles = metadata.get("query_titles")
@@ -35,8 +41,6 @@ def generate_query(matchitems, min_threshold = 70):
             },
         }
     
-       json_output_query = ""
-    
        if query_providerID:
            max_score = 10000
            nested_providerID = generate_providerID(query_providerID,max_score)
@@ -51,14 +55,14 @@ def generate_query(matchitems, min_threshold = 70):
            }
     
            if query_titles:
-               max_score = 70
-               nested_title = generate_title(query_titles, max_score)
+               nested_title = generate_title(query_titles, title_max_score)
                json_metadata_query["bool"]["should"].append(nested_title)
           
            if query_year:
-               max_score = 30
-               nested_year = generate_year(query_year, max_score)
+               nested_year = generate_year(query_year, year_max_score)
+               #empty_year = generate_emptyField("productionYears",year_max_score)
                json_metadata_query["bool"]["should"].append(nested_year)
+               #json_metadata_query["bool"]["should"].append(empty_year)
     
            nested_genre = generate_genre(filter_genre)
            json_metadata_query["bool"]["filter"].append(nested_genre)
