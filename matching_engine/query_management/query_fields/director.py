@@ -53,3 +53,6 @@ def generate_director(query_directors, max_score):
             nested_director["nested"]["query"]["dis_max"]["queries"].append(director_Initials)
 
     return nested_director
+
+def generate_empty_director(max_score):
+    return {"script_score": {"query": {"bool": {"must_not": [{"nested": {"path": "providerData.directors","query": {"bool": {"must": {"exists": {"field": "providerData.directors"}}}}}}]}},"script": {"source": str(max_score)}}}
