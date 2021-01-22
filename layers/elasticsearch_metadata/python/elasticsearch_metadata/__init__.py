@@ -2,6 +2,7 @@ import json
 import requests
 import time
 
+
 class ElasticSearch:
     def __init__(self, url, index):
         """
@@ -60,7 +61,7 @@ class ElasticSearch:
         else:
             return False
 
-    def create_document(self, metadata, alternatives, masterUUIDSeries = None):
+    def create_document(self, metadata, alternatives, masterUUIDSeries=None):
         """Create new document on ElasticSearch
 
         Args:
@@ -89,6 +90,15 @@ class ElasticSearch:
         result = self.query(newDocument, params="_doc")
         return result["_id"]
 
+    def update_document(self, doc_id, values):
+        updateDocumentQuery = {
+            "doc": values
+        }
+        result = self.query(updateDocumentQuery,
+                            params="_update/%s" % (doc_id))
+
+        return result
+
     def delete_document(self, doc_id) -> bool:
         result = self.query(method="delete", params="_doc/%s" % (doc_id))
 
@@ -111,6 +121,17 @@ class ElasticSearch:
             }
         }
 
+        try:
+            for key, value in list(metadata.items()):
+                if type(value) is list:
+                    for item in value:
+                        if str(item.get("type")) == "ENRICH":
+                            self.update_document(doc_id, {"is_enriched": True})
+                            break
+        except Exception as e:
+            print(e)
+            return False
+
         result = self.query(addMetadataQuery, params="_update/%s" % (doc_id))
         return result
 
@@ -127,15 +148,15 @@ class ElasticSearch:
 
         # Get metadata
         oldMetadata = self.get_metadata(doc_id, metadata)
-        
+
         if oldMetadata == False:
             return False
-                
+
         # Loop throw alternatives array
         for alternative in alternatives:
-        # Check if providerData contains providerID
+            # Check if providerData contains providerID
             if self.get_metadata(doc_id, alternative) == False:
-        # If not exists add to metadata array object with providerInfo { providerID, providerName }
+                # If not exists add to metadata array object with providerInfo { providerID, providerName }
                 alternative["UUID"] = metadata["UUID"]
                 self.add_metadata(doc_id, alternative)
 
@@ -149,40 +170,45 @@ class ElasticSearch:
                         # If type is equal to SCHED add if not exists and keep the others
                         if str(item.get("type")) == "SCHED":
                             # Iterate on object
-                            for keyObj, valueObj in list(item.items()): 
+                            for keyObj, valueObj in list(item.items()):
                                 if keyObj != "type" and keyObj != "lastUpdate":
                                     # Check if same element with value is found
-                                    found = list(filter(lambda obj: obj[keyObj] == valueObj, oldMetadata[key]))
+                                    found = list(
+                                        filter(lambda obj: obj[keyObj] == valueObj, oldMetadata[key]))
                                     if len(found) == 0:
                                         # Add lastUpdate
                                         item["lastUpdate"] = self.get_timestamp()
-                                        oldMetadata["lastUpdate"] = self.get_timestamp()
+                                        oldMetadata["lastUpdate"] = self.get_timestamp(
+                                        )
 
                                         # Append to array if not found
                                         oldMetadata[key].append(item)
 
-
                         # If type is equal to ENRICH replace all ENRICH with the new item
                         elif str(item.get("type")) == "ENRICH":
-                            
+
                             # Filter out all objects with type ENRICH
-                            others = list(filter(lambda obj: str(obj.get("type")) != "ENRICH", oldMetadata[key]))
+                            others = list(filter(lambda obj: str(
+                                obj.get("type")) != "ENRICH", oldMetadata[key]))
 
                             # Append new item
                             others.append(item)
                             oldMetadata[key] = others
-                        
+
+                            # Set is_enriched flag to true
+                            self.update_document(doc_id, {"is_enriched": True})
+
                         # If no type is specified add if not exists
                         else:
                             # Iterate on object
-                            for keyObj, valueObj in list(item.items()): 
-                                
+                            for keyObj, valueObj in list(item.items()):
+
                                 # Check if same element with value is found
-                                found = list(filter(lambda obj: obj[keyObj] == valueObj, oldMetadata[key]))
+                                found = list(
+                                    filter(lambda obj: obj[keyObj] == valueObj, oldMetadata[key]))
                                 if len(found) == 0:
                                     # Append to array if not found
                                     oldMetadata[key].append(item)
-
 
                 # If metadata value is dictionary
                 elif type(value) is dict:
@@ -197,7 +223,6 @@ class ElasticSearch:
                 elif type(value) is bool:
                     oldMetadata[key] = value
 
-            
             updateMetadataQuery = {
                 "script": {
                     "source": """
@@ -215,12 +240,13 @@ class ElasticSearch:
                 }
             }
 
-            result = self.query(updateMetadataQuery, params="_update/%s" % (doc_id))
+            result = self.query(updateMetadataQuery,
+                                params="_update/%s" % (doc_id))
 
         except Exception as e:
             print(e)
             return False
-        
+
         return True
 
     def delete_metadata(self, doc_id, metadata):
@@ -310,6 +336,33 @@ class ElasticSearch:
 
         return document
 
+    def get_document_id_by_UUID(self, masterUUID):
+        queryUUID = {
+            "query": {
+                "match": {
+                    "masterUUID": masterUUID
+                }
+            }
+        }
+
+        # Get document ID
+        result = self.query(queryUUID, params="_search")
+
+        # If document is found
+        if(len(result["hits"]["hits"]) != 0):
+            doc_id = result["hits"]["hits"][0]["_id"]
+        else:
+            doc_id = False
+
+        return doc_id
+
+    def update_document_by_UUID(self, masterUUID, values):
+        doc_id = self.get_document_id_by_UUID(masterUUID)
+
+        result = self.update_document(doc_id, values)
+
+        return result
+
     def add_metadata_by_UUID(self, masterUUID, metadata):
         queryUUID = {
             "query": {
@@ -334,9 +387,9 @@ class ElasticSearch:
             },
             "script": {
                 "source": "ctx._source.providerData.removeIf(data -> data.UUID == params.UUID)",
-                    "params": {
-                        "UUID": UUID
-                    }
+                "params": {
+                    "UUID": UUID
+                }
             }
         }
 
@@ -353,7 +406,8 @@ class ElasticSearch:
 
         try:
             # Delete metadata from ES document
-            self.delete_metadata(source_doc_id, metadata["providerInfo"]["providerID"])
+            self.delete_metadata(
+                source_doc_id, metadata["providerInfo"]["providerID"])
 
             # Add metadata to destination ES document
             self.add_metadata(dest_doc_id, metadata)
@@ -361,7 +415,7 @@ class ElasticSearch:
             return True
         except:
             return False
-        
+
     def move_metadata_to_new(self, source_doc_id, dest_UUID, metadata):
         """Move metadata to existing document
 
@@ -372,7 +426,8 @@ class ElasticSearch:
         """
 
         # Delete metadata from source_doc_id
-        self.delete_metadata(source_doc_id, metadata["providerInfo"]["providerID"])
+        self.delete_metadata(
+            source_doc_id, metadata["providerInfo"]["providerID"])
 
         # Create document and return document ID
         return self.create_document(dest_UUID, metadata)

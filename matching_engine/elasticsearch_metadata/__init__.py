@@ -121,6 +121,17 @@ class ElasticSearch:
             }
         }
 
+        try:
+            for key, value in list(metadata.items()):
+                if type(value) is list:
+                    for item in value:
+                        if str(item.get("type")) == "ENRICH":
+                            self.update_document(doc_id, {"is_enriched": True})
+                            break
+        except Exception as e:
+            print(e)
+            return False
+
         result = self.query(addMetadataQuery, params="_update/%s" % (doc_id))
         return result
 
