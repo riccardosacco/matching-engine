@@ -1,0 +1,101 @@
+{
+	"lastUpdate": "1606858002",
+	"masterUUID": "076fd694-6309-4020-855b-64b50a382ad6",
+	"providerData": [
+		{
+			"UUID": "076fd694-6309-4020-855b-64b50a382ad6",
+			"entitySubtype": "programme",
+			"providerInfo": {
+				"providerName": "ibms",
+				"providerID": "39153043"
+			},
+			"genre": "3",
+			"titles": [
+				{
+					"type": "SCHED",
+					"lastUpdate": "1649772240000",
+					"title": "i delitti del barlume - mare forza quattro"
+				},
+				{
+					"type": "SCHED",
+					"lastUpdate": "1655027640000",
+					"title": "i delitti del barlume - mare forza quatt"
+				},
+				{
+					"type": "SCHED",
+					"lastUpdate": "1617282060000",
+					"title": "i delitti del barlume mare forza quattro"
+				},
+				{
+					"type": "SCHED",
+					"lastUpdate": "1625158860000",
+					"title": "i delitti del barlume-mare forza quattro"
+				}
+			],
+			"productionYears": [
+				{
+					"type": "SCHED",
+					"lastUpdate": "1649772240000",
+					"productionYear": 2020
+				}
+			],
+			"directors": [
+				{
+					"type": "SCHED",
+					"lastUpdate": "1649772240000",
+					"director": "R.Johnson"
+				},
+				{
+					"type": "SCHED",
+					"lastUpdate": "1655027640000",
+					"director": "Roan Johnson"
+				},
+				{
+					"type": "SCHED",
+					"lastUpdate": "1617282060000",
+					"director": "R. Johnson"
+				}
+			]
+		},
+		{
+			"UUID": "076fd694-6309-4020-855b-64b50a382ad6",
+			"entitySubtype": "programme",
+			"providerInfo": {
+				"providerName": "datatv",
+				"providerID": "datatv_p256255"
+			},
+			"genre": "3",
+			"titles": [
+				{
+					"type": "SCHED",
+					"lastUpdate": "1609362600000",
+					"title": "i delitti del barlume-mare forza quattro"
+				},
+				{
+					"type": "ENRICH",
+					"lastUpdate": "1611129300000",
+					"title": "i delitti del barlume-mare forza quattro"
+				},
+				{
+					"type": "ENRICH",
+					"lastUpdate": "1611129300000",
+					"title": "I delitti del BarLume - Mare forza quattro"
+				}
+			],
+			"productionYears": [
+				{
+					"type": "ENRICH",
+					"lastUpdate": "1611129300000",
+					"productionYear": "2020"
+				}
+			],
+			"directors": [
+				{
+					"type": "ENRICH",
+					"lastUpdate": "1611129300000",
+					"director": "Roan Johnson"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+  "lastUpdate": "1656677460000",
+  "is_enriched": true,
+  "masterUUID": "35d3c518-03a5-4814-bd9f-3160d49dd4eb",
+  "providerData": [
+	{
+	  "UUID": "35d3c518-03a5-4814-bd9f-3160d49dd4eb",
+	  "providerInfo": {
+		"providerName": "datatv",
+		"providerID": "datatv_se232911"
+	  },
+	  "genre": "4",
+	  "titles": [
+		{
+		  "type": "ENRICH",
+		  "lastUpdate": "1656677460000",
+		  "title": "Vita da ricchi"
+		},
+		{
+		  "type": "ENRICH",
+		  "lastUpdate": "1656677460000",
+		  "title": "How the Other Half Lives"
+		}
+	  ],
+	  "productionYears": [
+		{
+		  "type": "ENRICH",
+		  "lastUpdate": "1656677460000",
+		  "productionYear": "2015"
+		}
+	  ]
+	}
+  ]
+}
