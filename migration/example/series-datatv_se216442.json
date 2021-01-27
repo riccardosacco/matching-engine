@@ -3,32 +3,32 @@
   "is_enriched": true,
   "masterUUID": "efff3208-9d54-4453-bdad-25b862e20cf9",
   "providerData": [
-	{
-	  "UUID": "efff3208-9d54-4453-bdad-25b862e20cf9",
-	  "providerInfo": {
-		"providerName": "datatv",
-		"providerID": "datatv_se216442"
-	  },
-	  "genre": "4",
-	  "titles": [
-		{
-		  "type": "ENRICH",
-		  "lastUpdate": "1643726700000",
-		  "title": "Senza filtri"
-		},
-		{
-		  "type": "ENRICH",
-		  "lastUpdate": "1643726700000",
-		  "title": "Uncensored with Michael Ware"
-		}
-	  ],
-	  "productionYears": [
-		{
-		  "type": "ENRICH",
-		  "lastUpdate": "1643726700000",
-		  "productionYear": "2017"
-		}
-	  ]
-	}
+    {
+      "UUID": "efff3208-9d54-4453-bdad-25b862e20cf9",
+      "providerInfo": {
+        "providerName": "datatv",
+        "providerID": "datatv_se216442"
+      },
+      "genre": "4",
+      "titles": [
+        {
+          "type": "ENRICH",
+          "lastUpdate": "1643726700000",
+          "title": "Senza filtri"
+        },
+        {
+          "type": "ENRICH",
+          "lastUpdate": "1643726700000",
+          "title": "Uncensored with Michael Ware"
+        }
+      ],
+      "productionYears": [
+        {
+          "type": "ENRICH",
+          "lastUpdate": "1643726700000",
+          "productionYear": "2017"
+        }
+      ]
+    }
   ]
 }

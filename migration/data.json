@@ -62,11 +62,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": [
-      "Niccol\u00f2 e Alessandra",
-      "Niccol\u00f2 e Alessandra",
-      "Niccol\u00f2 e Alessandra"
-    ],
+    "alt_title": ["Niccol\u00f2 e Alessandra"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -132,7 +128,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Il significato", "Meaning", "Il significato"],
+    "alt_title": ["Meaning", "Il significato"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -220,11 +216,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Una giornata quasi perfetta",
-      "Una giornata quasi perfetta",
-      "Una giornata quasi perfetta"
-    ],
+    "alt_title": ["Una giornata quasi perfetta"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -400,7 +392,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "b2016491-885b-4072-96bc-671eb98803d4",
-    "alt_title": ["Pigiama party", "Pigiama party", "Pigiama party"],
+    "alt_title": ["Pigiama party"],
     "seriesProviderId": "datatv_se256936"
   },
   {
@@ -422,7 +414,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "b2016491-885b-4072-96bc-671eb98803d4",
-    "alt_title": ["Pigiama party", "Pigiama party", "Pigiama party"],
+    "alt_title": ["Pigiama party"],
     "seriesProviderId": "datatv_se256936"
   },
   {
@@ -466,11 +458,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "I mille volti dell'amore",
-      "Love Hurts",
-      "I mille volti dell'amore"
-    ],
+    "alt_title": ["I mille volti dell'amore", "Love Hurts"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -580,7 +568,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["18/12/20", "18/12/20", "18/12/20"],
+    "alt_title": ["18/12/20"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -646,7 +634,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Daniele e Jacky", "Daniele e Jacky", "Daniele e Jacky"],
+    "alt_title": ["Daniele e Jacky"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -758,8 +746,7 @@
     "seriesUUID": "",
     "alt_title": [
       "Il Padrino: Epilogo - La morte di Michael Corleone",
-      "The Godfather Coda: The Death Of Michael Corleone",
-      "Il Padrino: Epilogo - La morte di Michael Corleone"
+      "The Godfather Coda: The Death Of Michael Corleone"
     ],
     "seriesProviderId": ""
   },
@@ -892,11 +879,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Un incontro speciale",
-      "Matchmaker Christmas",
-      "Un incontro speciale"
-    ],
+    "alt_title": ["Un incontro speciale", "Matchmaker Christmas"],
     "seriesProviderId": ""
   },
   {
@@ -1006,7 +989,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Fuori controllo", "Out of the Chute", "Fuori controllo"],
+    "alt_title": ["Fuori controllo", "Out of the Chute"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -1182,7 +1165,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "0b550d81-20aa-431d-9372-7a9ed673dec1",
-    "alt_title": ["Muriel", "Muriel", "Muriel"],
+    "alt_title": ["Muriel"],
     "seriesProviderId": "datatv_se250592"
   },
   {
@@ -1403,9 +1386,8 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "I delitti del BarLume-Mare forza quattro",
-      "I delitti del BarLume-Mare forza quattro",
-      "I delitti del BarLume - Mare forza quattro"
+      "I delitti del BarLume - Mare forza quattro",
+      "I delitti del BarLume-Mare forza quattro"
     ],
     "seriesProviderId": ""
   },
@@ -1472,11 +1454,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "La caduta dell'angelo",
-      "Fall from Grace",
-      "La caduta dell'angelo"
-    ],
+    "alt_title": ["La caduta dell'angelo", "Fall from Grace"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -1592,7 +1570,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Ad ogni costo", "Whatever It Takes", "Ad ogni costo"],
+    "alt_title": ["Whatever It Takes", "Ad ogni costo"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -1636,7 +1614,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Espedienti", "The Fix", "Espedienti"],
+    "alt_title": ["The Fix", "Espedienti"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -1724,11 +1702,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "adc3e47f-d252-40b6-a3ff-9c5d0cdbb1c5",
-    "alt_title": [
-      "Buonanotte Platinum City / Steelzilla",
-      "Buonanotte Platinum City / Steelzilla",
-      "Buonanotte Platinum City / Steelzilla"
-    ],
+    "alt_title": ["Buonanotte Platinum City / Steelzilla"],
     "seriesProviderId": "datatv_se255631"
   },
   {
@@ -1818,8 +1792,8 @@
     "seriesUUID": "",
     "alt_title": [
       "David Bowie: Die letzten Jahre",
-      "David Bowie - The Last Five Years",
-      "David Bowie - Gli ultimi 5 anni"
+      "David Bowie - Gli ultimi 5 anni",
+      "David Bowie - The Last Five Years"
     ],
     "seriesProviderId": ""
   },
@@ -1909,12 +1883,12 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
+      "Robosapien - Mein Freund Cody",
       "Cody the Robosapien",
       "Cody Le Robosapien",
+      "Cody il mio amico robot",
       "Cody un robot con coraz\u00f3n",
-      "Robosapien - Mein Freund Cody",
-      "Robosapien: Rebooted",
-      "Cody il mio amico robot"
+      "Robosapien: Rebooted"
     ],
     "seriesProviderId": ""
   },
@@ -2114,13 +2088,12 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Minna & The Dreambuilders",
-      "Dreambuilders",
-      "Mina und die Traumzauberer",
-      "Dr\u00f8mmebyggerne",
       "A Fabrica dos Sonhos",
-      "Dr\u00f8mmebyggerne",
-      "Dreambuilders - La fabbrica dei sogni"
+      "Minna & The Dreambuilders",
+      "Mina und die Traumzauberer",
+      "Dreambuilders",
+      "Dreambuilders - La fabbrica dei sogni",
+      "Dr\u00f8mmebyggerne"
     ],
     "seriesProviderId": ""
   },
@@ -2209,7 +2182,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Inan\u00e7", "TENET??", "Tenet", "Tenet"],
+    "alt_title": ["TENET??", "Inan\u00e7", "Tenet"],
     "seriesProviderId": ""
   },
   {
@@ -2297,7 +2270,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "be4f1446-e931-406f-9764-99a3e04d83c7",
-    "alt_title": ["Freddo", "Frozen Out", "Freddo"],
+    "alt_title": ["Freddo", "Frozen Out"],
     "seriesProviderId": "datatv_se256180"
   },
   {
@@ -2341,7 +2314,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": ["Giulia", "Giulia", "Giulia"],
+    "alt_title": ["Giulia"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -2451,7 +2424,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Piegato. 2a parte", "Broken. Part 2", "Piegato. 2a parte"],
+    "alt_title": ["Broken. Part 2", "Piegato. 2a parte"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -2495,7 +2468,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 8", "Cooking with (Corner) Gas", "Ep. 8"],
+    "alt_title": ["Ep. 8", "Cooking with (Corner) Gas"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -2583,7 +2556,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["House of Cardin", "House of Cardin", "House of Cardin"],
+    "alt_title": ["House of Cardin"],
     "seriesProviderId": ""
   },
   {
@@ -2627,7 +2600,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["In volo", "Airborne", "In volo"],
+    "alt_title": ["In volo", "Airborne"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -2671,7 +2644,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Infedele", "Unfaithful", "Infedele"],
+    "alt_title": ["Unfaithful", "Infedele"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -2715,11 +2688,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Una spiegazione semplice",
-      "Simple Explanation",
-      "Una spiegazione semplice"
-    ],
+    "alt_title": ["Una spiegazione semplice", "Simple Explanation"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -2785,7 +2754,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "97c772e8-7bae-4ac2-8620-31162a5ff3bd",
-    "alt_title": ["Ep. 2", "Ep. 2", "Ep. 2"],
+    "alt_title": ["Ep. 2"],
     "seriesProviderId": "datatv_se241535"
   },
   {
@@ -2939,11 +2908,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "La Bella e la Bestia rognosa",
-      "La Bella e la Bestia rognosa",
-      "La Bella e la Bestia rognosa"
-    ],
+    "alt_title": ["La Bella e la Bestia rognosa"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -2987,7 +2952,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Posizione fetale", "Fetal Position", "Posizione fetale"],
+    "alt_title": ["Fetal Position", "Posizione fetale"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -3031,7 +2996,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Fallimento epico", "Epic Fail", "Fallimento epico"],
+    "alt_title": ["Epic Fail", "Fallimento epico"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -3097,11 +3062,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "The Pleasure of Your Presence",
-      "Sister of the Groom",
-      "Sister of the Groom"
-    ],
+    "alt_title": ["The Pleasure of Your Presence", "Sister of the Groom"],
     "seriesProviderId": ""
   },
   {
@@ -3145,7 +3106,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["L'anarchia di House", "Deception", "L'anarchia di House"],
+    "alt_title": ["Deception", "L'anarchia di House"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -3189,7 +3150,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Rimorso", "Remorse", "Rimorso"],
+    "alt_title": ["Remorse", "Rimorso"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -3343,7 +3304,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "0b550d81-20aa-431d-9372-7a9ed673dec1",
-    "alt_title": ["Acerbi", "Acerbi", "Acerbi"],
+    "alt_title": ["Acerbi"],
     "seriesProviderId": "datatv_se250592"
   },
   {
@@ -3608,8 +3569,8 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "L'amor flou - Come separarsi e restare amici",
       "L'amour flou",
+      "L'amor flou - Come separarsi e restare amici",
       "L'amour flou - Come separarsi e restare amici"
     ],
     "seriesProviderId": ""
@@ -3699,7 +3660,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Palladio", "Palladio", "Palladio"],
+    "alt_title": ["Palladio"],
     "seriesProviderId": ""
   },
   {
@@ -3765,7 +3726,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 5", "Barker's Dozen", "Ep. 5"],
+    "alt_title": ["Ep. 5", "Barker's Dozen"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -3809,7 +3770,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Affare rischioso", "Risky Business", "Affare rischioso"],
+    "alt_title": ["Risky Business", "Affare rischioso"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -3897,11 +3858,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Specchio delle mie brame",
-      "Specchio delle mie brame",
-      "Specchio delle mie brame"
-    ],
+    "alt_title": ["Specchio delle mie brame"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -3945,7 +3902,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Impronte genetiche", "Birthmarks", "Impronte genetiche"],
+    "alt_title": ["Impronte genetiche", "Birthmarks"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -4011,7 +3968,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 1", "Special Delivery", "Ep. 1"],
+    "alt_title": ["Special Delivery", "Ep. 1"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -4061,11 +4018,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Sindrome dello specchio",
-      "Mirror, Mirror",
-      "Sindrome dello specchio"
-    ],
+    "alt_title": ["Sindrome dello specchio", "Mirror, Mirror"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -4175,7 +4128,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Buco nero", "Black Hole", "Buco nero"],
+    "alt_title": ["Buco nero", "Black Hole"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -4285,11 +4238,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": [
-      "Best of. 2a parte",
-      "Best of. 2a parte",
-      "Best of. 2a parte"
-    ],
+    "alt_title": ["Best of. 2a parte"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -4377,7 +4326,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "ce78e76e-1b9e-43c4-afab-e85182a92646",
-    "alt_title": ["Singolo F", "Singolo F", "Singolo F"],
+    "alt_title": ["Singolo F"],
     "seriesProviderId": "datatv_se236692"
   },
   {
@@ -4553,7 +4502,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Salvatori", "Saviors", "Salvatori"],
+    "alt_title": ["Saviors", "Salvatori"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -4686,8 +4635,8 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Off the Grid",
       "Secrets in the Woods/Off the Grid",
+      "Off the Grid",
       "Segreti nel bosco"
     ],
     "seriesProviderId": ""
@@ -4799,7 +4748,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "0b550d81-20aa-431d-9372-7a9ed673dec1",
-    "alt_title": ["Suso", "Suso", "Suso"],
+    "alt_title": ["Suso"],
     "seriesProviderId": "datatv_se250592"
   },
   {
@@ -5065,8 +5014,8 @@
     "seriesUUID": "",
     "alt_title": [
       "Christmas Comes Home",
-      "My Christmas Wish (Christmas Come Home)",
-      "Quando arriva il Natale"
+      "Quando arriva il Natale",
+      "My Christmas Wish (Christmas Come Home)"
     ],
     "seriesProviderId": ""
   },
@@ -5177,7 +5126,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 3", "Ep. 3", "Ep. 3"],
+    "alt_title": ["Ep. 3"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -5243,11 +5192,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Il principe, la rana e la strega",
-      "Il principe, la rana e la strega",
-      "Il principe, la rana e la strega"
-    ],
+    "alt_title": ["Il principe, la rana e la strega"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -5401,7 +5346,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["24/01/21", "24/01/21", "24/01/21"],
+    "alt_title": ["24/01/21"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -5468,13 +5413,12 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Uma Vida Oculta",
+      "La vita nascosta - Hidden Life",
       "Ein verborgenes Leben",
       "Vida oculta",
-      "La vita nascosta - Hidden Life",
-      "Radegund",
+      "Uma Vida Oculta",
       "A Hidden Life",
-      "La vita nascosta - Hidden Life"
+      "Radegund"
     ],
     "seriesProviderId": ""
   },
@@ -5519,7 +5463,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["L'ultima risorsa", "Last Resort", "L'ultima risorsa"],
+    "alt_title": ["L'ultima risorsa", "Last Resort"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -5563,7 +5507,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 6", "Ep. 6", "Ep. 6"],
+    "alt_title": ["Ep. 6"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -5629,11 +5573,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": [
-      "Cristiano e Alessia",
-      "Cristiano e Alessia",
-      "Cristiano e Alessia"
-    ],
+    "alt_title": ["Cristiano e Alessia"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -5699,7 +5639,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Nella notte", "After Hours", "Nella notte"],
+    "alt_title": ["After Hours", "Nella notte"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -6051,11 +5991,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Genitore per caso",
-      "Unplanned Parenthood",
-      "Genitore per caso"
-    ],
+    "alt_title": ["Unplanned Parenthood", "Genitore per caso"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -6121,7 +6057,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Andare avanti", "Moving On", "Andare avanti"],
+    "alt_title": ["Andare avanti", "Moving On"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -6232,9 +6168,8 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "A casa per Natale",
       "Time for Me to Come Home for Christmas",
-      "Time for Me to Come Home for Christmas"
+      "A casa per Natale"
     ],
     "seriesProviderId": ""
   },
@@ -6279,7 +6214,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Parole e fatti", "Words and Deeds", "Parole e fatti"],
+    "alt_title": ["Words and Deeds", "Parole e fatti"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -6455,7 +6390,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["22/01/21", "22/01/21", "22/01/21"],
+    "alt_title": ["22/01/21"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -6565,11 +6500,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "adc3e47f-d252-40b6-a3ff-9c5d0cdbb1c5",
-    "alt_title": [
-      "Kai Express / Il papernado",
-      "Kai Express / Il papernado",
-      "Kai Express / Il papernado"
-    ],
+    "alt_title": ["Kai Express / Il papernado"],
     "seriesProviderId": "datatv_se255631"
   },
   {
@@ -6657,7 +6588,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 17", "Ep. 17", "Ep. 17"],
+    "alt_title": ["Ep. 17"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -6701,7 +6632,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Un uomo solo", "The Honeymoon", "Un uomo solo"],
+    "alt_title": ["The Honeymoon", "Un uomo solo"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -6745,7 +6676,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Cuore impavido", "Brave Heart", "Cuore impavido"],
+    "alt_title": ["Cuore impavido", "Brave Heart"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -6811,11 +6742,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "4d80ab5d-6ce1-42d9-a45a-5f7ff17bc13c",
-    "alt_title": [
-      "Aggiungi dei numeri",
-      "Aggiungi dei numeri",
-      "Aggiungi dei numeri"
-    ],
+    "alt_title": ["Aggiungi dei numeri"],
     "seriesProviderId": "datatv_se256895"
   },
   {
@@ -6903,7 +6830,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "0b550d81-20aa-431d-9372-7a9ed673dec1",
-    "alt_title": ["Schoene", "Schoene", "Schoene"],
+    "alt_title": ["Schoene"],
     "seriesProviderId": "datatv_se250592"
   },
   {
@@ -6969,7 +6896,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 14", "Ep. 14", "Ep. 14"],
+    "alt_title": ["Ep. 14"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -7013,7 +6940,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Indagine", "The Dig", "Indagine"],
+    "alt_title": ["The Dig", "Indagine"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -7079,7 +7006,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "7d670f50-9d76-451d-a21b-a048bc2d193f",
-    "alt_title": ["Ep. 1", "Ep. 1", "Ep. 1"],
+    "alt_title": ["Ep. 1"],
     "seriesProviderId": "datatv_se257041"
   },
   {
@@ -7101,7 +7028,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "7d670f50-9d76-451d-a21b-a048bc2d193f",
-    "alt_title": ["Ep. 1", "Ep. 1", "Ep. 1"],
+    "alt_title": ["Ep. 1"],
     "seriesProviderId": "datatv_se257041"
   },
   {
@@ -7145,11 +7072,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "L'ago nel pagliaio",
-      "Needle in a Haystack",
-      "L'ago nel pagliaio"
-    ],
+    "alt_title": ["L'ago nel pagliaio", "Needle in a Haystack"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -7215,11 +7138,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Le sorelle Macaluso",
-      "Le sorelle Macaluso",
-      "Le sorelle Macaluso"
-    ],
+    "alt_title": ["Le sorelle Macaluso"],
     "seriesProviderId": ""
   },
   {
@@ -7373,7 +7292,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["16/01/21", "16/01/21", "16/01/21"],
+    "alt_title": ["16/01/21"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -7483,7 +7402,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Il caso House", "Three Stories", "Il caso House"],
+    "alt_title": ["Il caso House", "Three Stories"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -7527,7 +7446,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 5", "Ep. 5", "Ep. 5"],
+    "alt_title": ["Ep. 5"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -7593,7 +7512,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["After", "After", "After"],
+    "alt_title": ["After"],
     "seriesProviderId": ""
   },
   {
@@ -7637,7 +7556,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Bimba dentro", "Big Baby", "Bimba dentro"],
+    "alt_title": ["Big Baby", "Bimba dentro"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -7769,11 +7688,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": [
-      "Riccardo e Stefania",
-      "Riccardo e Stefania",
-      "Riccardo e Stefania"
-    ],
+    "alt_title": ["Riccardo e Stefania"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -7883,7 +7798,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Problemi di adozione", "Paternity", "Problemi di adozione"],
+    "alt_title": ["Paternity", "Problemi di adozione"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -8345,11 +8260,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "adc3e47f-d252-40b6-a3ff-9c5d0cdbb1c5",
-    "alt_title": [
-      "Il meteorite / Il ballo della distruzione",
-      "Il meteorite / Il ballo della distruzione",
-      "Il meteorite / Il ballo della distruzione"
-    ],
+    "alt_title": ["Il meteorite / Il ballo della distruzione"],
     "seriesProviderId": "datatv_se255631"
   },
   {
@@ -8481,7 +8392,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": ["Alessio e Laura", "Alessio e Laura", "Alessio e Laura"],
+    "alt_title": ["Alessio e Laura"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -8591,7 +8502,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Il coraggio di morire", "Autopsy", "Il coraggio di morire"],
+    "alt_title": ["Autopsy", "Il coraggio di morire"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -8635,7 +8546,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Aiutami", "Help Me", "Aiutami"],
+    "alt_title": ["Aiutami", "Help Me"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -8723,11 +8634,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "adc3e47f-d252-40b6-a3ff-9c5d0cdbb1c5",
-    "alt_title": [
-      "Caccia al pesce gatto / Bolle e disastri",
-      "Caccia al pesce gatto / Bolle e disastri",
-      "Caccia al pesce gatto / Bolle e disastri"
-    ],
+    "alt_title": ["Caccia al pesce gatto / Bolle e disastri"],
     "seriesProviderId": "datatv_se255631"
   },
   {
@@ -8793,7 +8700,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 5", "Burgers For Bikers", "Ep. 5"],
+    "alt_title": ["Burgers For Bikers", "Ep. 5"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -8903,7 +8810,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "ec03b369-4781-4cb4-8d7a-841c29d7d0c3",
-    "alt_title": ["Ep. 3", "Ep. 3", "Ep. 3"],
+    "alt_title": ["Ep. 3"],
     "seriesProviderId": "datatv_se248484"
   },
   {
@@ -8991,7 +8898,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Auto di lusso", "Ep. 13", "Auto di lusso"],
+    "alt_title": ["Ep. 13", "Auto di lusso"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -9035,11 +8942,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": [
-      "Michela e Marcello",
-      "Michela e Marcello",
-      "Michela e Marcello"
-    ],
+    "alt_title": ["Michela e Marcello"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -9105,11 +9008,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "07b55c33-2faf-4154-8693-9900940eb735",
-    "alt_title": [
-      "Best Plays of 2019-20 Playoffs",
-      "Best Plays of 2019-20 Playoffs",
-      "Best Plays of 2019-20 Playoffs"
-    ],
+    "alt_title": ["Best Plays of 2019-20 Playoffs"],
     "seriesProviderId": "datatv_se253805"
   },
   {
@@ -9176,11 +9075,11 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Alvene redder baksten!",
       "Husnissene - Operasjon bakverk",
       "Die Heinzels \u2013 R\u00fcckkehr der Heinzelm\u00e4nnchen",
-      "Die Heinzels - Rueckkehr der Heinzelmaennchen",
-      "Elfkins - Missione Best Bakery"
+      "Elfkins - Missione Best Bakery",
+      "Alvene redder baksten!",
+      "Die Heinzels - Rueckkehr der Heinzelmaennchen"
     ],
     "seriesProviderId": ""
   },
@@ -9335,7 +9234,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "ec03b369-4781-4cb4-8d7a-841c29d7d0c3",
-    "alt_title": ["Ep. 2", "Ep. 2", "Ep. 2"],
+    "alt_title": ["Ep. 2"],
     "seriesProviderId": "datatv_se248484"
   },
   {
@@ -9511,7 +9410,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Only - Minaccia letale", "Only", "Only - Minaccia letale"],
+    "alt_title": ["Only", "Only - Minaccia letale"],
     "seriesProviderId": ""
   },
   {
@@ -9599,7 +9498,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 13", "Ep. 13", "Ep. 13"],
+    "alt_title": ["Ep. 13"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -9863,7 +9762,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 11", "Pop-Up Star", "Ep. 11"],
+    "alt_title": ["Pop-Up Star", "Ep. 11"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -9907,7 +9806,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Gioia al mondo", "Joy to the World", "Gioia al mondo"],
+    "alt_title": ["Gioia al mondo", "Joy to the World"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -9951,11 +9850,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Il minore dei mali",
-      "Babies & Bathwater",
-      "Il minore dei mali"
-    ],
+    "alt_title": ["Il minore dei mali", "Babies & Bathwater"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -9999,11 +9894,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "9df7819e-80b6-4287-8255-b9026b2cdd89",
-    "alt_title": [
-      "La televisione conquista il mondo. 1a parte",
-      "La televisione conquista il mondo. 1a parte",
-      "La televisione conquista il mondo. 1a parte"
-    ],
+    "alt_title": ["La televisione conquista il mondo. 1a parte"],
     "seriesProviderId": "datatv_se248503"
   },
   {
@@ -10069,11 +9960,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "La cura del Natale",
-      "The Christmas Cure",
-      "La cura del Natale"
-    ],
+    "alt_title": ["The Christmas Cure", "La cura del Natale"],
     "seriesProviderId": ""
   },
   {
@@ -10139,7 +10026,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Non odiare", "Non odiare", "Non odiare"],
+    "alt_title": ["Non odiare"],
     "seriesProviderId": ""
   },
   {
@@ -10205,7 +10092,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Blood Vessel", "Blood Vessel", "Blood Vessel"],
+    "alt_title": ["Blood Vessel"],
     "seriesProviderId": ""
   },
   {
@@ -10381,7 +10268,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 12", "Three Courses, One Crown", "Ep. 12"],
+    "alt_title": ["Three Courses, One Crown", "Ep. 12"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -10469,7 +10356,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Auto di lusso", "Ep. 15", "Auto di lusso"],
+    "alt_title": ["Ep. 15", "Auto di lusso"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -10513,7 +10400,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["E adesso?", "Now What?", "E adesso?"],
+    "alt_title": ["E adesso?", "Now What?"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -10691,8 +10578,7 @@
     "seriesUUID": "",
     "alt_title": [
       "Scoot poliziotto a 4 zampe 2",
-      "K-9 Adventures: Legend Of The Lost Gold",
-      "Scoot poliziotto a 4 zampe 2"
+      "K-9 Adventures: Legend Of The Lost Gold"
     ],
     "seriesProviderId": ""
   },
@@ -10957,7 +10843,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["14/01/21", "14/01/21", "14/01/21"],
+    "alt_title": ["14/01/21"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -11023,11 +10909,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "df9062f7-8004-438a-b11c-7e2d09c1429d",
-    "alt_title": [
-      "Schrempf & Perkins",
-      "Schrempf & Perkins",
-      "Schrempf & Perkins"
-    ],
+    "alt_title": ["Schrempf & Perkins"],
     "seriesProviderId": "datatv_se253267"
   },
   {
@@ -11071,7 +10953,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Tutto torna...", "Distractions", "Tutto torna..."],
+    "alt_title": ["Distractions", "Tutto torna..."],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -11115,7 +10997,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Politica interna", "Office Politics", "Politica interna"],
+    "alt_title": ["Politica interna", "Office Politics"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -11181,11 +11063,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "df9062f7-8004-438a-b11c-7e2d09c1429d",
-    "alt_title": [
-      "Cloud & Abdur-Rahim",
-      "Cloud & Abdur-Rahim",
-      "Cloud & Abdur-Rahim"
-    ],
+    "alt_title": ["Cloud & Abdur-Rahim"],
     "seriesProviderId": "datatv_se253267"
   },
   {
@@ -11229,7 +11107,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Caccia al topo", "Hunting", "Caccia al topo"],
+    "alt_title": ["Hunting", "Caccia al topo"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -11339,7 +11217,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Lavoro di squadra", "Teamwork", "Lavoro di squadra"],
+    "alt_title": ["Teamwork", "Lavoro di squadra"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -11405,11 +11283,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "The Vigil - Non ti lascer\u00e0 andare",
-      "The Vigil",
-      "The Vigil - Non ti lascer\u00e0 andare"
-    ],
+    "alt_title": ["The Vigil - Non ti lascer\u00e0 andare", "The Vigil"],
     "seriesProviderId": ""
   },
   {
@@ -11453,11 +11327,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Un caso di beneficenza",
-      "Charity Case",
-      "Un caso di beneficenza"
-    ],
+    "alt_title": ["Un caso di beneficenza", "Charity Case"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -11501,7 +11371,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Il vortice", "Spin", "Il vortice"],
+    "alt_title": ["Il vortice", "Spin"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -11545,11 +11415,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "\u00c8 meglio sapere",
-      "Need to Know",
-      "\u00c8 meglio sapere"
-    ],
+    "alt_title": ["\u00c8 meglio sapere", "Need to Know"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -11835,7 +11701,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 8", "Ep. 8", "Ep. 8"],
+    "alt_title": ["Ep. 8"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -11902,9 +11768,9 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Forever Christmas",
       "Forever Christmas / Mr. 365",
-      "Sempre Natale"
+      "Sempre Natale",
+      "Forever Christmas"
     ],
     "seriesProviderId": ""
   },
@@ -11993,7 +11859,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "0b550d81-20aa-431d-9372-7a9ed673dec1",
-    "alt_title": ["Reina", "Reina", "Reina"],
+    "alt_title": ["Reina"],
     "seriesProviderId": "datatv_se250592"
   },
   {
@@ -12059,7 +11925,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "ce78e76e-1b9e-43c4-afab-e85182a92646",
-    "alt_title": ["Oberhof", "Oberhof", "Oberhof"],
+    "alt_title": ["Oberhof"],
     "seriesProviderId": "datatv_se236692"
   },
   {
@@ -12103,7 +11969,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Padri e figli", "Daddy's Boy", "Padri e figli"],
+    "alt_title": ["Daddy's Boy", "Padri e figli"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -12147,7 +12013,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Dalle 5 alle 9", "5 to 9", "Dalle 5 alle 9"],
+    "alt_title": ["5 to 9", "Dalle 5 alle 9"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -12301,7 +12167,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Moose", "Fanatico", "The Fanatic", "The Fanatic"],
+    "alt_title": ["The Fanatic", "Moose", "Fanatico"],
     "seriesProviderId": ""
   },
   {
@@ -12367,7 +12233,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Fedelt\u00e0", "Fidelity", "Fedelt\u00e0"],
+    "alt_title": ["Fidelity", "Fedelt\u00e0"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -12433,7 +12299,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Canova", "Canova", "Canova"],
+    "alt_title": ["Canova"],
     "seriesProviderId": ""
   },
   {
@@ -12499,7 +12365,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 1", "Opportunity Knocks", "Ep. 1"],
+    "alt_title": ["Opportunity Knocks", "Ep. 1"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -12565,11 +12431,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "9df7819e-80b6-4287-8255-b9026b2cdd89",
-    "alt_title": [
-      "Aggiungimi su Facebook",
-      "Aggiungimi su Facebook",
-      "Aggiungimi su Facebook"
-    ],
+    "alt_title": ["Aggiungimi su Facebook"],
     "seriesProviderId": "datatv_se248503"
   },
   {
@@ -12635,7 +12497,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Carmine e Angela", "Carmine e Angela", "Carmine e Angela"],
+    "alt_title": ["Carmine e Angela"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -12745,7 +12607,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Nonni", "Nonni", "Nonni"],
+    "alt_title": ["Nonni"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -12789,11 +12651,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "9df7819e-80b6-4287-8255-b9026b2cdd89",
-    "alt_title": [
-      "Mp3 - Musica ovunque per tutti",
-      "Mp3 - Musica ovunque per tutti",
-      "Mp3 - Musica ovunque per tutti"
-    ],
+    "alt_title": ["Mp3 - Musica ovunque per tutti"],
     "seriesProviderId": "datatv_se248503"
   },
   {
@@ -12859,11 +12717,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Chi la fa l'aspetti",
-      "Chi la fa l'aspetti",
-      "Chi la fa l'aspetti"
-    ],
+    "alt_title": ["Chi la fa l'aspetti"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -13083,7 +12937,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 16", "Ep. 16", "Ep. 16"],
+    "alt_title": ["Ep. 16"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -13172,9 +13026,9 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "En Julegave fra Gatekatten Bob",
+      "Natale con Bob",
       "A Christmas Gift from Bob",
-      "Natale con Bob"
+      "En Julegave fra Gatekatten Bob"
     ],
     "seriesProviderId": ""
   },
@@ -13241,7 +13095,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Miss Marx", "Miss Marx", "Miss Marx"],
+    "alt_title": ["Miss Marx"],
     "seriesProviderId": ""
   },
   {
@@ -13395,7 +13249,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["30/01/21", "30/01/21", "30/01/21"],
+    "alt_title": ["30/01/21"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -13505,7 +13359,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": ["Silvia e Nicola", "Silvia e Nicola", "Silvia e Nicola"],
+    "alt_title": ["Silvia e Nicola"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -13637,7 +13491,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 5", "Ep. 5", "Ep. 5"],
+    "alt_title": ["Ep. 5"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -13681,7 +13535,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Isolamento", "Lockdown", "Isolamento"],
+    "alt_title": ["Isolamento", "Lockdown"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -13747,11 +13601,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Leonardo - Cinquecento",
-      "Leonardo - Cinquecento",
-      "Leonardo - Cinquecento"
-    ],
+    "alt_title": ["Leonardo - Cinquecento"],
     "seriesProviderId": ""
   },
   {
@@ -13883,11 +13733,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Leonardo - Le opere",
-      "Leonardo - The Works",
-      "Leonardo - Le opere"
-    ],
+    "alt_title": ["Leonardo - The Works", "Leonardo - Le opere"],
     "seriesProviderId": ""
   },
   {
@@ -13953,7 +13799,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 17", "Ep. 17", "Ep. 17"],
+    "alt_title": ["Ep. 17"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -14019,7 +13865,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Mr. Link", "Monsieur Link", "Missing Link", "Mister Link"],
+    "alt_title": ["Mr. Link", "Monsieur Link", "Mister Link", "Missing Link"],
     "seriesProviderId": ""
   },
   {
@@ -14129,11 +13975,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Louis Van Beethoven",
-      "Louis Van Beethoven",
-      "Louis Van Beethoven"
-    ],
+    "alt_title": ["Louis Van Beethoven"],
     "seriesProviderId": ""
   },
   {
@@ -14177,11 +14019,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Affari di famiglia",
-      "Family Practice",
-      "Affari di famiglia"
-    ],
+    "alt_title": ["Affari di famiglia", "Family Practice"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -14225,7 +14063,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Bambini precoci", "Act Your Age", "Bambini precoci"],
+    "alt_title": ["Act Your Age", "Bambini precoci"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -14335,7 +14173,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 10", "Ep. 10", "Ep. 10"],
+    "alt_title": ["Ep. 10"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -14533,11 +14371,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "La ribellione di Cenerentola",
-      "La ribellione di Cenerentola",
-      "La ribellione di Cenerentola"
-    ],
+    "alt_title": ["La ribellione di Cenerentola"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -14717,7 +14551,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Ultimo sacrificio", "Son of Coma Guy", "Ultimo sacrificio"],
+    "alt_title": ["Ultimo sacrificio", "Son of Coma Guy"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -14783,11 +14617,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Questione d'onore",
-      "Blowing the Whistle",
-      "Questione d'onore"
-    ],
+    "alt_title": ["Blowing the Whistle", "Questione d'onore"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -14831,7 +14661,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Morto e sepolto", "Dead and Buried", "Morto e sepolto"],
+    "alt_title": ["Dead and Buried", "Morto e sepolto"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -14897,7 +14727,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Solum", "Solum", "Solum"],
+    "alt_title": ["Solum"],
     "seriesProviderId": ""
   },
   {
@@ -14941,7 +14771,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": ["Ilios e Sara", "Ilios e Sara", "Ilios e Sara"],
+    "alt_title": ["Ilios e Sara"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -15096,7 +14926,6 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Ser Talpis - Al servizio di Sua Maest\u00e0",
       "Master Moley",
       "Ser Talpis - Al servizio di Sua Maest\u00e0"
     ],
@@ -15143,11 +14972,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Giorno nuovo... stanza nuova",
-      "One Day, One Room",
-      "Giorno nuovo... stanza nuova"
-    ],
+    "alt_title": ["Giorno nuovo... stanza nuova", "One Day, One Room"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -15213,7 +15038,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Un mafioso in corsia", "Mob Rules", "Un mafioso in corsia"],
+    "alt_title": ["Mob Rules", "Un mafioso in corsia"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -15263,7 +15088,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Gelo", "Frozen", "Gelo"],
+    "alt_title": ["Frozen", "Gelo"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -15379,11 +15204,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Non voglio sapere",
-      "You Don't Want To Know",
-      "Non voglio sapere"
-    ],
+    "alt_title": ["Non voglio sapere", "You Don't Want To Know"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -15515,7 +15336,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 8", "Ep. 8", "Ep. 8"],
+    "alt_title": ["Ep. 8"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -15581,11 +15402,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "c54ae83b-5b15-4d7e-82d0-d0efa50b6588",
-    "alt_title": [
-      "Djokovic - Thiem. Finale M",
-      "Djokovic - Thiem. Finale M",
-      "Djokovic - Thiem. Finale M"
-    ],
+    "alt_title": ["Djokovic - Thiem. Finale M"],
     "seriesProviderId": "datatv_se230595"
   },
   {
@@ -15635,7 +15452,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Brutto", "Ugly", "Brutto"],
+    "alt_title": ["Ugly", "Brutto"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -15723,7 +15540,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "be4f1446-e931-406f-9764-99a3e04d83c7",
-    "alt_title": ["Rabbia", "Hangry Days", "Rabbia"],
+    "alt_title": ["Rabbia", "Hangry Days"],
     "seriesProviderId": "datatv_se256180"
   },
   {
@@ -15767,7 +15584,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 12", "Ep. 12", "Ep. 12"],
+    "alt_title": ["Ep. 12"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -15833,7 +15650,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "ce78e76e-1b9e-43c4-afab-e85182a92646",
-    "alt_title": ["Sprint F", "Sprint F", "Sprint F"],
+    "alt_title": ["Sprint F"],
     "seriesProviderId": "datatv_se236692"
   },
   {
@@ -15877,7 +15694,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["La strana coppia", "The Down Low", "La strana coppia"],
+    "alt_title": ["La strana coppia", "The Down Low"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -15921,7 +15738,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Cambiamenti", "Changes", "Cambiamenti"],
+    "alt_title": ["Cambiamenti", "Changes"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -15987,11 +15804,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "895f9368-d3e8-4df7-a8d4-2317b198b386",
-    "alt_title": [
-      "Dov'\u00e8 la mia bambina?",
-      "Part 1",
-      "Dov'\u00e8 la mia bambina?"
-    ],
+    "alt_title": ["Dov'\u00e8 la mia bambina?", "Part 1"],
     "seriesProviderId": "datatv_se255951"
   },
   {
@@ -16035,7 +15848,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "97c772e8-7bae-4ac2-8620-31162a5ff3bd",
-    "alt_title": ["Ep. 1", "Ep. 1", "Ep. 1"],
+    "alt_title": ["Ep. 1"],
     "seriesProviderId": "datatv_se241535"
   },
   {
@@ -16211,7 +16024,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "97c772e8-7bae-4ac2-8620-31162a5ff3bd",
-    "alt_title": ["Ep. 5", "Ep. 5", "Ep. 5"],
+    "alt_title": ["Ep. 5"],
     "seriesProviderId": "datatv_se241535"
   },
   {
@@ -16278,7 +16091,6 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Una lettera dal passato",
       "Crafting Christmas / A Crafty Christmas Romance",
       "Una lettera dal passato"
     ],
@@ -16391,7 +16203,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Centro anziani", "Centro anziani", "Centro anziani"],
+    "alt_title": ["Centro anziani"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -16435,7 +16247,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Rianimazione vietata", "DNR", "Rianimazione vietata"],
+    "alt_title": ["DNR", "Rianimazione vietata"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -16501,7 +16313,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Speciale", "Speciale", "Speciale"],
+    "alt_title": ["Speciale"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -16633,11 +16445,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Venti Vicodin per la vita",
-      "Twenty Vicodin",
-      "Venti Vicodin per la vita"
-    ],
+    "alt_title": ["Twenty Vicodin", "Venti Vicodin per la vita"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -16791,7 +16599,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["18/01/21", "18/01/21", "18/01/21"],
+    "alt_title": ["18/01/21"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -16857,11 +16665,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "df9062f7-8004-438a-b11c-7e2d09c1429d",
-    "alt_title": [
-      "Fizdale & Bickerstaff",
-      "Fizdale & Bickerstaff",
-      "Fizdale & Bickerstaff"
-    ],
+    "alt_title": ["Fizdale & Bickerstaff"],
     "seriesProviderId": "datatv_se253267"
   },
   {
@@ -16949,7 +16753,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 10", "Ep. 10", "Ep. 10"],
+    "alt_title": ["Ep. 10"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -17037,7 +16841,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Over There", "The Great War", "The Great War"],
+    "alt_title": ["The Great War", "Over There"],
     "seriesProviderId": ""
   },
   {
@@ -17081,7 +16885,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Pazzi d'amore", "Fools for Love", "Pazzi d'amore"],
+    "alt_title": ["Fools for Love", "Pazzi d'amore"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -17170,12 +16974,12 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Die Misswahl - Der Beginn einer Revolution",
-      "Napacno vedenje (Misbehaviour)",
+      "Il Concorso",
       "Rompiendo las normas",
+      "Die Misswahl - Der Beginn einer Revolution",
       "Miss R\u00e9volution",
       "Misbehaviour",
-      "Il Concorso"
+      "Napacno vedenje (Misbehaviour)"
     ],
     "seriesProviderId": ""
   },
@@ -17242,7 +17046,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 11", "Ep. 11", "Ep. 11"],
+    "alt_title": ["Ep. 11"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -17286,7 +17090,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Vite private", "Private Lives", "Vite private"],
+    "alt_title": ["Private Lives", "Vite private"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -17330,11 +17134,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Mr. Jekyll e Dr. House",
-      "No Reason",
-      "Mr. Jekyll e Dr. House"
-    ],
+    "alt_title": ["No Reason", "Mr. Jekyll e Dr. House"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -17401,11 +17201,11 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Une vie vol\u00e9e",
-      "Jeune fille interrompue",
       "Stulna \u00e5r",
+      "Jeune fille interrompue",
       "Girl, Interrupted",
-      "Ragazze interrotte"
+      "Ragazze interrotte",
+      "Une vie vol\u00e9e"
     ],
     "seriesProviderId": ""
   },
@@ -17472,11 +17272,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "4d80ab5d-6ce1-42d9-a45a-5f7ff17bc13c",
-    "alt_title": [
-      "Un pizzico di perspicacia",
-      "Un pizzico di perspicacia",
-      "Un pizzico di perspicacia"
-    ],
+    "alt_title": ["Un pizzico di perspicacia"],
     "seriesProviderId": "datatv_se256895"
   },
   {
@@ -17674,7 +17470,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "b2016491-885b-4072-96bc-671eb98803d4",
-    "alt_title": ["Snack al volo", "Snack al volo", "Snack al volo"],
+    "alt_title": ["Snack al volo"],
     "seriesProviderId": "datatv_se256936"
   },
   {
@@ -17696,7 +17492,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "b2016491-885b-4072-96bc-671eb98803d4",
-    "alt_title": ["Snack al volo", "Snack al volo", "Snack al volo"],
+    "alt_title": ["Snack al volo"],
     "seriesProviderId": "datatv_se256936"
   },
   {
@@ -17740,7 +17536,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Mezzo genio", "Half-Wit", "Mezzo genio"],
+    "alt_title": ["Half-Wit", "Mezzo genio"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -17982,11 +17778,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": [
-      "Best of. 1a parte",
-      "Best of. 1a parte",
-      "Best of. 1a parte"
-    ],
+    "alt_title": ["Best of. 1a parte"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -18075,9 +17867,9 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
+      "In viaggio con Flora",
       "An Elephant's Journey",
-      "Saving Flora",
-      "In viaggio con Flora"
+      "Saving Flora"
     ],
     "seriesProviderId": ""
   },
@@ -18232,7 +18024,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 7", "Ep. 7", "Ep. 7"],
+    "alt_title": ["Ep. 7"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -18364,11 +18156,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "L'amore ti mette le ali",
-      "L'amore ti mette le ali",
-      "L'amore ti mette le ali"
-    ],
+    "alt_title": ["L'amore ti mette le ali"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -18501,10 +18289,10 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "El Beso de la Pantera",
-      "A Marca da Pantera",
+      "Il bacio della pantera",
       "Cat People",
-      "Il bacio della pantera"
+      "El Beso de la Pantera",
+      "A Marca da Pantera"
     ],
     "seriesProviderId": ""
   },
@@ -18637,11 +18425,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": [
-      "Best of. 1a parte",
-      "Best of. 1a parte",
-      "Best of. 1a parte"
-    ],
+    "alt_title": ["Best of. 1a parte"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -18707,7 +18491,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "97c772e8-7bae-4ac2-8620-31162a5ff3bd",
-    "alt_title": ["Ep. 6", "Ep. 6", "Ep. 6"],
+    "alt_title": ["Ep. 6"],
     "seriesProviderId": "datatv_se241535"
   },
   {
@@ -18751,7 +18535,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 2", "Ep. 2", "Ep. 2"],
+    "alt_title": ["Ep. 2"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -18883,11 +18667,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "9df7819e-80b6-4287-8255-b9026b2cdd89",
-    "alt_title": [
-      "Yes, We Can - Arriva Obama",
-      "Yes, We Can - Arriva Obama",
-      "Yes, We Can - Arriva Obama"
-    ],
+    "alt_title": ["Yes, We Can - Arriva Obama"],
     "seriesProviderId": "datatv_se248503"
   },
   {
@@ -18931,7 +18711,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Piccoli sacrifici", "Small Sacrifices", "Piccoli sacrifici"],
+    "alt_title": ["Piccoli sacrifici", "Small Sacrifices"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -18975,11 +18755,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Impossibilit\u00e0 di comunicare",
-      "Failure to Communicate",
-      "Impossibilit\u00e0 di comunicare"
-    ],
+    "alt_title": ["Impossibilit\u00e0 di comunicare", "Failure to Communicate"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -19112,7 +18888,6 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Nancy Drew e il passaggio segreto",
       "Nancy Drew and the Hidden Staircase",
       "Nancy Drew e il passaggio segreto"
     ],
@@ -19159,7 +18934,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Finale", "Finale", "Finale"],
+    "alt_title": ["Finale"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -19423,7 +19198,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": ["Aldo e Roberta", "Aldo e Roberta", "Aldo e Roberta"],
+    "alt_title": ["Aldo e Roberta"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -19512,7 +19287,6 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "L'uomo per bene - Le lettere segrete di Heinrich Himmler",
       "Der Anst\u00e4ndige - The Decent One",
       "L'uomo per bene - Le lettere segrete di Heinrich Himmler"
     ],
@@ -19582,9 +19356,9 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
+      "Un Natale di cioccolato",
       "My Sweet Holiday",
-      "A Chocolate Covered Christmas / My Sweet Holiday",
-      "Un Natale di cioccolato"
+      "A Chocolate Covered Christmas / My Sweet Holiday"
     ],
     "seriesProviderId": ""
   },
@@ -19651,7 +19425,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Post mortem", "Post mortem", "Post mortem"],
+    "alt_title": ["Post mortem"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -19717,11 +19491,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "c54ae83b-5b15-4d7e-82d0-d0efa50b6588",
-    "alt_title": [
-      "Kenin - Muguruza. Finale F",
-      "Kenin - Muguruza. Finale F",
-      "Kenin - Muguruza. Finale F"
-    ],
+    "alt_title": ["Kenin - Muguruza. Finale F"],
     "seriesProviderId": "datatv_se230595"
   },
   {
@@ -19787,7 +19557,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Le p\u00e8re No\u00ebl doit mourir", "Fatman", "Fatman"],
+    "alt_title": ["Le p\u00e8re No\u00ebl doit mourir", "Fatman"],
     "seriesProviderId": ""
   },
   {
@@ -19854,11 +19624,10 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "F\u00faria Incontrol\u00e1vel",
-      "Unhinged",
       "Fuera de control",
       "Unhinged",
-      "Il giorno sbagliato"
+      "Il giorno sbagliato",
+      "F\u00faria Incontrol\u00e1vel"
     ],
     "seriesProviderId": ""
   },
@@ -20079,11 +19848,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Ora ambedue le parti",
-      "Both Sides Now",
-      "Ora ambedue le parti"
-    ],
+    "alt_title": ["Ora ambedue le parti", "Both Sides Now"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -20237,7 +20002,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["21/01/21", "21/01/21", "21/01/21"],
+    "alt_title": ["21/01/21"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -20347,7 +20112,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Scuola pop", "Scuola pop", "Scuola pop"],
+    "alt_title": ["Scuola pop"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -20413,7 +20178,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ovidio e Michela", "Ovidio e Michela", "Ovidio e Michela"],
+    "alt_title": ["Ovidio e Michela"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -20523,7 +20288,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 12", "Ep. 12", "Ep. 12"],
+    "alt_title": ["Ep. 12"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -20567,7 +20332,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Fuggiaschi", "Runaways", "Fuggiaschi"],
+    "alt_title": ["Fuggiaschi", "Runaways"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -20788,11 +20553,10 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "The Great Race",
-      "Wyscig o Zycie",
-      "Balto e Togo - La leggenda",
       "The Great Alaskan Race",
-      "Balto e Togo - La leggenda"
+      "Balto e Togo - La leggenda",
+      "Wyscig o Zycie",
+      "The Great Race"
     ],
     "seriesProviderId": ""
   },
@@ -20837,7 +20601,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 10", "Guess Who's Coming to Dinner?", "Ep. 10"],
+    "alt_title": ["Ep. 10", "Guess Who's Coming to Dinner?"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -20903,7 +20667,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Kokowaah", "Kokowaah", "Kokowaah"],
+    "alt_title": ["Kokowaah"],
     "seriesProviderId": ""
   },
   {
@@ -20947,11 +20711,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Il bastone o la carota",
-      "Carrot or Stick",
-      "Il bastone o la carota"
-    ],
+    "alt_title": ["Carrot or Stick", "Il bastone o la carota"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -21039,11 +20799,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "49bd831f-fbd5-4ef5-8ad0-e5f67864eff2",
-    "alt_title": [
-      "Lettonia - Italia",
-      "Lettonia - Italia",
-      "Lettonia - Italia"
-    ],
+    "alt_title": ["Lettonia - Italia"],
     "seriesProviderId": "datatv_se255450"
   },
   {
@@ -21197,7 +20953,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": ["Jojo il genio", "Jojo il genio", "Jojo il genio"],
+    "alt_title": ["Jojo il genio"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -21329,11 +21085,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "4d80ab5d-6ce1-42d9-a45a-5f7ff17bc13c",
-    "alt_title": [
-      "Un pizzico di opposizione",
-      "Un pizzico di opposizione",
-      "Un pizzico di opposizione"
-    ],
+    "alt_title": ["Un pizzico di opposizione"],
     "seriesProviderId": "datatv_se256895"
   },
   {
@@ -21443,11 +21195,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "b2016491-885b-4072-96bc-671eb98803d4",
-    "alt_title": [
-      "La Challenge dell'apribocca!",
-      "La Challenge dell'apribocca!",
-      "La Challenge dell'apribocca!"
-    ],
+    "alt_title": ["La Challenge dell'apribocca!"],
     "seriesProviderId": "datatv_se256936"
   },
   {
@@ -21469,11 +21217,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "b2016491-885b-4072-96bc-671eb98803d4",
-    "alt_title": [
-      "La Challenge dell'apribocca!",
-      "La Challenge dell'apribocca!",
-      "La Challenge dell'apribocca!"
-    ],
+    "alt_title": ["La Challenge dell'apribocca!"],
     "seriesProviderId": "datatv_se256936"
   },
   {
@@ -21539,11 +21283,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "4d80ab5d-6ce1-42d9-a45a-5f7ff17bc13c",
-    "alt_title": [
-      "Aggiungi qualche anno in pi\u00f9",
-      "Aggiungi qualche anno in pi\u00f9",
-      "Aggiungi qualche anno in pi\u00f9"
-    ],
+    "alt_title": ["Aggiungi qualche anno in pi\u00f9"],
     "seriesProviderId": "datatv_se256895"
   },
   {
@@ -21697,7 +21437,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "be4f1446-e931-406f-9764-99a3e04d83c7",
-    "alt_title": ["La capanna", "Under House Arrest", "La capanna"],
+    "alt_title": ["La capanna", "Under House Arrest"],
     "seriesProviderId": "datatv_se256180"
   },
   {
@@ -21807,11 +21547,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "b2016491-885b-4072-96bc-671eb98803d4",
-    "alt_title": [
-      "Attacco allo zaino",
-      "Attacco allo zaino",
-      "Attacco allo zaino"
-    ],
+    "alt_title": ["Attacco allo zaino"],
     "seriesProviderId": "datatv_se256936"
   },
   {
@@ -21833,11 +21569,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "b2016491-885b-4072-96bc-671eb98803d4",
-    "alt_title": [
-      "Attacco allo zaino",
-      "Attacco allo zaino",
-      "Attacco allo zaino"
-    ],
+    "alt_title": ["Attacco allo zaino"],
     "seriesProviderId": "datatv_se256936"
   },
   {
@@ -21969,7 +21701,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Bellezza infinita", "Eternal Beauty", "Bellezza infinita"],
+    "alt_title": ["Bellezza infinita", "Eternal Beauty"],
     "seriesProviderId": ""
   },
   {
@@ -22036,9 +21768,9 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Combate mortal",
-      "Deathgames",
       "Arena 2011",
+      "Deathgames",
+      "Combate mortal",
       "Arena",
       "Death Games"
     ],
@@ -22107,7 +21839,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Prova di forza", "Gut Check", "Prova di forza"],
+    "alt_title": ["Gut Check", "Prova di forza"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -22217,7 +21949,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "b2016491-885b-4072-96bc-671eb98803d4",
-    "alt_title": ["Capanna di slime", "Capanna di slime", "Capanna di slime"],
+    "alt_title": ["Capanna di slime"],
     "seriesProviderId": "datatv_se256936"
   },
   {
@@ -22239,7 +21971,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "b2016491-885b-4072-96bc-671eb98803d4",
-    "alt_title": ["Capanna di slime", "Capanna di slime", "Capanna di slime"],
+    "alt_title": ["Capanna di slime"],
     "seriesProviderId": "datatv_se256936"
   },
   {
@@ -22327,11 +22059,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Plunkett & MacLeane",
-      "Plunkett & MacLeane",
-      "Plunkett & MacLeane"
-    ],
+    "alt_title": ["Plunkett & MacLeane"],
     "seriesProviderId": ""
   },
   {
@@ -22375,7 +22103,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Euforia. 2a parte", "Euphoria. Part 2", "Euforia. 2a parte"],
+    "alt_title": ["Euforia. 2a parte", "Euphoria. Part 2"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -22441,11 +22169,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Ci servono le uova",
-      "We Need the Eggs",
-      "Ci servono le uova"
-    ],
+    "alt_title": ["We Need the Eggs", "Ci servono le uova"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -22577,7 +22301,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["19/12/20", "19/12/20", "19/12/20"],
+    "alt_title": ["19/12/20"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -22819,7 +22543,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "3bf41082-2f70-4adc-a526-cd1c926cdda7",
-    "alt_title": ["Ep. 1", "Ep. 1", "Ep. 1"],
+    "alt_title": ["Ep. 1"],
     "seriesProviderId": "datatv_se229279"
   },
   {
@@ -22863,11 +22587,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Chi \u00e8 tuo padre?",
-      "Who's Your Daddy?",
-      "Chi \u00e8 tuo padre?"
-    ],
+    "alt_title": ["Chi \u00e8 tuo padre?", "Who's Your Daddy?"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -22934,9 +22654,9 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "David Bowie: The First Five Years",
+      "David Bowie - Nascita di una star",
       "David Bowie: Finding Fame",
-      "David Bowie - Nascita di una star"
+      "David Bowie: The First Five Years"
     ],
     "seriesProviderId": ""
   },
@@ -23025,11 +22745,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "adc3e47f-d252-40b6-a3ff-9c5d0cdbb1c5",
-    "alt_title": [
-      "Lo ScambioCon / Caccia alle uova",
-      "Lo ScambioCon / Caccia alle uova",
-      "Lo ScambioCon / Caccia alle uova"
-    ],
+    "alt_title": ["Lo ScambioCon / Caccia alle uova"],
     "seriesProviderId": "datatv_se255631"
   },
   {
@@ -23095,7 +22811,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Dogtooth", "Kynodontas", "Dogtooth"],
+    "alt_title": ["Kynodontas", "Dogtooth"],
     "seriesProviderId": ""
   },
   {
@@ -23161,7 +22877,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "ce78e76e-1b9e-43c4-afab-e85182a92646",
-    "alt_title": ["Koenigsee", "Koenigsee", "Koenigsee"],
+    "alt_title": ["Koenigsee"],
     "seriesProviderId": "datatv_se236692"
   },
   {
@@ -23271,7 +22987,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Insensibile", "Insensitive", "Insensibile"],
+    "alt_title": ["Insensitive", "Insensibile"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -23337,7 +23053,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 15", "Ep. 15", "Ep. 15"],
+    "alt_title": ["Ep. 15"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -23557,7 +23273,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 21", "Ep. 21", "Ep. 21"],
+    "alt_title": ["Ep. 21"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -23735,9 +23451,8 @@
     "seriesUUID": "",
     "alt_title": [
       "A Dist\u00e2ncia Que Nos Une",
-      "Alone with Her Dreams",
       "Picciridda - Con i piedi nella sabbia",
-      "Picciridda - Con i piedi nella sabbia"
+      "Alone with Her Dreams"
     ],
     "seriesProviderId": ""
   },
@@ -23782,7 +23497,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 3", "Ep. 3", "Ep. 3"],
+    "alt_title": ["Ep. 3"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -23914,11 +23629,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": [
-      "Gabriele e Matteo",
-      "Gabriele e Matteo",
-      "Gabriele e Matteo"
-    ],
+    "alt_title": ["Gabriele e Matteo"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -24006,11 +23717,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "df9062f7-8004-438a-b11c-7e2d09c1429d",
-    "alt_title": [
-      "Arne Duncan\u00a0",
-      "Arne Duncan\u00a0",
-      "Arne Duncan\u00a0"
-    ],
+    "alt_title": ["Arne Duncan\u00a0"],
     "seriesProviderId": "datatv_se253267"
   },
   {
@@ -24186,7 +23893,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["23/01/21", "23/01/21", "23/01/21"],
+    "alt_title": ["23/01/21"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -24274,11 +23981,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Una barba irresistibile",
-      "Una barba irresistibile",
-      "Una barba irresistibile"
-    ],
+    "alt_title": ["Una barba irresistibile"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -24366,7 +24069,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "0b550d81-20aa-431d-9372-7a9ed673dec1",
-    "alt_title": ["Skriniar", "Skriniar", "Skriniar"],
+    "alt_title": ["Skriniar"],
     "seriesProviderId": "datatv_se250592"
   },
   {
@@ -24434,8 +24137,8 @@
     "seriesUUID": "",
     "alt_title": [
       "My Life as a Courgette",
-      "My Life as a Zucchini",
-      "La mia vita da zucchina"
+      "La mia vita da zucchina",
+      "My Life as a Zucchini"
     ],
     "seriesProviderId": ""
   },
@@ -24546,11 +24249,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Il bene pi\u00f9 grande",
-      "The Greater Good",
-      "Il bene pi\u00f9 grande"
-    ],
+    "alt_title": ["Il bene pi\u00f9 grande", "The Greater Good"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -24682,7 +24381,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["31/01/21", "31/01/21", "31/01/21"],
+    "alt_title": ["31/01/21"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -24732,7 +24431,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Angeli custodi", "Guardian Angels", "Angeli custodi"],
+    "alt_title": ["Angeli custodi", "Guardian Angels"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -24798,11 +24497,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Il Natale che vorrei",
-      "A New York Christmas Wedding",
-      "Il Natale che vorrei"
-    ],
+    "alt_title": ["Il Natale che vorrei", "A New York Christmas Wedding"],
     "seriesProviderId": ""
   },
   {
@@ -24846,7 +24541,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["House e Dio", "House vs. God", "House e Dio"],
+    "alt_title": ["House vs. God", "House e Dio"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -24890,7 +24585,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Tutto per tutto", "All In", "Tutto per tutto"],
+    "alt_title": ["Tutto per tutto", "All In"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -24956,11 +24651,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "adc3e47f-d252-40b6-a3ff-9c5d0cdbb1c5",
-    "alt_title": [
-      "Salviamo le api / Il robopapero",
-      "Salviamo le api / Il robopapero",
-      "Salviamo le api / Il robopapero"
-    ],
+    "alt_title": ["Salviamo le api / Il robopapero"],
     "seriesProviderId": "datatv_se255631"
   },
   {
@@ -25004,7 +24695,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Tra le righe", "Unwritten", "Tra le righe"],
+    "alt_title": ["Unwritten", "Tra le righe"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -25070,11 +24761,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Il fidanzato di Ferocia",
-      "Il fidanzato di Ferocia",
-      "Il fidanzato di Ferocia"
-    ],
+    "alt_title": ["Il fidanzato di Ferocia"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -25162,7 +24849,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "0b550d81-20aa-431d-9372-7a9ed673dec1",
-    "alt_title": ["Chiesa", "Chiesa", "Chiesa"],
+    "alt_title": ["Chiesa"],
     "seriesProviderId": "datatv_se250592"
   },
   {
@@ -25206,11 +24893,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Il lato pi\u00f9 tenero",
-      "The Softer Side",
-      "Il lato pi\u00f9 tenero"
-    ],
+    "alt_title": ["Il lato pi\u00f9 tenero", "The Softer Side"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -25254,11 +24937,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Il coraggio delle piccole cose",
-      "Larger Than Life",
-      "Il coraggio delle piccole cose"
-    ],
+    "alt_title": ["Il coraggio delle piccole cose", "Larger Than Life"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -25324,7 +25003,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 4", "Ep. 4", "Ep. 4"],
+    "alt_title": ["Ep. 4"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -25544,11 +25223,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "810425ca-3a76-463d-b49b-c3800bfa5b80",
-    "alt_title": [
-      "Omicidio sul golfo",
-      "Murder Masterminds",
-      "Omicidio sul golfo"
-    ],
+    "alt_title": ["Murder Masterminds", "Omicidio sul golfo"],
     "seriesProviderId": "datatv_se252944"
   },
   {
@@ -25614,7 +25289,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Dannato", "Cursed", "Dannato"],
+    "alt_title": ["Cursed", "Dannato"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -25680,7 +25355,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 3", "Ep. 3", "Ep. 3"],
+    "alt_title": ["Ep. 3"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -25724,11 +25399,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Conosciuti sconosciuti",
-      "Known Unknowns",
-      "Conosciuti sconosciuti"
-    ],
+    "alt_title": ["Known Unknowns", "Conosciuti sconosciuti"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -25772,11 +25443,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "La caduta del cavaliere",
-      "Knight Fall",
-      "La caduta del cavaliere"
-    ],
+    "alt_title": ["La caduta del cavaliere", "Knight Fall"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -25864,7 +25531,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": ["Il principe orco", "Il principe orco", "Il principe orco"],
+    "alt_title": ["Il principe orco"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -25908,7 +25575,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Eventi avversi", "Adverse Events", "Eventi avversi"],
+    "alt_title": ["Adverse Events", "Eventi avversi"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -25952,7 +25619,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["L'uomo di casa", "Man of the House", "L'uomo di casa"],
+    "alt_title": ["L'uomo di casa", "Man of the House"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -25997,10 +25664,9 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
+      "Segreti nella neve",
       "Secrets in the Snow",
-      "Killer Secrets in the Snow",
-      "Secrets in the Snow",
-      "Segreti nella neve"
+      "Killer Secrets in the Snow"
     ],
     "seriesProviderId": ""
   },
@@ -26045,7 +25711,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Il tiranno", "The Tyrant", "Il tiranno"],
+    "alt_title": ["The Tyrant", "Il tiranno"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -26111,11 +25777,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Dolphin Man - L'uomo delfino",
-      "Dolphin Man",
-      "Dolphin Man - L'uomo delfino"
-    ],
+    "alt_title": ["Dolphin Man", "Dolphin Man - L'uomo delfino"],
     "seriesProviderId": ""
   },
   {
@@ -26159,11 +25821,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Massaggio terapeutico",
-      "Massage Therapy",
-      "Massaggio terapeutico"
-    ],
+    "alt_title": ["Massage Therapy", "Massaggio terapeutico"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -26299,7 +25957,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Tutti muoiono", "Everybody Dies", "Tutti muoiono"],
+    "alt_title": ["Tutti muoiono", "Everybody Dies"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -26343,7 +26001,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Senza traccia", "Clueless", "Senza traccia"],
+    "alt_title": ["Clueless", "Senza traccia"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -26564,9 +26222,8 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "I delitti del BarLume-Tana libera tutti",
-      "I delitti del BarLume-Tana libera tutti",
-      "I delitti del BarLume - Mare forza quattro"
+      "I delitti del BarLume - Mare forza quattro",
+      "I delitti del BarLume-Tana libera tutti"
     ],
     "seriesProviderId": ""
   },
@@ -26611,11 +26268,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Una prova per non morire",
-      "Pilot",
-      "Una prova per non morire"
-    ],
+    "alt_title": ["Una prova per non morire", "Pilot"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -26857,7 +26510,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": ["Fedra", "Fedra", "Fedra"],
+    "alt_title": ["Fedra"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -26967,7 +26620,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 1", "Ep. 1", "Ep. 1"],
+    "alt_title": ["Ep. 1"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -27033,7 +26686,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "df9062f7-8004-438a-b11c-7e2d09c1429d",
-    "alt_title": ["Cloud & Shareef", "Cloud & Shareef", "Cloud & Shareef"],
+    "alt_title": ["Cloud & Shareef"],
     "seriesProviderId": "datatv_se253267"
   },
   {
@@ -27099,11 +26752,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "adc3e47f-d252-40b6-a3ff-9c5d0cdbb1c5",
-    "alt_title": [
-      "Niente panico! / Un gelato da urlo",
-      "Niente panico! / Un gelato da urlo",
-      "Niente panico! / Un gelato da urlo"
-    ],
+    "alt_title": ["Niente panico! / Un gelato da urlo"],
     "seriesProviderId": "datatv_se255631"
   },
   {
@@ -27169,11 +26818,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Il metodo socratico",
-      "The Socratic Method",
-      "Il metodo socratico"
-    ],
+    "alt_title": ["Il metodo socratico", "The Socratic Method"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -27239,7 +26884,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "07b55c33-2faf-4154-8693-9900940eb735",
-    "alt_title": ["Sue Bird", "Sue Bird", "Sue Bird"],
+    "alt_title": ["Sue Bird"],
     "seriesProviderId": "datatv_se253805"
   },
   {
@@ -27371,7 +27016,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 10", "Ep. 10", "Ep. 10"],
+    "alt_title": ["Ep. 10"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -27423,8 +27068,7 @@
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
     "alt_title": [
       "La bugia \u00e8 una cosa meravigliosa",
-      "It's A Wonderful Lie",
-      "La bugia \u00e8 una cosa meravigliosa"
+      "It's A Wonderful Lie"
     ],
     "seriesProviderId": "datatv_se93993"
   },
@@ -27491,11 +27135,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "4d80ab5d-6ce1-42d9-a45a-5f7ff17bc13c",
-    "alt_title": [
-      "Aggiungi dei waffle",
-      "Aggiungi dei waffle",
-      "Aggiungi dei waffle"
-    ],
+    "alt_title": ["Aggiungi dei waffle"],
     "seriesProviderId": "datatv_se256895"
   },
   {
@@ -27561,7 +27201,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Resistere", "Holding On", "Resistere"],
+    "alt_title": ["Resistere", "Holding On"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -27627,11 +27267,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Una vacanza molto speciale",
-      "Double Holiday",
-      "Una vacanza molto speciale"
-    ],
+    "alt_title": ["Una vacanza molto speciale", "Double Holiday"],
     "seriesProviderId": ""
   },
   {
@@ -27675,7 +27311,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["La confessione", "The Confession", "La confessione"],
+    "alt_title": ["La confessione", "The Confession"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -28049,11 +27685,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "La mia peggiore migliore amica",
-      "La mia peggiore migliore amica",
-      "La mia peggiore migliore amica"
-    ],
+    "alt_title": ["La mia peggiore migliore amica"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -28097,7 +27729,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "e33de0f8-7525-4fc2-87f6-5b036607e8f5",
-    "alt_title": ["Ep. 2", "Ep. 2", "Ep. 2"],
+    "alt_title": ["Ep. 2"],
     "seriesProviderId": "datatv_se246774"
   },
   {
@@ -28163,7 +27795,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Impacto Letal", "Incoming", "Incoming"],
+    "alt_title": ["Impacto Letal", "Incoming"],
     "seriesProviderId": ""
   },
   {
@@ -28273,7 +27905,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Inglesi", "Inglesi", "Inglesi"],
+    "alt_title": ["Inglesi"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -28339,7 +27971,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 19", "Ep. 19", "Ep. 19"],
+    "alt_title": ["Ep. 19"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -28405,7 +28037,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Legacy", "Legacy", "Legacy"],
+    "alt_title": ["Legacy"],
     "seriesProviderId": ""
   },
   {
@@ -28537,11 +28169,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Una vita per un'altra vita",
-      "Sports Medicine",
-      "Una vita per un'altra vita"
-    ],
+    "alt_title": ["Una vita per un'altra vita", "Sports Medicine"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -28629,11 +28257,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "L'orco che voleva essere Babbo Natale",
-      "L'orco che voleva essere Babbo Natale",
-      "L'orco che voleva essere Babbo Natale"
-    ],
+    "alt_title": ["L'orco che voleva essere Babbo Natale"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -28743,7 +28367,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 13", "Ep. 13", "Ep. 13"],
+    "alt_title": ["Ep. 13"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -28787,7 +28411,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Karma istantaneo", "Instant Karma", "Karma istantaneo"],
+    "alt_title": ["Instant Karma", "Karma istantaneo"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -28919,7 +28543,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "3bf41082-2f70-4adc-a526-cd1c926cdda7",
-    "alt_title": ["Ep. 2", "Ep. 2", "Ep. 2"],
+    "alt_title": ["Ep. 2"],
     "seriesProviderId": "datatv_se229279"
   },
   {
@@ -28985,7 +28609,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["The Buddy Games", "Buddy Games", "Buddy Games"],
+    "alt_title": ["Buddy Games", "The Buddy Games"],
     "seriesProviderId": ""
   },
   {
@@ -29029,7 +28653,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Joy", "Joy", "Joy"],
+    "alt_title": ["Joy"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -29140,7 +28764,6 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Roald & Beatrix - Un incontro magico",
       "Roald & Beatrix: The Tail of the Curious Mouse",
       "Roald & Beatrix - Un incontro magico"
     ],
@@ -29209,7 +28832,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 8", "Auberge Anniversary", "Ep. 8"],
+    "alt_title": ["Auberge Anniversary", "Ep. 8"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -29297,7 +28920,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Lena e Snowball", "Lena and Snowball", "Lena e Snowball"],
+    "alt_title": ["Lena and Snowball", "Lena e Snowball"],
     "seriesProviderId": ""
   },
   {
@@ -29341,11 +28964,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Rischi di paranoia",
-      "Perils of Paranoia",
-      "Rischi di paranoia"
-    ],
+    "alt_title": ["Rischi di paranoia", "Perils of Paranoia"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -29455,7 +29074,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Sotto la mia pelle", "Under My Skin", "Sotto la mia pelle"],
+    "alt_title": ["Sotto la mia pelle", "Under My Skin"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -29566,13 +29185,12 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Unknown - Ausgel\u00f6scht",
-      "Mentes en blanco",
-      "Identit\u00e0 sospette",
-      "Eml\u00e9kezetkies\u00e9s",
       "5 Nezn\u00e1m\u00fdch",
+      "Identit\u00e0 sospette",
+      "Unknown - Ausgel\u00f6scht",
+      "Eml\u00e9kezetkies\u00e9s",
       "Unknown",
-      "Identit\u00e0 sospette"
+      "Mentes en blanco"
     ],
     "seriesProviderId": ""
   },
@@ -29705,7 +29323,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["La parola cancro", "The C Word", "La parola cancro"],
+    "alt_title": ["The C Word", "La parola cancro"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -29749,7 +29367,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Il prurito", "The Itch", "Il prurito"],
+    "alt_title": ["The Itch", "Il prurito"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -29837,7 +29455,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 9", "Ep. 9", "Ep. 9"],
+    "alt_title": ["Ep. 9"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -29947,11 +29565,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": [
-      "Guido e Francesca",
-      "Guido e Francesca",
-      "Guido e Francesca"
-    ],
+    "alt_title": ["Guido e Francesca"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -30083,7 +29697,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Una famiglia", "Family", "Una famiglia"],
+    "alt_title": ["Una famiglia", "Family"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -30281,7 +29895,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Sotterfugi", "Control", "Sotterfugi"],
+    "alt_title": ["Control", "Sotterfugi"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -30347,11 +29961,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "4d80ab5d-6ce1-42d9-a45a-5f7ff17bc13c",
-    "alt_title": [
-      "Un pizzico di colore",
-      "Un pizzico di colore",
-      "Un pizzico di colore"
-    ],
+    "alt_title": ["Un pizzico di colore"],
     "seriesProviderId": "datatv_se256895"
   },
   {
@@ -30439,7 +30049,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 15", "Ep. 15", "Ep. 15"],
+    "alt_title": ["Ep. 15"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -30527,11 +30137,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "L'imbattibile Jojo",
-      "L'imbattibile Jojo",
-      "L'imbattibile Jojo"
-    ],
+    "alt_title": ["L'imbattibile Jojo"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -30597,7 +30203,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 7", "Egg Showdown!", "Ep. 7"],
+    "alt_title": ["Ep. 7", "Egg Showdown!"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -30641,7 +30247,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Vieni micina", "Here Kitty", "Vieni micina"],
+    "alt_title": ["Here Kitty", "Vieni micina"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -30707,7 +30313,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Accettazione", "Acceptance", "Accettazione"],
+    "alt_title": ["Accettazione", "Acceptance"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -30751,7 +30357,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["House diviso", "House Divided", "House diviso"],
+    "alt_title": ["House Divided", "House diviso"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -30817,12 +30423,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Lucy In The Sky",
-      "Pale Blue Dot",
-      "Lucy in the Sky",
-      "Lucy in the Sky"
-    ],
+    "alt_title": ["Pale Blue Dot", "Lucy In The Sky", "Lucy in the Sky"],
     "seriesProviderId": ""
   },
   {
@@ -30954,7 +30555,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Yellow Rose", "Yellow Rose", "Yellow Rose"],
+    "alt_title": ["Yellow Rose"],
     "seriesProviderId": ""
   },
   {
@@ -31064,7 +30665,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Hollywood, Hollywood", "Bombshells", "Hollywood, Hollywood"],
+    "alt_title": ["Bombshells", "Hollywood, Hollywood"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -31240,7 +30841,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Padre Nostro", "PadreNostro", "PadreNostro"],
+    "alt_title": ["Padre Nostro", "PadreNostro"],
     "seriesProviderId": ""
   },
   {
@@ -31328,11 +30929,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "adc3e47f-d252-40b6-a3ff-9c5d0cdbb1c5",
-    "alt_title": [
-      "Steel nello spazio / \u00c8 magia!",
-      "Steel nello spazio / \u00c8 magia!",
-      "Steel nello spazio / \u00c8 magia!"
-    ],
+    "alt_title": ["Steel nello spazio / \u00c8 magia!"],
     "seriesProviderId": "datatv_se255631"
   },
   {
@@ -31530,7 +31127,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Lacci", "Lacci", "Lacci"],
+    "alt_title": ["Lacci"],
     "seriesProviderId": ""
   },
   {
@@ -31684,11 +31281,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "810425ca-3a76-463d-b49b-c3800bfa5b80",
-    "alt_title": [
-      "Morte di una star",
-      "Ep.4/5 The Doctor Is Dead",
-      "Morte di una star"
-    ],
+    "alt_title": ["Morte di una star", "Ep.4/5 The Doctor Is Dead"],
     "seriesProviderId": "datatv_se252944"
   },
   {
@@ -31776,7 +31369,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "ec03b369-4781-4cb4-8d7a-841c29d7d0c3",
-    "alt_title": ["Ep. 1", "Ep. 1", "Ep. 1"],
+    "alt_title": ["Ep. 1"],
     "seriesProviderId": "datatv_se248484"
   },
   {
@@ -31864,7 +31457,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Auto di lusso", "Ep. 14", "Auto di lusso"],
+    "alt_title": ["Ep. 14", "Auto di lusso"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -31931,13 +31524,11 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Vida bandida",
-      "Bandits Gentlemen Braqueurs",
-      "Banditi",
       "Bandittsu",
+      "Vida bandida",
       "Bandits",
-      "Bandits",
-      "Bandits"
+      "Bandits Gentlemen Braqueurs",
+      "Banditi"
     ],
     "seriesProviderId": ""
   },
@@ -32005,10 +31596,10 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Un plan irresistible",
-      "Irresistible - Unwiderstehlich",
       "Irresistible",
-      "Irresistibile"
+      "Irresistible - Unwiderstehlich",
+      "Irresistibile",
+      "Un plan irresistible"
     ],
     "seriesProviderId": ""
   },
@@ -32053,7 +31644,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Dimissioni", "Resignation", "Dimissioni"],
+    "alt_title": ["Resignation", "Dimissioni"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -32097,7 +31688,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Euforia. 1a parte", "Euphoria. Part 1", "Euforia. 1a parte"],
+    "alt_title": ["Euphoria. Part 1", "Euforia. 1a parte"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -32185,7 +31776,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 8", "Ep. 8", "Ep. 8"],
+    "alt_title": ["Ep. 8"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -32251,7 +31842,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "07b55c33-2faf-4154-8693-9900940eb735",
-    "alt_title": ["Top Plays", "Top Plays", "Top Plays"],
+    "alt_title": ["Top Plays"],
     "seriesProviderId": "datatv_se253805"
   },
   {
@@ -32339,11 +31930,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Una fatina operosa",
-      "Una fatina operosa",
-      "Una fatina operosa"
-    ],
+    "alt_title": ["Una fatina operosa"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -32436,11 +32023,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "7eb208db-9e31-472d-bae3-9a8493b7595f",
-    "alt_title": [
-      "Il centro non regge",
-      "The Center Won\u2019t Hold",
-      "Il centro non regge"
-    ],
+    "alt_title": ["The Center Won\u2019t Hold", "Il centro non regge"],
     "seriesProviderId": "datatv_se94556"
   },
   {
@@ -32550,7 +32133,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Emancipazione", "Emancipation", "Emancipazione"],
+    "alt_title": ["Emancipation", "Emancipazione"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -32732,7 +32315,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Da solo", "Alone", "Da solo"],
+    "alt_title": ["Alone", "Da solo"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -32782,7 +32365,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Una donna vera", "The Right Stuff", "Una donna vera"],
+    "alt_title": ["Una donna vera", "The Right Stuff"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -32848,11 +32431,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "adc3e47f-d252-40b6-a3ff-9c5d0cdbb1c5",
-    "alt_title": [
-      "Fan Club / Il velocissimo Sir Steel",
-      "Fan Club / Il velocissimo Sir Steel",
-      "Fan Club / Il velocissimo Sir Steel"
-    ],
+    "alt_title": ["Fan Club / Il velocissimo Sir Steel"],
     "seriesProviderId": "datatv_se255631"
   },
   {
@@ -32918,11 +32497,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Una bellezza naturale",
-      "Una bellezza naturale",
-      "Una bellezza naturale"
-    ],
+    "alt_title": ["Una bellezza naturale"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -33010,7 +32585,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Auto di lusso", "Ep. 12", "Auto di lusso"],
+    "alt_title": ["Ep. 12", "Auto di lusso"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -33208,11 +32783,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "La forza \u00e8 dentro di noi",
-      "Forever",
-      "La forza \u00e8 dentro di noi"
-    ],
+    "alt_title": ["La forza \u00e8 dentro di noi", "Forever"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -33432,11 +33003,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Mamma, abbiamo rotto la bacchetta!",
-      "Mamma, abbiamo rotto la bacchetta!",
-      "Mamma, abbiamo rotto la bacchetta!"
-    ],
+    "alt_title": ["Mamma, abbiamo rotto la bacchetta!"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -33480,7 +33047,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Wilson", "Wilson", "Wilson"],
+    "alt_title": ["Wilson"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -33612,7 +33179,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 2", "Home On The Range", "Ep. 2"],
+    "alt_title": ["Ep. 2", "Home On The Range"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -33679,8 +33246,8 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Sniper 8: Assassin's End",
       "Sniper: Assassin's End",
+      "Sniper 8: Assassin's End",
       "Sniper: La fine dell'assassino"
     ],
     "seriesProviderId": ""
@@ -33748,11 +33315,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Sul filo dell'errore",
-      "Damned If You Do",
-      "Sul filo dell'errore"
-    ],
+    "alt_title": ["Sul filo dell'errore", "Damned If You Do"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -33884,11 +33447,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": [
-      "Best of. 2a parte",
-      "Best of. 2a parte",
-      "Best of. 2a parte"
-    ],
+    "alt_title": ["Best of. 2a parte"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -34020,7 +33579,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 7", "Ep. 7", "Ep. 7"],
+    "alt_title": ["Ep. 7"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -34174,11 +33733,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "810425ca-3a76-463d-b49b-c3800bfa5b80",
-    "alt_title": [
-      "Legittima difesa?",
-      "Ep.2/5 Murder in the Kentucky Hills",
-      "Legittima difesa?"
-    ],
+    "alt_title": ["Ep.2/5 Murder in the Kentucky Hills", "Legittima difesa?"],
     "seriesProviderId": "datatv_se252944"
   },
   {
@@ -34222,7 +33777,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Sensi di colpa", "Humpty Dumpty", "Sensi di colpa"],
+    "alt_title": ["Sensi di colpa", "Humpty Dumpty"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -34288,11 +33843,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Un principe non molto nobile",
-      "Un principe non molto nobile",
-      "Un principe non molto nobile"
-    ],
+    "alt_title": ["Un principe non molto nobile"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -34358,11 +33909,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Natale in Tennessee",
-      "A Christmas in Tennessee",
-      "Natale in Tennessee"
-    ],
+    "alt_title": ["A Christmas in Tennessee", "Natale in Tennessee"],
     "seriesProviderId": ""
   },
   {
@@ -34450,7 +33997,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "97c772e8-7bae-4ac2-8620-31162a5ff3bd",
-    "alt_title": ["Ep. 2", "Ep. 2", "Ep. 2"],
+    "alt_title": ["Ep. 2"],
     "seriesProviderId": "datatv_se241535"
   },
   {
@@ -34494,7 +34041,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Egoista", "Selfish", "Egoista"],
+    "alt_title": ["Egoista", "Selfish"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -34561,10 +34108,10 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Navidad en Holly Lane",
-      "Natal em Holly Lane",
+      "Natale a Holly Lane",
       "Christmas on Holly Lane",
-      "Natale a Holly Lane"
+      "Navidad en Holly Lane",
+      "Natal em Holly Lane"
     ],
     "seriesProviderId": ""
   },
@@ -34631,11 +34178,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "4d80ab5d-6ce1-42d9-a45a-5f7ff17bc13c",
-    "alt_title": [
-      "Aggiungi la moneta",
-      "Aggiungi la moneta",
-      "Aggiungi la moneta"
-    ],
+    "alt_title": ["Aggiungi la moneta"],
     "seriesProviderId": "datatv_se256895"
   },
   {
@@ -34811,7 +34354,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["25/01/21", "25/01/21", "25/01/21"],
+    "alt_title": ["25/01/21"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -34877,7 +34420,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 9", "Ep. 9", "Ep. 9"],
+    "alt_title": ["Ep. 9"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -34943,7 +34486,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["17/12/20", "17/12/20", "17/12/20"],
+    "alt_title": ["17/12/20"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -35120,7 +34663,6 @@
     "type": "SCHED",
     "seriesUUID": "810425ca-3a76-463d-b49b-c3800bfa5b80",
     "alt_title": [
-      "Il segreto della cheerleader",
       "Ep.3/5 Cheerleader on Trial",
       "Il segreto della cheerleader"
     ],
@@ -35167,7 +34709,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Effetto domino", "Whac-A-Mole", "Effetto domino"],
+    "alt_title": ["Whac-A-Mole", "Effetto domino"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -35277,7 +34819,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 6", "Ep. 6", "Ep. 6"],
+    "alt_title": ["Ep. 6"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -35327,11 +34869,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Mai pi\u00f9 Mister Gentilezza",
-      "No More Mr. Nice Guy",
-      "Mai pi\u00f9 Mister Gentilezza"
-    ],
+    "alt_title": ["No More Mr. Nice Guy", "Mai pi\u00f9 Mister Gentilezza"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -35397,12 +34935,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "I Wanted to Hide",
-      "Volevo nascondermi",
-      "Volevo nascondermi",
-      "Volevo nascondermi"
-    ],
+    "alt_title": ["Volevo nascondermi", "I Wanted to Hide"],
     "seriesProviderId": ""
   },
   {
@@ -35600,7 +35133,7 @@
     "masterUUID": "1a7cf374-390c-49a3-b55a-121563e1c45c",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": ["Anteprima", "Anteprima", "Anteprima"],
+    "alt_title": ["Anteprima"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -35644,11 +35177,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Consenso informato",
-      "Informed Consent",
-      "Consenso informato"
-    ],
+    "alt_title": ["Consenso informato", "Informed Consent"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -35824,11 +35353,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": [
-      "Davide e Francesca",
-      "Davide e Francesca",
-      "Davide e Francesca"
-    ],
+    "alt_title": ["Davide e Francesca"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -35982,7 +35507,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Belushi", "Belushi", "Belushi"],
+    "alt_title": ["Belushi"],
     "seriesProviderId": ""
   },
   {
@@ -36071,9 +35596,9 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Petoksista pahin",
-      "O Crime Perfeito",
       "Slow Burn",
+      "O Crime Perfeito",
+      "Petoksista pahin",
       "Doppia ipotesi per un delitto"
     ],
     "seriesProviderId": ""
@@ -36141,11 +35666,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "9df7819e-80b6-4287-8255-b9026b2cdd89",
-    "alt_title": [
-      "Fuga da Wall Street",
-      "Fuga da Wall Street",
-      "Fuga da Wall Street"
-    ],
+    "alt_title": ["Fuga da Wall Street"],
     "seriesProviderId": "datatv_se248503"
   },
   {
@@ -36234,11 +35755,11 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Henri Pick",
-      "IL MISTERO HENRI PICK",
       "Mysteriet om Henri Pick",
+      "Il mistero Henri Pick",
+      "IL MISTERO HENRI PICK",
       "Le Myst\u00e8re Henri Pick",
-      "Il mistero Henri Pick"
+      "Henri Pick"
     ],
     "seriesProviderId": ""
   },
@@ -36463,7 +35984,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Top Secret", "Top Secret", "Top Secret"],
+    "alt_title": ["Top Secret"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -36507,7 +36028,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Vaiolo", "A Pox on Our House", "Vaiolo"],
+    "alt_title": ["A Pox on Our House", "Vaiolo"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -36617,7 +36138,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 4", "Ep. 4", "Ep. 4"],
+    "alt_title": ["Ep. 4"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -36815,7 +36336,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Carlo e Daniela", "Carlo e Daniela", "Carlo e Daniela"],
+    "alt_title": ["Carlo e Daniela"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -37041,7 +36562,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["La testa di House", "House's Head", "La testa di House"],
+    "alt_title": ["House's Head", "La testa di House"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -37129,11 +36650,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "The Mistletoe Secret",
-      "The Mistletoe Secret",
-      "The Mistletoe Secret"
-    ],
+    "alt_title": ["The Mistletoe Secret"],
     "seriesProviderId": ""
   },
   {
@@ -37463,11 +36980,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Tredici porta fortuna",
-      "Lucky Thirteen",
-      "Tredici porta fortuna"
-    ],
+    "alt_title": ["Lucky Thirteen", "Tredici porta fortuna"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -37511,11 +37024,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Un cane \u00e8 per sempre",
-      "Sleeping Dogs Lie",
-      "Un cane \u00e8 per sempre"
-    ],
+    "alt_title": ["Un cane \u00e8 per sempre", "Sleeping Dogs Lie"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -37581,7 +37090,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 2", "How Do You Take Your Mystery Box?", "Ep. 2"],
+    "alt_title": ["How Do You Take Your Mystery Box?", "Ep. 2"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -37757,11 +37266,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Conflitto di competenze",
-      "TB or Not TB",
-      "Conflitto di competenze"
-    ],
+    "alt_title": ["TB or Not TB", "Conflitto di competenze"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -37805,7 +37310,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Nessun colpevole", "Nobody's Fault", "Nessun colpevole"],
+    "alt_title": ["Nobody's Fault", "Nessun colpevole"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -37871,7 +37376,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 10", "Harvest Family Dinner", "Ep. 10"],
+    "alt_title": ["Ep. 10", "Harvest Family Dinner"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -37921,7 +37426,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Il cuore di Wilson", "Wilson's Heart", "Il cuore di Wilson"],
+    "alt_title": ["Il cuore di Wilson", "Wilson's Heart"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -38031,7 +37536,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Errore umano", "Human Error", "Errore umano"],
+    "alt_title": ["Human Error", "Errore umano"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -38075,7 +37580,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 1", "Ep. 1", "Ep. 1"],
+    "alt_title": ["Ep. 1"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -38143,7 +37648,6 @@
     "seriesUUID": "",
     "alt_title": [
       "Vacanze ai Caraibi - Il film di Natale",
-      "In vacanza su Marte",
       "In vacanza su Marte"
     ],
     "seriesProviderId": ""
@@ -38211,7 +37715,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 3", "True Patriot Love", "Ep. 3"],
+    "alt_title": ["True Patriot Love", "Ep. 3"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -38277,11 +37781,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Il gatto con la lingua lunga",
-      "Il gatto con la lingua lunga",
-      "Il gatto con la lingua lunga"
-    ],
+    "alt_title": ["Il gatto con la lingua lunga"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -38435,7 +37935,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "97c772e8-7bae-4ac2-8620-31162a5ff3bd",
-    "alt_title": ["Ep. 4", "Ep. 4", "Ep. 4"],
+    "alt_title": ["Ep. 4"],
     "seriesProviderId": "datatv_se241535"
   },
   {
@@ -38545,7 +38045,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Green Palace", "Green Palace", "Green Palace"],
+    "alt_title": ["Green Palace"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -38611,7 +38111,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "df9062f7-8004-438a-b11c-7e2d09c1429d",
-    "alt_title": ["Sabally & Smith", "Sabally & Smith", "Sabally & Smith"],
+    "alt_title": ["Sabally & Smith"],
     "seriesProviderId": "datatv_se253267"
   },
   {
@@ -38655,11 +38155,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Il dolore di ricordare",
-      "You Must Remember This",
-      "Il dolore di ricordare"
-    ],
+    "alt_title": ["You Must Remember This", "Il dolore di ricordare"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -38835,7 +38331,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Madre controllo", "Poison", "Madre controllo"],
+    "alt_title": ["Poison", "Madre controllo"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -38989,11 +38485,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "4d80ab5d-6ce1-42d9-a45a-5f7ff17bc13c",
-    "alt_title": [
-      "Aggiungi il finale",
-      "Aggiungi il finale",
-      "Aggiungi il finale"
-    ],
+    "alt_title": ["Aggiungi il finale"],
     "seriesProviderId": "datatv_se256895"
   },
   {
@@ -39125,7 +38617,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 6", "Ep. 6", "Ep. 6"],
+    "alt_title": ["Ep. 6"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -39169,11 +38661,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Un piccolo Natale",
-      "Merry Little Christmas",
-      "Un piccolo Natale"
-    ],
+    "alt_title": ["Merry Little Christmas", "Un piccolo Natale"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -39240,9 +38728,9 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Gauguin: Voyage to Tahiti",
+      "Gauguin",
       "Gauguin - Voyage de Tahiti",
-      "Gauguin"
+      "Gauguin: Voyage to Tahiti"
     ],
     "seriesProviderId": ""
   },
@@ -39287,11 +38775,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "L'ultima tentazione",
-      "Last Temptation",
-      "L'ultima tentazione"
-    ],
+    "alt_title": ["Last Temptation", "L'ultima tentazione"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -39357,7 +38841,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 18", "Ep. 18", "Ep. 18"],
+    "alt_title": ["Ep. 18"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -39467,7 +38951,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Senza dolore", "Painless", "Senza dolore"],
+    "alt_title": ["Senza dolore", "Painless"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -39555,11 +39039,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Grunda e i suoi spuntini",
-      "Grunda e i suoi spuntini",
-      "Grunda e i suoi spuntini"
-    ],
+    "alt_title": ["Grunda e i suoi spuntini"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -39603,7 +39083,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Due storie", "Two Stories", "Due storie"],
+    "alt_title": ["Due storie", "Two Stories"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -39735,7 +39215,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["28/01/21", "28/01/21", "28/01/21"],
+    "alt_title": ["28/01/21"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -39801,7 +39281,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "7d670f50-9d76-451d-a21b-a048bc2d193f",
-    "alt_title": ["Ep. 2", "Ep. 2", "Ep. 2"],
+    "alt_title": ["Ep. 2"],
     "seriesProviderId": "datatv_se257041"
   },
   {
@@ -39823,7 +39303,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "7d670f50-9d76-451d-a21b-a048bc2d193f",
-    "alt_title": ["Ep. 2", "Ep. 2", "Ep. 2"],
+    "alt_title": ["Ep. 2"],
     "seriesProviderId": "datatv_se257041"
   },
   {
@@ -39911,7 +39391,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": ["Nei miei panni", "Nei miei panni", "Nei miei panni"],
+    "alt_title": ["Nei miei panni"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -39977,11 +39457,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "La pi\u00f9 crudele del reame",
-      "La pi\u00f9 crudele del reame",
-      "La pi\u00f9 crudele del reame"
-    ],
+    "alt_title": ["La pi\u00f9 crudele del reame"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -40157,7 +39633,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["20/12/20", "20/12/20", "20/12/20"],
+    "alt_title": ["20/12/20"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -40245,7 +39721,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "0b550d81-20aa-431d-9372-7a9ed673dec1",
-    "alt_title": ["Zapata", "Zapata", "Zapata"],
+    "alt_title": ["Zapata"],
     "seriesProviderId": "datatv_se250592"
   },
   {
@@ -40399,7 +39875,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "0b550d81-20aa-431d-9372-7a9ed673dec1",
-    "alt_title": ["Bernardeschi", "Bernardeschi", "Bernardeschi"],
+    "alt_title": ["Bernardeschi"],
     "seriesProviderId": "datatv_se250592"
   },
   {
@@ -40465,11 +39941,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "4d80ab5d-6ce1-42d9-a45a-5f7ff17bc13c",
-    "alt_title": [
-      "Un pizzico di volume",
-      "Un pizzico di volume",
-      "Un pizzico di volume"
-    ],
+    "alt_title": ["Un pizzico di volume"],
     "seriesProviderId": "datatv_se256895"
   },
   {
@@ -40535,11 +40007,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Una sorpresa sotto l'albero",
-      "Christmas Unwrapped",
-      "Una sorpresa sotto l'albero"
-    ],
+    "alt_title": ["Christmas Unwrapped", "Una sorpresa sotto l'albero"],
     "seriesProviderId": ""
   },
   {
@@ -40605,11 +40073,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "adc3e47f-d252-40b6-a3ff-9c5d0cdbb1c5",
-    "alt_title": [
-      "Rammy e la paura dell'acqua / Amici appiccicosi",
-      "Rammy e la paura dell'acqua / Amici appiccicosi",
-      "Rammy e la paura dell'acqua / Amici appiccicosi"
-    ],
+    "alt_title": ["Rammy e la paura dell'acqua / Amici appiccicosi"],
     "seriesProviderId": "datatv_se255631"
   },
   {
@@ -40675,7 +40139,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Sin Piedad (The Kid)", "Billy le Kid", "The Kid", "The Kid"],
+    "alt_title": ["Sin Piedad (The Kid)", "The Kid", "Billy le Kid"],
     "seriesProviderId": ""
   },
   {
@@ -40719,7 +40183,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Aperto e chiuso", "Open and Shut", "Aperto e chiuso"],
+    "alt_title": ["Open and Shut", "Aperto e chiuso"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -40769,7 +40233,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Vivere il sogno", "Living the Dream", "Vivere il sogno"],
+    "alt_title": ["Vivere il sogno", "Living the Dream"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -40813,11 +40277,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Una lezione per House",
-      "House Training",
-      "Una lezione per House"
-    ],
+    "alt_title": ["House Training", "Una lezione per House"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -40885,8 +40345,7 @@
     "seriesUUID": "",
     "alt_title": [
       "Coldplay - A Head Full of Dreams",
-      "Coldplay: A Head Full of Dreams",
-      "Coldplay - A Head Full of Dreams"
+      "Coldplay: A Head Full of Dreams"
     ],
     "seriesProviderId": ""
   },
@@ -40953,7 +40412,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 16", "Ep. 16", "Ep. 16"],
+    "alt_title": ["Ep. 16"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -41129,7 +40588,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Sesso assassino", "Sex Kills", "Sesso assassino"],
+    "alt_title": ["Sesso assassino", "Sex Kills"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -41173,7 +40632,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 6", "Vive La Pressure Test", "Ep. 6"],
+    "alt_title": ["Vive La Pressure Test", "Ep. 6"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -41284,10 +40743,10 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Super Miss",
-      "As Aventuras de uma Super Professora",
+      "Supermiss missione animali",
       "Superjuffie",
-      "Supermiss missione animali"
+      "As Aventuras de uma Super Professora",
+      "Super Miss"
     ],
     "seriesProviderId": ""
   },
@@ -41332,11 +40791,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Zoppo ma... in gamba",
-      "Cain and Able",
-      "Zoppo ma... in gamba"
-    ],
+    "alt_title": ["Zoppo ma... in gamba", "Cain and Able"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -41380,7 +40835,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Non \u00e8 cancro", "Not Cancer", "Non \u00e8 cancro"],
+    "alt_title": ["Non \u00e8 cancro", "Not Cancer"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -41430,7 +40885,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Giochi", "Games", "Giochi"],
+    "alt_title": ["Giochi", "Games"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -41562,7 +41017,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "0b550d81-20aa-431d-9372-7a9ed673dec1",
-    "alt_title": ["Papu Gomez", "Papu Gomez", "Papu Gomez"],
+    "alt_title": ["Papu Gomez"],
     "seriesProviderId": "datatv_se250592"
   },
   {
@@ -41694,11 +41149,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "5df2d684-9288-40bc-b5a4-92234a3f4651",
-    "alt_title": [
-      "Daini di montagna",
-      "Daini di montagna",
-      "Daini di montagna"
-    ],
+    "alt_title": ["Daini di montagna"],
     "seriesProviderId": "datatv_se256690"
   },
   {
@@ -41787,13 +41238,13 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "Licna Istorija Davida Koperfilda",
-      "David Copperfieldi isiklik elulugu",
-      "David Copperfields \u00e4ventyr och iakttagelser",
-      "Deivido Koperfildo istorija",
       "David Copperfields personlige historie",
+      "David Copperfields \u00e4ventyr och iakttagelser",
       "The Personal History of David Copperfield",
-      "La vita straordinaria di David Copperfield"
+      "La vita straordinaria di David Copperfield",
+      "Deivido Koperfildo istorija",
+      "Licna Istorija Davida Koperfilda",
+      "David Copperfieldi isiklik elulugu"
     ],
     "seriesProviderId": ""
   },
@@ -41838,11 +41289,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "A prova di recessione",
-      "Recession Proof",
-      "A prova di recessione"
-    ],
+    "alt_title": ["A prova di recessione", "Recession Proof"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -41974,7 +41421,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Flick", "Flick", "Flick"],
+    "alt_title": ["Flick"],
     "seriesProviderId": ""
   },
   {
@@ -42018,7 +41465,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Giovane arrogante", "The Jerk", "Giovane arrogante"],
+    "alt_title": ["Giovane arrogante", "The Jerk"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -42106,11 +41553,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "5df2d684-9288-40bc-b5a4-92234a3f4651",
-    "alt_title": [
-      "Daini, galaverna e lupi",
-      "Daini, galaverna e lupi",
-      "Daini, galaverna e lupi"
-    ],
+    "alt_title": ["Daini, galaverna e lupi"],
     "seriesProviderId": "datatv_se256690"
   },
   {
@@ -42220,11 +41663,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "9df7819e-80b6-4287-8255-b9026b2cdd89",
-    "alt_title": [
-      "U.S.A. - Dopo l'11 settembre",
-      "U.S.A. - Dopo l'11 settembre",
-      "U.S.A. - Dopo l'11 settembre"
-    ],
+    "alt_title": ["U.S.A. - Dopo l'11 settembre"],
     "seriesProviderId": "datatv_se248503"
   },
   {
@@ -42268,7 +41707,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "895f9368-d3e8-4df7-a8d4-2317b198b386",
-    "alt_title": ["Prove schiaccianti", "Part 2", "Prove schiaccianti"],
+    "alt_title": ["Part 2", "Prove schiaccianti"],
     "seriesProviderId": "datatv_se255951"
   },
   {
@@ -42378,11 +41817,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": [
-      "Proprietarie e inquilino",
-      "Proprietarie e inquilino",
-      "Proprietarie e inquilino"
-    ],
+    "alt_title": ["Proprietarie e inquilino"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -42448,7 +41883,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Greenland", "Greenland", "Greenland"],
+    "alt_title": ["Greenland"],
     "seriesProviderId": ""
   },
   {
@@ -42580,7 +42015,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 4", "Fast and Epicure-ious", "Ep. 4"],
+    "alt_title": ["Fast and Epicure-ious", "Ep. 4"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -42624,11 +42059,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Linee sulla sabbia",
-      "Lines in the Sand",
-      "Linee sulla sabbia"
-    ],
+    "alt_title": ["Lines in the Sand", "Linee sulla sabbia"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -42677,11 +42108,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "7eb208db-9e31-472d-bae3-9a8493b7595f",
-    "alt_title": [
-      "Tutte le feste di domani",
-      "All Tomorrow\u2019s Parties",
-      "Tutte le feste di domani"
-    ],
+    "alt_title": ["All Tomorrow\u2019s Parties", "Tutte le feste di domani"],
     "seriesProviderId": "datatv_se94556"
   },
   {
@@ -42901,11 +42328,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "La magia colpisce ancora",
-      "La magia colpisce ancora",
-      "La magia colpisce ancora"
-    ],
+    "alt_title": ["La magia colpisce ancora"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -43020,7 +42443,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "7eb208db-9e31-472d-bae3-9a8493b7595f",
-    "alt_title": ["Il mio lieto fine", "My Happy Ending", "Il mio lieto fine"],
+    "alt_title": ["My Happy Ending", "Il mio lieto fine"],
     "seriesProviderId": "datatv_se94556"
   },
   {
@@ -43196,7 +42619,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 2", "Ep. 2", "Ep. 2"],
+    "alt_title": ["Ep. 2"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -43328,7 +42751,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 7", "Ep. 7", "Ep. 7"],
+    "alt_title": ["Ep. 7"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -43460,7 +42883,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "ce78e76e-1b9e-43c4-afab-e85182a92646",
-    "alt_title": ["Sigulda", "Sigulda", "Sigulda"],
+    "alt_title": ["Sigulda"],
     "seriesProviderId": "datatv_se236692"
   },
   {
@@ -43548,7 +42971,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 7", "The Magnificent Seven (+1)", "Ep. 7"],
+    "alt_title": ["Ep. 7", "The Magnificent Seven (+1)"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -43636,7 +43059,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Soulfood -Familie geht durch den Magen", "Abe", "Abe"],
+    "alt_title": ["Soulfood -Familie geht durch den Magen", "Abe"],
     "seriesProviderId": ""
   },
   {
@@ -43702,11 +43125,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "07b55c33-2faf-4154-8693-9900940eb735",
-    "alt_title": [
-      "Best of 2019/20 Part 1",
-      "Best of 2019/20 Part 1",
-      "Best of 2019/20 Part 1"
-    ],
+    "alt_title": ["Best of 2019/20 Part 1"],
     "seriesProviderId": "datatv_se253805"
   },
   {
@@ -43750,7 +43169,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["C'est la vie", "Que Ser\u00e1 Ser\u00e1", "C'est la vie"],
+    "alt_title": ["Que Ser\u00e1 Ser\u00e1", "C'est la vie"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -43816,7 +43235,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "ce78e76e-1b9e-43c4-afab-e85182a92646",
-    "alt_title": ["Doppio", "Doppio", "Doppio"],
+    "alt_title": ["Doppio"],
     "seriesProviderId": "datatv_se236692"
   },
   {
@@ -43929,8 +43348,8 @@
     "alt_title": [
       "The Blackout: Invasion Earth",
       "Blackout: A Batalha Final",
-      "Avanpost",
-      "The Blackout"
+      "The Blackout",
+      "Avanpost"
     ],
     "seriesProviderId": ""
   },
@@ -43975,7 +43394,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 11", "Sweet Francaise", "Ep. 11"],
+    "alt_title": ["Sweet Francaise", "Ep. 11"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -44041,7 +43460,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 6", "Jamie In The House", "Ep. 6"],
+    "alt_title": ["Jamie In The House", "Ep. 6"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -44085,7 +43504,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Trapianto", "Transplant", "Trapianto"],
+    "alt_title": ["Transplant", "Trapianto"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -44239,11 +43658,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "810425ca-3a76-463d-b49b-c3800bfa5b80",
-    "alt_title": [
-      "Sotto la luna blu",
-      "Ep.5/5 Murder Under a Blue Moon",
-      "Sotto la luna blu"
-    ],
+    "alt_title": ["Ep.5/5 Murder Under a Blue Moon", "Sotto la luna blu"],
     "seriesProviderId": "datatv_se252944"
   },
   {
@@ -44353,7 +43768,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Al sicuro", "Safe", "Al sicuro"],
+    "alt_title": ["Safe", "Al sicuro"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -44507,7 +43922,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["29/01/21", "29/01/21", "29/01/21"],
+    "alt_title": ["29/01/21"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -44617,7 +44032,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["La scelta", "The Choice", "La scelta"],
+    "alt_title": ["The Choice", "La scelta"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -44705,7 +44120,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["Deux moi", "(FFF20)", "Deux Moi", "Someone, Somewhere"],
+    "alt_title": ["Someone, Somewhere", "Deux Moi", "Deux moi", "(FFF20)"],
     "seriesProviderId": ""
   },
   {
@@ -44815,7 +44230,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 5", "Ep. 5", "Ep. 5"],
+    "alt_title": ["Ep. 5"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -44925,7 +44340,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Verit\u00e0 nascoste", "Kids", "Verit\u00e0 nascoste"],
+    "alt_title": ["Verit\u00e0 nascoste", "Kids"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -45013,7 +44428,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "be4f1446-e931-406f-9764-99a3e04d83c7",
-    "alt_title": ["Testardaggine", "Rogue Rage", "Testardaggine"],
+    "alt_title": ["Testardaggine", "Rogue Rage"],
     "seriesProviderId": "datatv_se256180"
   },
   {
@@ -45079,7 +44494,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "98f0752a-95e9-4af1-81b5-c7bcd586c049",
-    "alt_title": ["Ep. 1", "Ep. 1", "Ep. 1"],
+    "alt_title": ["Ep. 1"],
     "seriesProviderId": "datatv_se257325"
   },
   {
@@ -45101,7 +44516,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "98f0752a-95e9-4af1-81b5-c7bcd586c049",
-    "alt_title": ["Ep. 1", "Ep. 1", "Ep. 1"],
+    "alt_title": ["Ep. 1"],
     "seriesProviderId": "datatv_se257325"
   },
   {
@@ -45168,7 +44583,6 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "A Real Vermeer - Una falsa verit\u00e0",
       "Een echte Vermeer",
       "A Real Vermeer - Una falsa verit\u00e0"
     ],
@@ -45221,7 +44635,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["97 secondi", "97 Seconds", "97 secondi"],
+    "alt_title": ["97 secondi", "97 Seconds"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -45265,7 +44679,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Sfida per House", "Occam's Razor", "Sfida per House"],
+    "alt_title": ["Sfida per House", "Occam's Razor"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -45353,7 +44767,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["I predatori", "I predatori", "I predatori"],
+    "alt_title": ["I predatori"],
     "seriesProviderId": ""
   },
   {
@@ -45507,7 +44921,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["15/01/21", "15/01/21", "15/01/21"],
+    "alt_title": ["15/01/21"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -45617,7 +45031,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Sorelle", "Sorelle", "Sorelle"],
+    "alt_title": ["Sorelle"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -45705,7 +45119,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 11", "Ep. 11", "Ep. 11"],
+    "alt_title": ["Ep. 11"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -45881,11 +45295,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Dolci chili di troppo",
-      "Let Them Eat Cake",
-      "Dolci chili di troppo"
-    ],
+    "alt_title": ["Dolci chili di troppo", "Let Them Eat Cake"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -45929,7 +45339,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 2", "Ep. 2", "Ep. 2"],
+    "alt_title": ["Ep. 2"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -45995,11 +45405,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": [
-      "Luca e Alessandra",
-      "Luca e Alessandra",
-      "Luca e Alessandra"
-    ],
+    "alt_title": ["Luca e Alessandra"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -46087,7 +45493,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["L'epidemia", "Maternity", "L'epidemia"],
+    "alt_title": ["Maternity", "L'epidemia"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -46175,11 +45581,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Ferocia la temeraria",
-      "Ferocia la temeraria",
-      "Ferocia la temeraria"
-    ],
+    "alt_title": ["Ferocia la temeraria"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -46245,7 +45647,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 4", "The Blind Leading The Blind", "Ep. 4"],
+    "alt_title": ["The Blind Leading The Blind", "Ep. 4"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -46311,7 +45713,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 4", "Ep. 4", "Ep. 4"],
+    "alt_title": ["Ep. 4"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -46355,7 +45757,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Intrappolato", "Locked In", "Intrappolato"],
+    "alt_title": ["Intrappolato", "Locked In"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -46443,7 +45845,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "be4f1446-e931-406f-9764-99a3e04d83c7",
-    "alt_title": ["Gli zombie", "Zombie Fish Apocalypse", "Gli zombie"],
+    "alt_title": ["Zombie Fish Apocalypse", "Gli zombie"],
     "seriesProviderId": "datatv_se256180"
   },
   {
@@ -46619,7 +46021,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "97c772e8-7bae-4ac2-8620-31162a5ff3bd",
-    "alt_title": ["Ep. 7", "Ep. 7", "Ep. 7"],
+    "alt_title": ["Ep. 7"],
     "seriesProviderId": "datatv_se241535"
   },
   {
@@ -46663,11 +46065,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Un candidato a rischio",
-      "Role Model",
-      "Un candidato a rischio"
-    ],
+    "alt_title": ["Un candidato a rischio", "Role Model"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -46733,11 +46131,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": [
-      "Danilo e Emiliano",
-      "Danilo e Emiliano",
-      "Danilo e Emiliano"
-    ],
+    "alt_title": ["Danilo e Emiliano"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -46803,7 +46197,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Disintossicarsi", "Detox", "Disintossicarsi"],
+    "alt_title": ["Disintossicarsi", "Detox"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -47072,11 +46466,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "7eb208db-9e31-472d-bae3-9a8493b7595f",
-    "alt_title": [
-      "Combatti il potere",
-      "Fight the Power",
-      "Combatti il potere"
-    ],
+    "alt_title": ["Combatti il potere", "Fight the Power"],
     "seriesProviderId": "datatv_se94556"
   },
   {
@@ -47120,7 +46510,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Beata ignoranza", "Ignorance Is Bliss", "Beata ignoranza"],
+    "alt_title": ["Beata ignoranza", "Ignorance Is Bliss"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -47232,11 +46622,10 @@
     "seriesUUID": "",
     "alt_title": [
       "Uroki persidskogo",
-      "Persischstunden",
-      "Uroki farsi",
+      "Lezioni di persiano",
       "Leksjoner i l\u00f8gn",
       "Persischstunden",
-      "Lezioni di persiano"
+      "Uroki farsi"
     ],
     "seriesProviderId": ""
   },
@@ -47281,7 +46670,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Sotto la pelle", "Skin Deep", "Sotto la pelle"],
+    "alt_title": ["Skin Deep", "Sotto la pelle"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -47391,7 +46780,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Sotto accusa", "The Mistake", "Sotto accusa"],
+    "alt_title": ["The Mistake", "Sotto accusa"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -47457,11 +46846,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": [
-      "Giusy e Gabriella",
-      "Giusy e Gabriella",
-      "Giusy e Gabriella"
-    ],
+    "alt_title": ["Giusy e Gabriella"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -47556,8 +46941,7 @@
     "seriesUUID": "7eb208db-9e31-472d-bae3-9a8493b7595f",
     "alt_title": [
       "Non camminerai mai in solitudine",
-      "You'll Never Walk Alone",
-      "Non camminerai mai in solitudine"
+      "You'll Never Walk Alone"
     ],
     "seriesProviderId": "datatv_se94556"
   },
@@ -47800,7 +47184,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Musicisti", "Musicisti", "Musicisti"],
+    "alt_title": ["Musicisti"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -47888,11 +47272,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Il delitto Mattarella",
-      "Il delitto Mattarella",
-      "Il delitto Mattarella"
-    ],
+    "alt_title": ["Il delitto Mattarella"],
     "seriesProviderId": ""
   },
   {
@@ -48002,7 +47382,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Chase", "Chase", "Chase"],
+    "alt_title": ["Chase"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -48068,11 +47448,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Il ballo di Natale",
-      "The Christmas Ball",
-      "Il ballo di Natale"
-    ],
+    "alt_title": ["The Christmas Ball", "Il ballo di Natale"],
     "seriesProviderId": ""
   },
   {
@@ -48160,7 +47536,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "0b550d81-20aa-431d-9372-7a9ed673dec1",
-    "alt_title": ["Skriniar", "Skriniar", "Skriniar"],
+    "alt_title": ["Skriniar"],
     "seriesProviderId": "datatv_se250592"
   },
   {
@@ -48270,7 +47646,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Bagagli", "Baggage", "Bagagli"],
+    "alt_title": ["Bagagli", "Baggage"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -48380,7 +47756,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "3bf41082-2f70-4adc-a526-cd1c926cdda7",
-    "alt_title": ["Ep. 3", "Ep. 3", "Ep. 3"],
+    "alt_title": ["Ep. 3"],
     "seriesProviderId": "datatv_se229279"
   },
   {
@@ -48446,7 +47822,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 3", "Building an Appetite", "Ep. 3"],
+    "alt_title": ["Building an Appetite", "Ep. 3"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -48490,7 +47866,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Verso la meta", "Moving the Chains", "Verso la meta"],
+    "alt_title": ["Moving the Chains", "Verso la meta"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -48556,11 +47932,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "df9062f7-8004-438a-b11c-7e2d09c1429d",
-    "alt_title": [
-      "Montgomery & Cuban",
-      "Montgomery & Cuban",
-      "Montgomery & Cuban"
-    ],
+    "alt_title": ["Montgomery & Cuban"],
     "seriesProviderId": "datatv_se253267"
   },
   {
@@ -48692,7 +48064,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "97c772e8-7bae-4ac2-8620-31162a5ff3bd",
-    "alt_title": ["Ep. 1", "Ep. 1", "Ep. 1"],
+    "alt_title": ["Ep. 1"],
     "seriesProviderId": "datatv_se241535"
   },
   {
@@ -48758,7 +48130,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Corpo e anima", "Body and Soul", "Corpo e anima"],
+    "alt_title": ["Corpo e anima", "Body and Soul"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -48824,7 +48196,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 11", "Ep. 11", "Ep. 11"],
+    "alt_title": ["Ep. 11"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -48912,11 +48284,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "be4f1446-e931-406f-9764-99a3e04d83c7",
-    "alt_title": [
-      "Wild Wild Country",
-      "Entering Wild Wild Country",
-      "Wild Wild Country"
-    ],
+    "alt_title": ["Entering Wild Wild Country", "Wild Wild Country"],
     "seriesProviderId": "datatv_se256180"
   },
   {
@@ -48982,11 +48350,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "4d80ab5d-6ce1-42d9-a45a-5f7ff17bc13c",
-    "alt_title": [
-      "Aggiungi pap\u00e0",
-      "Aggiungi pap\u00e0",
-      "Aggiungi pap\u00e0"
-    ],
+    "alt_title": ["Aggiungi pap\u00e0"],
     "seriesProviderId": "datatv_se256895"
   },
   {
@@ -49212,7 +48576,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Non cambiare mai", "Don't Ever Change", "Non cambiare mai"],
+    "alt_title": ["Non cambiare mai", "Don't Ever Change"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -49278,7 +48642,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "97c772e8-7bae-4ac2-8620-31162a5ff3bd",
-    "alt_title": ["Ep. 3", "Ep. 3", "Ep. 3"],
+    "alt_title": ["Ep. 3"],
     "seriesProviderId": "datatv_se241535"
   },
   {
@@ -49388,7 +48752,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Alpaca", "Alpaca", "Alpaca"],
+    "alt_title": ["Alpaca"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -49432,7 +48796,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Genitori", "Parents", "Genitori"],
+    "alt_title": ["Parents", "Genitori"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -49498,11 +48862,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "9df7819e-80b6-4287-8255-b9026b2cdd89",
-    "alt_title": [
-      "Il crollo delle illusioni",
-      "Il crollo delle illusioni",
-      "Il crollo delle illusioni"
-    ],
+    "alt_title": ["Il crollo delle illusioni"],
     "seriesProviderId": "datatv_se248503"
   },
   {
@@ -49656,11 +49016,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": [
-      "Enrico e le figlie",
-      "Enrico e le figlie",
-      "Enrico e le figlie"
-    ],
+    "alt_title": ["Enrico e le figlie"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -49704,7 +49060,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 1", "Ep. 1", "Ep. 1"],
+    "alt_title": ["Ep. 1"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -49814,7 +49170,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "0b550d81-20aa-431d-9372-7a9ed673dec1",
-    "alt_title": ["Petagna", "Petagna", "Petagna"],
+    "alt_title": ["Petagna"],
     "seriesProviderId": "datatv_se250592"
   },
   {
@@ -49880,11 +49236,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": [
-      "Claudio e Caterina",
-      "Claudio e Caterina",
-      "Claudio e Caterina"
-    ],
+    "alt_title": ["Claudio e Caterina"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -49994,7 +49346,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "be4f1446-e931-406f-9764-99a3e04d83c7",
-    "alt_title": ["Sotto stress", "Off Grid Under Pressure", "Sotto stress"],
+    "alt_title": ["Off Grid Under Pressure", "Sotto stress"],
     "seriesProviderId": "datatv_se256180"
   },
   {
@@ -50038,11 +49390,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "9df7819e-80b6-4287-8255-b9026b2cdd89",
-    "alt_title": [
-      "La televisione conquista il mondo. 2a parte",
-      "La televisione conquista il mondo. 2a parte",
-      "La televisione conquista il mondo. 2a parte"
-    ],
+    "alt_title": ["La televisione conquista il mondo. 2a parte"],
     "seriesProviderId": "datatv_se248503"
   },
   {
@@ -50130,11 +49478,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "b2016491-885b-4072-96bc-671eb98803d4",
-    "alt_title": [
-      "Dolcetto nel secchiello",
-      "Dolcetto nel secchiello",
-      "Dolcetto nel secchiello"
-    ],
+    "alt_title": ["Dolcetto nel secchiello"],
     "seriesProviderId": "datatv_se256936"
   },
   {
@@ -50156,11 +49500,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "b2016491-885b-4072-96bc-671eb98803d4",
-    "alt_title": [
-      "Dolcetto nel secchiello",
-      "Dolcetto nel secchiello",
-      "Dolcetto nel secchiello"
-    ],
+    "alt_title": ["Dolcetto nel secchiello"],
     "seriesProviderId": "datatv_se256936"
   },
   {
@@ -50248,7 +49588,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "ec03b369-4781-4cb4-8d7a-841c29d7d0c3",
-    "alt_title": ["Ep. 4", "Ep. 4", "Ep. 4"],
+    "alt_title": ["Ep. 4"],
     "seriesProviderId": "datatv_se248484"
   },
   {
@@ -50314,7 +49654,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Le coinquiline", "Le coinquiline", "Le coinquiline"],
+    "alt_title": ["Le coinquiline"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -50446,11 +49786,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": [
-      "Valentina e Micaela",
-      "Valentina e Micaela",
-      "Valentina e Micaela"
-    ],
+    "alt_title": ["Valentina e Micaela"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -50692,7 +50028,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "fba001ba-8181-4601-abc3-139a632f10a2",
-    "alt_title": ["17/01/21", "17/01/21", "17/01/21"],
+    "alt_title": ["17/01/21"],
     "seriesProviderId": "datatv_se256576"
   },
   {
@@ -50758,7 +50094,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": ["L'ultimo turno", "The Last Shift", "L'ultimo turno"],
+    "alt_title": ["The Last Shift", "L'ultimo turno"],
     "seriesProviderId": ""
   },
   {
@@ -50825,9 +50161,9 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
+      "Passaggio da uno sconosciuto",
       "Deadly Rideshare",
-      "Deadly Rideshare/Driven to the Edge",
-      "Passaggio da uno sconosciuto"
+      "Deadly Rideshare/Driven to the Edge"
     ],
     "seriesProviderId": ""
   },
@@ -51004,7 +50340,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Malagrotta", "Malagrotta", "Malagrotta"],
+    "alt_title": ["Malagrotta"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -51092,7 +50428,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Ep. 14", "Ep. 14", "Ep. 14"],
+    "alt_title": ["Ep. 14"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -51202,7 +50538,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Il male dentro", "Heavy", "Il male dentro"],
+    "alt_title": ["Il male dentro", "Heavy"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -51268,11 +50604,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "49bd831f-fbd5-4ef5-8ad0-e5f67864eff2",
-    "alt_title": [
-      "Italia - Lettonia",
-      "Italia - Lettonia",
-      "Italia - Lettonia"
-    ],
+    "alt_title": ["Italia - Lettonia"],
     "seriesProviderId": "datatv_se255450"
   },
   {
@@ -51362,10 +50694,9 @@
     "seriesUUID": "",
     "alt_title": [
       "Naujieji mutantai",
-      "Yeni Mutantlar",
       "New Mutants",
       "De nye mutanter",
-      "The New Mutants",
+      "Yeni Mutantlar",
       "The New Mutants"
     ],
     "seriesProviderId": ""
@@ -51632,14 +50963,13 @@
     "type": "SCHED",
     "seriesUUID": "",
     "alt_title": [
-      "War With Grandpa",
-      "Mon grand-p\u00e8re et moi",
-      "En guerre avec grand papa",
       "Nonno questa volta \u00e8 guerra",
+      "War With Grandpa",
+      "The War with Grandpa",
       "I krig med bestefar",
       "Mes copains, mon grand-p\u00e8re et moi",
-      "The War with Grandpa",
-      "Nonno questa volta \u00e8 guerra"
+      "Mon grand-p\u00e8re et moi",
+      "En guerre avec grand papa"
     ],
     "seriesProviderId": ""
   },
@@ -51750,7 +51080,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Aspettando Giuda", "Finding Judas", "Aspettando Giuda"],
+    "alt_title": ["Finding Judas", "Aspettando Giuda"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -51926,7 +51256,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Orietta e Moreno", "Orietta e Moreno", "Orietta e Moreno"],
+    "alt_title": ["Orietta e Moreno"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -52102,11 +51432,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Paradise",
-      "Paradise - Una nuova vita",
-      "Paradise - Una nuova vita"
-    ],
+    "alt_title": ["Paradise", "Paradise - Una nuova vita"],
     "seriesProviderId": ""
   },
   {
@@ -52304,7 +51630,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "b2016491-885b-4072-96bc-671eb98803d4",
-    "alt_title": ["Spaccatorta", "Spaccatorta", "Spaccatorta"],
+    "alt_title": ["Spaccatorta"],
     "seriesProviderId": "datatv_se256936"
   },
   {
@@ -52326,7 +51652,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "b2016491-885b-4072-96bc-671eb98803d4",
-    "alt_title": ["Spaccatorta", "Spaccatorta", "Spaccatorta"],
+    "alt_title": ["Spaccatorta"],
     "seriesProviderId": "datatv_se256936"
   },
   {
@@ -52414,11 +51740,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Professoressa Ferocia",
-      "Professoressa Ferocia",
-      "Professoressa Ferocia"
-    ],
+    "alt_title": ["Professoressa Ferocia"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -52484,7 +51806,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "ce78e76e-1b9e-43c4-afab-e85182a92646",
-    "alt_title": ["Singolo F", "Singolo F", "Singolo F"],
+    "alt_title": ["Singolo F"],
     "seriesProviderId": "datatv_se236692"
   },
   {
@@ -52550,7 +51872,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 9", "Take Five", "Ep. 9"],
+    "alt_title": ["Ep. 9", "Take Five"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -52686,7 +52008,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 9", "Ep. 9", "Ep. 9"],
+    "alt_title": ["Ep. 9"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -52840,7 +52162,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "ce78e76e-1b9e-43c4-afab-e85182a92646",
-    "alt_title": ["Prova a squadre", "Prova a squadre", "Prova a squadre"],
+    "alt_title": ["Prova a squadre"],
     "seriesProviderId": "datatv_se236692"
   },
   {
@@ -52906,11 +52228,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Storie di vite diverse",
-      "Histories",
-      "Storie di vite diverse"
-    ],
+    "alt_title": ["Histories", "Storie di vite diverse"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -52954,7 +52272,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["L'altra met\u00e0", "Better Half", "L'altra met\u00e0"],
+    "alt_title": ["L'altra met\u00e0", "Better Half"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -53020,7 +52338,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "1b5841dd-3a26-489c-b556-2bc1e1983656",
-    "alt_title": ["Ep. 20", "Ep. 20", "Ep. 20"],
+    "alt_title": ["Ep. 20"],
     "seriesProviderId": "datatv_se240933"
   },
   {
@@ -53130,7 +52448,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "19e6c9f3-5c68-408c-9375-1c7a9a527400",
-    "alt_title": ["Corviale", "Corviale", "Corviale"],
+    "alt_title": ["Corviale"],
     "seriesProviderId": "datatv_se186440"
   },
   {
@@ -53174,11 +52492,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "Il patto sociale",
-      "The Social Contract",
-      "Il patto sociale"
-    ],
+    "alt_title": ["The Social Contract", "Il patto sociale"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -53222,11 +52536,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "L'amore \u00e8 cieco",
-      "Love Is Blind",
-      "L'amore \u00e8 cieco"
-    ],
+    "alt_title": ["Love Is Blind", "L'amore \u00e8 cieco"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -53270,7 +52580,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "e33de0f8-7525-4fc2-87f6-5b036607e8f5",
-    "alt_title": ["Ep. 1", "Ep. 1", "Ep. 1"],
+    "alt_title": ["Ep. 1"],
     "seriesProviderId": "datatv_se246774"
   },
   {
@@ -53402,11 +52712,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "f95816bd-fdac-4f4c-b7d3-f2e1665394ab",
-    "alt_title": [
-      "Flavia e Gianluca",
-      "Flavia e Gianluca",
-      "Flavia e Gianluca"
-    ],
+    "alt_title": ["Flavia e Gianluca"],
     "seriesProviderId": "datatv_se230884"
   },
   {
@@ -53472,7 +52778,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "895f9368-d3e8-4df7-a8d4-2317b198b386",
-    "alt_title": ["Giustizia \u00e8 fatta", "Part 3", "Giustizia \u00e8 fatta"],
+    "alt_title": ["Part 3", "Giustizia \u00e8 fatta"],
     "seriesProviderId": "datatv_se255951"
   },
   {
@@ -53692,11 +52998,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Tutti per 1 - 1 per tutti",
-      "Tutti per 1 - 1 per tutti",
-      "Tutti per 1 - 1 per tutti"
-    ],
+    "alt_title": ["Tutti per 1 - 1 per tutti"],
     "seriesProviderId": ""
   },
   {
@@ -53784,11 +53086,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "775137bf-73b7-4aad-b20f-2d50002d4cb8",
-    "alt_title": [
-      "Il centauro rubacuori",
-      "Il centauro rubacuori",
-      "Il centauro rubacuori"
-    ],
+    "alt_title": ["Il centauro rubacuori"],
     "seriesProviderId": "datatv_se236388"
   },
   {
@@ -53854,7 +53152,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "ce78e76e-1b9e-43c4-afab-e85182a92646",
-    "alt_title": ["Sprint M", "Sprint M", "Sprint M"],
+    "alt_title": ["Sprint M"],
     "seriesProviderId": "datatv_se236692"
   },
   {
@@ -53920,7 +53218,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "313b320f-1fa0-4fc0-a26b-c7e5b4ebd0e2",
-    "alt_title": ["Ep. 9", "On the Line of Fire", "Ep. 9"],
+    "alt_title": ["Ep. 9", "On the Line of Fire"],
     "seriesProviderId": "datatv_se189391"
   },
   {
@@ -54030,7 +53328,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": ["Piegato. 1a parte", "Broken. Part 1", "Piegato. 1a parte"],
+    "alt_title": ["Broken. Part 1", "Piegato. 1a parte"],
     "seriesProviderId": "datatv_se93993"
   },
   {
@@ -54184,11 +53482,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "",
-    "alt_title": [
-      "Archive - Non mi lasciare",
-      "Archive",
-      "Archive - Non mi lasciare"
-    ],
+    "alt_title": ["Archive - Non mi lasciare", "Archive"],
     "seriesProviderId": ""
   },
   {
@@ -54232,11 +53526,7 @@
     "masterUUID": "",
     "type": "SCHED",
     "seriesUUID": "95089558-449c-46f5-ab95-21c1058c1aef",
-    "alt_title": [
-      "La morte cambia tutto",
-      "Dying Changes Everything",
-      "La morte cambia tutto"
-    ],
+    "alt_title": ["La morte cambia tutto", "Dying Changes Everything"],
     "seriesProviderId": "datatv_se93993"
   }
 ]

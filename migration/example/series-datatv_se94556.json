@@ -3,27 +3,27 @@
   "is_enriched": true,
   "masterUUID": "7eb208db-9e31-472d-bae3-9a8493b7595f",
   "providerData": [
-	{
-	  "UUID": "7eb208db-9e31-472d-bae3-9a8493b7595f",
-	  "providerInfo": {
-		"providerName": "datatv",
-		"providerID": "datatv_se94556"
-	  },
-	  "genre": "1",
-	  "titles": [
-		{
-		  "type": "ENRICH",
-		  "lastUpdate": "1623521880000",
-		  "title": "Grey's Anatomy"
-		}
-	  ],
-	  "productionYears": [
-		{
-		  "type": "ENRICH",
-		  "lastUpdate": "1623521880000",
-		  "productionYear": "2005"
-		}
-	  ]
-	}
+    {
+      "UUID": "7eb208db-9e31-472d-bae3-9a8493b7595f",
+      "providerInfo": {
+        "providerName": "datatv",
+        "providerID": "datatv_se94556"
+      },
+      "genre": "1",
+      "titles": [
+        {
+          "type": "ENRICH",
+          "lastUpdate": "1623521880000",
+          "title": "Grey's Anatomy"
+        }
+      ],
+      "productionYears": [
+        {
+          "type": "ENRICH",
+          "lastUpdate": "1623521880000",
+          "productionYear": "2005"
+        }
+      ]
+    }
   ]
 }
