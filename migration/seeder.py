@@ -4,27 +4,29 @@ from datetime import datetime
 fileinput = "input/program.csv"
 fileoutput = "data.json"
 
-df = pd.read_csv(fileinput, delimiter=";", encoding="ISO-8859-1", keep_default_na=False)
+df = pd.read_csv(fileinput, delimiter=";", keep_default_na=False)
 
 
 df.rename(
     columns={
         "date_time": "lastUpdate",
         "uuid": "UUID",
-        "Title/episode_title": "title",
-        "EPGgenre": "genre",
-        "isEpisode": "entitySubtype",
-        "providerId": "providerID",
-        "providerType": "providerName",
-        "production year": "productionYear",
-        "director orig": "director",
+        "program_title": "title",
+        "epg_genre": "genre",
+        "is_episode": "entitySubtype",
+        "providerid": "providerID",
+        "provider_type": "providerName",
+        "production_year": "productionYear",
+        "directori_orig": "director",
         "master_uuid": "masterUUID",
-        "alternative title": "alt_title",
-        "source(scheule/enrichment)": "type",
+        "alternative_titles": "alt_title",
+        "source": "type",
         "episode_number": "episodeNumber",
         "season_number": "seasonNumber",
-        "titleId": "titleProviderId",
-        "title_id provider": "titleProviderName",
+        "titleid": "titleProviderId",
+        "titleid_provider": "titleProviderName",
+        "series_uuid": "seriesUUID",
+        "series_provider_id": "seriesProviderId",
     },
     inplace=True,
 )
